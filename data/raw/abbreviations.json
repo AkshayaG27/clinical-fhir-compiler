@@ -1,0 +1,86 @@
+{
+  "frequencies": {
+    "OD": {
+      "latin": "Omni Die",
+      "meaning": "Once daily",
+      "aliases": ["od", "once daily", "1 time daily", "1-0-0", "0-1-0", "0-0-1", "daily", "q24h", "q.d."],
+      "fhir": { "frequency": 1, "period": 1, "periodUnit": "d" }
+    },
+    "BD": {
+      "latin": "Bis in Die",
+      "meaning": "Twice daily",
+      "aliases": ["bd", "bid", "b.i.d.", "twice daily", "2 times daily", "1-0-1", "0-1-1", "1-1-0", "q12h"],
+      "fhir": { "frequency": 2, "period": 1, "periodUnit": "d" }
+    },
+    "TID": {
+      "latin": "Ter in Die",
+      "meaning": "Three times daily",
+      "aliases": ["tid", "t.i.d.", "thrice daily", "3 times daily", "1-1-1", "q8h"],
+      "fhir": { "frequency": 3, "period": 1, "periodUnit": "d" }
+    },
+    "QID": {
+      "latin": "Quater in Die",
+      "meaning": "Four times daily",
+      "aliases": ["qid", "q.i.d.", "4 times daily", "1-1-1-1", "q6h"],
+      "fhir": { "frequency": 4, "period": 1, "periodUnit": "d" }
+    },
+    "HS": {
+      "latin": "Hora Somni",
+      "meaning": "At bedtime",
+      "aliases": ["hs", "h.s.", "at night", "bedtime", "night", "0-0-1hs"],
+      "fhir": { "frequency": 1, "period": 1, "periodUnit": "d", "when": ["EVE"] }
+    },
+    "SOS": {
+      "latin": "Si Opus Sit",
+      "meaning": "As needed",
+      "aliases": ["sos", "s.o.s.", "as needed", "prn", "p.r.n.", "when required"],
+      "fhir": { "asNeededBoolean": true }
+    },
+    "STAT": {
+      "latin": "Statim",
+      "meaning": "Immediately / single dose",
+      "aliases": ["stat", "immediately", "single dose", "now"],
+      "fhir": { "frequency": 1, "period": 1, "periodUnit": "d" }
+    }
+  },
+  "food_relations": {
+    "pc": {
+      "latin": "Post Cibum",
+      "meaning": "After meals",
+      "aliases": ["pc", "p.c.", "after food", "after meals", "post meals", "post-meal"],
+      "fhir_when": ["PC"]
+    },
+    "ac": {
+      "latin": "Ante Cibum",
+      "meaning": "Before meals",
+      "aliases": ["ac", "a.c.", "before food", "before meals", "empty stomach", "pre-meal"],
+      "fhir_when": ["AC"]
+    },
+    "wm": {
+      "latin": "Cum Cibo",
+      "meaning": "With meals",
+      "aliases": ["wm", "with food", "with meals", "along with meals"],
+      "fhir_when": ["C"]
+    },
+    "na": {
+      "latin": "N/A",
+      "meaning": "Not specified / irrelevant",
+      "aliases": ["na", "", "anytime"],
+      "fhir_when": []
+    }
+  },
+  "durations": {
+    "d": {
+      "unit": "days",
+      "aliases": ["d", "days", "day", "/7"]
+    },
+    "w": {
+      "unit": "weeks",
+      "aliases": ["w", "weeks", "wk", "wks", "/52"]
+    },
+    "m": {
+      "unit": "months",
+      "aliases": ["m", "months", "mo", "mos"]
+    }
+  }
+}

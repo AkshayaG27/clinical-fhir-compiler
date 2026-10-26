@@ -1,0 +1,21 @@
+# Project 2: Clinical Shorthand-to-FHIR Compiler & Transformer Decoder
+# Deep Learning & Numerics
+torch>=2.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Schema Validation & Standards
+jsonschema>=4.18.0
+pydantic>=2.0.0
+
+# Edge ASGI Server & REST API
+starlette>=0.27.0
+uvicorn[standard]>=0.22.0
+python-multipart>=0.0.6
+
+# Interactive Clinical Cockpit & Visualization
+streamlit>=1.30.0
+matplotlib>=3.7.0
+
+# Quality Assurance & Testing
+pytest>=7.4.0

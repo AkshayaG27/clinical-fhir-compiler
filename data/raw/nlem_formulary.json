@@ -1,0 +1,452 @@
+{
+  "paracetamol": {
+    "generic": "paracetamol",
+    "aliases": ["pcm", "dolo", "dolo 650", "crocin", "calpol", "acetaminophen"],
+    "category": "analgesic_antipyretic",
+    "default_doses": ["500mg", "650mg", "1000mg"],
+    "rxnorm": "198440",
+    "snomed": "387517004",
+    "display": "Paracetamol (oral)"
+  },
+  "ibuprofen": {
+    "generic": "ibuprofen",
+    "aliases": ["ibugesic", "brufen", "advil", "motrin"],
+    "category": "nsaid",
+    "default_doses": ["200mg", "400mg", "600mg"],
+    "rxnorm": "5640",
+    "snomed": "387207008",
+    "display": "Ibuprofen (oral)"
+  },
+  "diclofenac": {
+    "generic": "diclofenac",
+    "aliases": ["voveran", "voltaren", "diclo"],
+    "category": "nsaid",
+    "default_doses": ["50mg", "75mg", "100mg"],
+    "rxnorm": "3355",
+    "snomed": "372671003",
+    "display": "Diclofenac sodium (oral)"
+  },
+  "tramadol": {
+    "generic": "tramadol",
+    "aliases": ["ultram", "tramazac"],
+    "category": "analgesic_opioid",
+    "default_doses": ["50mg", "100mg"],
+    "rxnorm": "10689",
+    "snomed": "387494007",
+    "display": "Tramadol hydrochloride"
+  },
+  "amoxicillin": {
+    "generic": "amoxicillin",
+    "aliases": ["amox", "mox", "novamox", "amoxyl"],
+    "category": "antibiotic_penicillin",
+    "default_doses": ["250mg", "500mg", "625mg"],
+    "rxnorm": "723",
+    "snomed": "372687004",
+    "display": "Amoxicillin (oral)"
+  },
+  "clavulanic_acid": {
+    "generic": "clavulanic_acid",
+    "aliases": ["augmentin", "amoxyclav", "moxikind-cv"],
+    "category": "antibiotic_combination",
+    "default_doses": ["625mg", "1000mg"],
+    "rxnorm": "617993",
+    "snomed": "387343003",
+    "display": "Amoxicillin and Clavulanate"
+  },
+  "azithromycin": {
+    "generic": "azithromycin",
+    "aliases": ["azith", "azee", "zithromax", "azi"],
+    "category": "antibiotic_macrolide",
+    "default_doses": ["250mg", "500mg"],
+    "rxnorm": "18631",
+    "snomed": "387531004",
+    "display": "Azithromycin (oral)"
+  },
+  "ciprofloxacin": {
+    "generic": "ciprofloxacin",
+    "aliases": ["cipro", "ciplox", "cifran"],
+    "category": "antibiotic_fluoroquinolone",
+    "default_doses": ["250mg", "500mg", "750mg"],
+    "rxnorm": "2551",
+    "snomed": "387584000",
+    "display": "Ciprofloxacin (oral)"
+  },
+  "doxycycline": {
+    "generic": "doxycycline",
+    "aliases": ["doxy", "dox", "vibramycin", "doxt"],
+    "category": "antibiotic_tetracycline",
+    "default_doses": ["100mg"],
+    "rxnorm": "3640",
+    "snomed": "372833007",
+    "display": "Doxycycline hyclate"
+  },
+  "metronidazole": {
+    "generic": "metronidazole",
+    "aliases": ["flagyl", "metrogyle", "metro"],
+    "category": "antibiotic_nitroimidazole",
+    "default_doses": ["200mg", "400mg"],
+    "rxnorm": "6922",
+    "snomed": "387458008",
+    "display": "Metronidazole (oral)"
+  },
+  "cefixime": {
+    "generic": "cefixime",
+    "aliases": ["zifi", "taxim-o", "cefix"],
+    "category": "antibiotic_cephalosporin",
+    "default_doses": ["100mg", "200mg", "400mg"],
+    "rxnorm": "2193",
+    "snomed": "387324004",
+    "display": "Cefixime (oral)"
+  },
+  "cephalexin": {
+    "generic": "cephalexin",
+    "aliases": ["keflex", "sporidex", "ceph"],
+    "category": "antibiotic_cephalosporin",
+    "default_doses": ["250mg", "500mg"],
+    "rxnorm": "2231",
+    "snomed": "387328001",
+    "display": "Cephalexin (oral)"
+  },
+  "cotrimoxazole": {
+    "generic": "cotrimoxazole",
+    "aliases": ["bactrim", "septran"],
+    "category": "antibiotic_sulfa",
+    "default_doses": ["480mg", "960mg"],
+    "rxnorm": "105585",
+    "snomed": "387114002",
+    "display": "Sulfamethoxazole and Trimethoprim"
+  },
+  "amlodipine": {
+    "generic": "amlodipine",
+    "aliases": ["amlong", "stamlo", "amlo", "norvasc"],
+    "category": "antihypertensive_ccb",
+    "default_doses": ["2.5mg", "5mg", "10mg"],
+    "rxnorm": "17767",
+    "snomed": "386864001",
+    "display": "Amlodipine besylate"
+  },
+  "telmisartan": {
+    "generic": "telmisartan",
+    "aliases": ["telma", "micardis", "telmikind"],
+    "category": "antihypertensive_arb",
+    "default_doses": ["20mg", "40mg", "80mg"],
+    "rxnorm": "73494",
+    "snomed": "386869006",
+    "display": "Telmisartan (oral)"
+  },
+  "losartan": {
+    "generic": "losartan",
+    "aliases": ["cozaar", "losar"],
+    "category": "antihypertensive_arb",
+    "default_doses": ["25mg", "50mg", "100mg"],
+    "rxnorm": "5224",
+    "snomed": "372658000",
+    "display": "Losartan potassium"
+  },
+  "atenolol": {
+    "generic": "atenolol",
+    "aliases": ["aten", "tenormin"],
+    "category": "antihypertensive_betablocker",
+    "default_doses": ["25mg", "50mg", "100mg"],
+    "rxnorm": "1202",
+    "snomed": "372826007",
+    "display": "Atenolol (oral)"
+  },
+  "metoprolol": {
+    "generic": "metoprolol",
+    "aliases": ["betaloc", "met-xl", "lopressor"],
+    "category": "antihypertensive_betablocker",
+    "default_doses": ["25mg", "50mg", "100mg"],
+    "rxnorm": "6918",
+    "snomed": "372834001",
+    "display": "Metoprolol succinate"
+  },
+  "enalapril": {
+    "generic": "enalapril",
+    "aliases": ["envas", "vasotec"],
+    "category": "antihypertensive_acei",
+    "default_doses": ["2.5mg", "5mg", "10mg"],
+    "rxnorm": "3827",
+    "snomed": "372656001",
+    "display": "Enalapril maleate"
+  },
+  "ramipril": {
+    "generic": "ramipril",
+    "aliases": ["cardace", "altace"],
+    "category": "antihypertensive_acei",
+    "default_doses": ["2.5mg", "5mg", "10mg"],
+    "rxnorm": "35296",
+    "snomed": "386867008",
+    "display": "Ramipril (oral)"
+  },
+  "hydrochlorothiazide": {
+    "generic": "hydrochlorothiazide",
+    "aliases": ["hctz", "aquazide", "esidrix"],
+    "category": "diuretic",
+    "default_doses": ["12.5mg", "25mg", "50mg"],
+    "rxnorm": "5487",
+    "snomed": "387525002",
+    "display": "Hydrochlorothiazide"
+  },
+  "furosemide": {
+    "generic": "furosemide",
+    "aliases": ["lasix", "frusemide"],
+    "category": "diuretic_loop",
+    "default_doses": ["20mg", "40mg"],
+    "rxnorm": "4603",
+    "snomed": "372665008",
+    "display": "Furosemide (oral)"
+  },
+  "atorvastatin": {
+    "generic": "atorvastatin",
+    "aliases": ["atorva", "lipitor", "storvas", "atocor"],
+    "category": "statin_lipid",
+    "default_doses": ["10mg", "20mg", "40mg", "80mg"],
+    "rxnorm": "83367",
+    "snomed": "386866004",
+    "display": "Atorvastatin calcium"
+  },
+  "rosuvastatin": {
+    "generic": "rosuvastatin",
+    "aliases": ["rosuvas", "crestor", "rosave"],
+    "category": "statin_lipid",
+    "default_doses": ["5mg", "10mg", "20mg"],
+    "rxnorm": "301542",
+    "snomed": "412210007",
+    "display": "Rosuvastatin calcium"
+  },
+  "metformin": {
+    "generic": "metformin",
+    "aliases": ["glyciphage", "glucophage", "glycomet", "met"],
+    "category": "antidiabetic_biguanide",
+    "default_doses": ["500mg", "850mg", "1000mg"],
+    "rxnorm": "6809",
+    "snomed": "372567009",
+    "display": "Metformin hydrochloride"
+  },
+  "glimepiride": {
+    "generic": "glimepiride",
+    "aliases": ["amaryl", "glimy", "zoryl"],
+    "category": "antidiabetic_sulfonylurea",
+    "default_doses": ["1mg", "2mg", "3mg", "4mg"],
+    "rxnorm": "25789",
+    "snomed": "386965004",
+    "display": "Glimepiride (oral)"
+  },
+  "gliclazide": {
+    "generic": "gliclazide",
+    "aliases": ["diamicron", "glyloc"],
+    "category": "antidiabetic_sulfonylurea",
+    "default_doses": ["30mg", "40mg", "80mg"],
+    "rxnorm": "25255",
+    "snomed": "386964000",
+    "display": "Gliclazide (oral)"
+  },
+  "sitagliptin": {
+    "generic": "sitagliptin",
+    "aliases": ["januvia", "istavel"],
+    "category": "antidiabetic_dpp4",
+    "default_doses": ["50mg", "100mg"],
+    "rxnorm": "593411",
+    "snomed": "423456002",
+    "display": "Sitagliptin phosphate"
+  },
+  "vildagliptin": {
+    "generic": "vildagliptin",
+    "aliases": ["galvus", "jalra"],
+    "category": "antidiabetic_dpp4",
+    "default_doses": ["50mg"],
+    "rxnorm": "664654",
+    "snomed": "442340006",
+    "display": "Vildagliptin (oral)"
+  },
+  "pantoprazole": {
+    "generic": "pantoprazole",
+    "aliases": ["pan", "panto", "pantocid", "protonix", "pan 40"],
+    "category": "gastrointestinal_ppi",
+    "default_doses": ["20mg", "40mg"],
+    "rxnorm": "40790",
+    "snomed": "386898007",
+    "display": "Pantoprazole sodium"
+  },
+  "omeprazole": {
+    "generic": "omeprazole",
+    "aliases": ["omez", "prilosec", "ocid"],
+    "category": "gastrointestinal_ppi",
+    "default_doses": ["10mg", "20mg", "40mg"],
+    "rxnorm": "7646",
+    "snomed": "387146006",
+    "display": "Omeprazole (oral)"
+  },
+  "rabeprazole": {
+    "generic": "rabeprazole",
+    "aliases": ["rabeloc", "aciphex", "rabi"],
+    "category": "gastrointestinal_ppi",
+    "default_doses": ["10mg", "20mg"],
+    "rxnorm": "283742",
+    "snomed": "386899004",
+    "display": "Rabeprazole sodium"
+  },
+  "ranitidine": {
+    "generic": "ranitidine",
+    "aliases": ["aciloc", "zantac", "rantac"],
+    "category": "gastrointestinal_h2blocker",
+    "default_doses": ["150mg", "300mg"],
+    "rxnorm": "9143",
+    "snomed": "387474000",
+    "display": "Ranitidine hydrochloride"
+  },
+  "ondansetron": {
+    "generic": "ondansetron",
+    "aliases": ["zofran", "emset", "vomikind", "ondan"],
+    "category": "antiemetic",
+    "default_doses": ["4mg", "8mg"],
+    "rxnorm": "26225",
+    "snomed": "387480006",
+    "display": "Ondansetron hydrochloride"
+  },
+  "domperidone": {
+    "generic": "domperidone",
+    "aliases": ["motilium", "vomistop", "domstal"],
+    "category": "antiemetic_prokinetic",
+    "default_doses": ["10mg"],
+    "rxnorm": "3616",
+    "snomed": "387161007",
+    "display": "Domperidone (oral)"
+  },
+  "cetirizine": {
+    "generic": "cetirizine",
+    "aliases": ["cetzine", "zyrtec", "alerdif", "cetz"],
+    "category": "antihistamine",
+    "default_doses": ["5mg", "10mg"],
+    "rxnorm": "20610",
+    "snomed": "387467007",
+    "display": "Cetirizine hydrochloride"
+  },
+  "levocetirizine": {
+    "generic": "levocetirizine",
+    "aliases": ["levocet", "xyzal", "voset", "l-cet"],
+    "category": "antihistamine",
+    "default_doses": ["2.5mg", "5mg"],
+    "rxnorm": "352373",
+    "snomed": "414603000",
+    "display": "Levocetirizine dihydrochloride"
+  },
+  "fexofenadine": {
+    "generic": "fexofenadine",
+    "aliases": ["allegra", "fexo"],
+    "category": "antihistamine",
+    "default_doses": ["60mg", "120mg", "180mg"],
+    "rxnorm": "54497",
+    "snomed": "386926002",
+    "display": "Fexofenadine hydrochloride"
+  },
+  "montelukast": {
+    "generic": "montelukast",
+    "aliases": ["singulair", "montair", "montek"],
+    "category": "respiratory_leukotriene",
+    "default_doses": ["4mg", "5mg", "10mg"],
+    "rxnorm": "88249",
+    "snomed": "386927006",
+    "display": "Montelukast sodium"
+  },
+  "salbutamol": {
+    "generic": "salbutamol",
+    "aliases": ["albuterol", "asthalin", "ventolin"],
+    "category": "respiratory_bronchodilator",
+    "default_doses": ["2mg", "4mg", "100mcg"],
+    "rxnorm": "435",
+    "snomed": "372897005",
+    "display": "Salbutamol sulfate"
+  },
+  "budesonide": {
+    "generic": "budesonide",
+    "aliases": ["pulmicort", "budecort"],
+    "category": "respiratory_corticosteroid",
+    "default_doses": ["200mcg", "400mcg"],
+    "rxnorm": "19868",
+    "snomed": "387455005",
+    "display": "Budesonide (inhalation)"
+  },
+  "fluticasone": {
+    "generic": "fluticasone",
+    "aliases": ["flonase", "flovent", "flomist"],
+    "category": "respiratory_corticosteroid",
+    "default_doses": ["50mcg", "100mcg", "250mcg"],
+    "rxnorm": "41126",
+    "snomed": "387224009",
+    "display": "Fluticasone propionate"
+  },
+  "calcium_carbonate": {
+    "generic": "calcium_carbonate",
+    "aliases": ["shelcal", "calcium", "cipcal"],
+    "category": "supplement_mineral",
+    "default_doses": ["500mg", "1000mg"],
+    "rxnorm": "1897",
+    "snomed": "387358007",
+    "display": "Calcium carbonate"
+  },
+  "vitamin_d3": {
+    "generic": "vitamin_d3",
+    "aliases": ["cholecalciferol", "d3", "d-rise", "calcirol", "uprise-d3"],
+    "category": "supplement_vitamin",
+    "default_doses": ["1000IU", "2000IU", "60000IU"],
+    "rxnorm": "2410",
+    "snomed": "387201009",
+    "display": "Cholecalciferol (Vitamin D3)"
+  },
+  "folic_acid": {
+    "generic": "folic_acid",
+    "aliases": ["folvite", "folic"],
+    "category": "supplement_vitamin",
+    "default_doses": ["5mg"],
+    "rxnorm": "4477",
+    "snomed": "387537000",
+    "display": "Folic acid"
+  },
+  "ferrous_ascorbate": {
+    "generic": "ferrous_ascorbate",
+    "aliases": ["orofer-xt", "iron", "fe"],
+    "category": "supplement_mineral",
+    "default_doses": ["100mg"],
+    "rxnorm": "310461",
+    "snomed": "387268007",
+    "display": "Ferrous ascorbate"
+  },
+  "b_complex": {
+    "generic": "b_complex",
+    "aliases": ["becosules", "polybion", "vitamin b"],
+    "category": "supplement_vitamin",
+    "default_doses": ["1tab"],
+    "rxnorm": "11516",
+    "snomed": "387532006",
+    "display": "Vitamin B complex"
+  },
+  "albendazole": {
+    "generic": "albendazole",
+    "aliases": ["zentel", "bandy"],
+    "category": "anthelmintic",
+    "default_doses": ["400mg"],
+    "rxnorm": "416",
+    "snomed": "387401007",
+    "display": "Albendazole (oral)"
+  },
+  "clopidogrel": {
+    "generic": "clopidogrel",
+    "aliases": ["plavix", "clopilet", "deplatt"],
+    "category": "antiplatelet",
+    "default_doses": ["75mg"],
+    "rxnorm": "32968",
+    "snomed": "386868003",
+    "display": "Clopidogrel bisulfate"
+  },
+  "aspirin": {
+    "generic": "aspirin",
+    "aliases": ["ecosprin", "disprin", "asa"],
+    "category": "antiplatelet_nsaid",
+    "default_doses": ["75mg", "150mg"],
+    "rxnorm": "1191",
+    "snomed": "387458008",
+    "display": "Aspirin (oral)"
+  }
+}

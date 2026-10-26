@@ -1,0 +1,86 @@
+{
+  "fever": {
+    "name": "acute viral fever",
+    "aliases": ["fever", "pyrexia", "viral fever", "febrile illness", "acute fever", "high grade fever"],
+    "snomed": "386661006",
+    "display": "Fever (finding)",
+    "default_severity": "moderate"
+  },
+  "upper_respiratory_infection": {
+    "name": "upper respiratory tract infection",
+    "aliases": ["urti", "uri", "common cold", "rhinopharyngitis", "cold", "coryza"],
+    "snomed": "54150009",
+    "display": "Upper respiratory tract infection",
+    "default_severity": "mild"
+  },
+  "acute_bronchitis": {
+    "name": "acute bronchitis",
+    "aliases": ["bronchitis", "chest infection", "acute bronchial catarrh"],
+    "snomed": "10509002",
+    "display": "Acute bronchitis",
+    "default_severity": "moderate"
+  },
+  "acute_pharyngitis": {
+    "name": "acute pharyngitis",
+    "aliases": ["sore throat", "pharyngitis", "throat infection", "strep throat"],
+    "snomed": "363746003",
+    "display": "Acute pharyngitis",
+    "default_severity": "mild"
+  },
+  "acute_gastroenteritis": {
+    "name": "acute gastroenteritis",
+    "aliases": ["age", "gastroenteritis", "loose motions", "acute diarrhea", "stomach bug"],
+    "snomed": "85919009",
+    "display": "Acute gastroenteritis",
+    "default_severity": "moderate"
+  },
+  "acid_peptic_disease": {
+    "name": "acid peptic disease",
+    "aliases": ["apd", "gerd", "gastritis", "acidity", "dyspepsia", "heartburn"],
+    "snomed": "235595009",
+    "display": "Gastroesophageal reflux disease",
+    "default_severity": "mild"
+  },
+  "essential_hypertension": {
+    "name": "essential hypertension",
+    "aliases": ["htn", "hypertension", "high bp", "elevated bp"],
+    "snomed": "59621000",
+    "display": "Essential hypertension",
+    "default_severity": "chronic"
+  },
+  "type_2_diabetes": {
+    "name": "type 2 diabetes mellitus",
+    "aliases": ["t2dm", "diabetes", "dm", "niddm", "high blood sugar"],
+    "snomed": "44054006",
+    "display": "Type 2 diabetes mellitus",
+    "default_severity": "chronic"
+  },
+  "allergic_rhinitis": {
+    "name": "allergic rhinitis",
+    "aliases": ["allergy", "rhinitis", "hay fever", "allergic cold"],
+    "snomed": "61582004",
+    "display": "Allergic rhinitis",
+    "default_severity": "mild"
+  },
+  "urinary_tract_infection": {
+    "name": "urinary tract infection",
+    "aliases": ["uti", "burning micturition", "cystitis"],
+    "snomed": "68566005",
+    "display": "Urinary tract infection",
+    "default_severity": "moderate"
+  },
+  "migraine": {
+    "name": "migraine headache",
+    "aliases": ["migraine", "headache", "cephalea", "vascular headache"],
+    "snomed": "37796009",
+    "display": "Migraine",
+    "default_severity": "moderate"
+  },
+  "osteoarthritis": {
+    "name": "osteoarthritis",
+    "aliases": ["oa", "knee pain", "joint pain", "arthralgia"],
+    "snomed": "396275006",
+    "display": "Osteoarthritis",
+    "default_severity": "chronic"
+  }
+}

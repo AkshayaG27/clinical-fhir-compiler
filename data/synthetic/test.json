@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "rec_07829",
+    "shorthand": "complains of coryza x 3 days, tab calcium_carbonate 1000mg as needed before food for 10 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|3d\nMED|calcium_carbonate|1000mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_07185",
+    "shorthand": "tab flagyl 400 mg stat empty stomach 7/7",
+    "target_ir": "MED|metronidazole|400mg|STAT|ac|7d"
+  },
+  {
+    "id": "rec_02672",
+    "shorthand": "montek 4mg stat post-meal x 3 day",
+    "target_ir": "MED|montelukast|4mg|STAT|pc|3d"
+  },
+  {
+    "id": "rec_04760",
+    "shorthand": "C. protonix 20 mg 0-1-1 empty stomach 3d",
+    "target_ir": "MED|pantoprazole|20mg|BD|ac|3d"
+  },
+  {
+    "id": "rec_05995",
+    "shorthand": "tab budecort 400mcg 0-0-1hs along with meals 14/7, t. becosules 1tab q8h post-meal x 14d",
+    "target_ir": "MED|budesonide|400mcg|HS|wm|14d\nMED|b_complex|1tab|TID|pc|14d"
+  },
+  {
+    "id": "rec_04254",
+    "shorthand": "c/o fever for 5 days\nrosave 5mg hs wm 2/7",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|rosuvastatin|5mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_00586",
+    "shorthand": "tab voveran 75mg bid after meals x 5 day",
+    "target_ir": "MED|diclofenac|75mg|BD|pc|5d"
+  },
+  {
+    "id": "rec_00198",
+    "shorthand": "tab amoxyl 250 mg single dose pc x 5d",
+    "target_ir": "MED|amoxicillin|250mg|STAT|pc|5d"
+  },
+  {
+    "id": "rec_09146",
+    "shorthand": "C. clavulanic_acid 625mg q.i.d. pre-meal 1/7, Cap omez 40 mg now empty stomach x 1d",
+    "target_ir": "MED|clavulanic_acid|625mg|QID|ac|1d\nMED|omeprazole|40mg|STAT|ac|1d"
+  },
+  {
+    "id": "rec_05064",
+    "shorthand": "c/o hypertension 1d\ntab amox 500 mg single dose na x 2 day",
+    "target_ir": "COND|essential hypertension|chronic|1d\nMED|amoxicillin|500mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_00020",
+    "shorthand": "tab cefixime 200mg as needed anytime 14d; t. cozaar 25 mg twice daily x 3 days",
+    "target_ir": "MED|cefixime|200mg|SOS|na|14d\nMED|losartan|25mg|BD|na|3d"
+  },
+  {
+    "id": "rec_08128",
+    "shorthand": "T. calcium 1000 mg 1 time daily p.c. 2d",
+    "target_ir": "MED|calcium_carbonate|1000mg|OD|pc|2d"
+  },
+  {
+    "id": "rec_06863",
+    "shorthand": "complains of dm x 7d\nTab. keflex 250 mg 0-1-0 after meals 10d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|cephalexin|250mg|OD|pc|10d"
+  },
+  {
+    "id": "rec_03327",
+    "shorthand": "dx: burning micturition x 2 days; Cap. taxim-o 200 mg 0-0-1 a.c. x 1d",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|cefixime|200mg|OD|ac|1d"
+  },
+  {
+    "id": "rec_06666",
+    "shorthand": "c/o viral fever x 7 day | tab plavix 75mg q24h along with meals x 3d",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|clopidogrel|75mg|OD|wm|3d"
+  },
+  {
+    "id": "rec_01871",
+    "shorthand": "Tab ranitidine 300mg 1-1-1-1 post-meal x 7d",
+    "target_ir": "MED|ranitidine|300mg|QID|pc|7d"
+  },
+  {
+    "id": "rec_04041",
+    "shorthand": "dx: sore throat x 1d; Syp voveran 100 mg q8h with meals x 3 days",
+    "target_ir": "COND|acute pharyngitis|mild|1d\nMED|diclofenac|100mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_02220",
+    "shorthand": "tab. fexo 180 mg od for 3 days",
+    "target_ir": "MED|fexofenadine|180mg|OD|na|3d"
+  },
+  {
+    "id": "rec_07606",
+    "shorthand": "k/c/o gastritis x 7d\nt. b_complex 1tab now with food x 14 day",
+    "target_ir": "COND|acid peptic disease|mild|7d\nMED|b_complex|1tab|STAT|wm|14d"
+  },
+  {
+    "id": "rec_03902",
+    "shorthand": "t. montek 10mg prn before food 3/7 + cap rabeprazole 10 mg stat x 7 days",
+    "target_ir": "MED|montelukast|10mg|SOS|ac|3d\nMED|rabeprazole|10mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_05453",
+    "shorthand": "vomikind 4 mg sos post-meal x 7d",
+    "target_ir": "MED|ondansetron|4mg|SOS|pc|7d"
+  },
+  {
+    "id": "rec_07314",
+    "shorthand": "Syp. motrin 400 mg 1-1-1 after food x 14 day, tab emset 4 mg now with food x 1d",
+    "target_ir": "MED|ibuprofen|400mg|TID|pc|14d\nMED|ondansetron|4mg|STAT|wm|1d"
+  },
+  {
+    "id": "rec_09845",
+    "shorthand": "c/o throat infection 7/7 | cap. paracetamol 1000 mg 1-1-1-1 pre-meal 5d",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|paracetamol|1000mg|QID|ac|5d"
+  },
+  {
+    "id": "rec_03794",
+    "shorthand": "diag: rhinitis x 2 days; cap amoxyl 625mg 4 times daily for 10 days",
+    "target_ir": "COND|allergic rhinitis|mild|2d\nMED|amoxicillin|625mg|QID|na|10d"
+  },
+  {
+    "id": "rec_04637",
+    "shorthand": "c/o t2dm x 5d\nSyp zithromax 250 mg twice daily before food x 10 day",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|azithromycin|250mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_01970",
+    "shorthand": "K/C/O arthralgia 1d | T. furosemide 20 mg q8h post-meal x 7 days",
+    "target_ir": "COND|osteoarthritis|chronic|1d\nMED|furosemide|20mg|TID|pc|7d"
+  },
+  {
+    "id": "rec_05968",
+    "shorthand": "dx: uti x 7 day | cap calcium 500 mg bd along with meals x 14 day",
+    "target_ir": "COND|urinary tract infection|moderate|7d\nMED|calcium_carbonate|500mg|BD|wm|14d"
+  },
+  {
+    "id": "rec_03694",
+    "shorthand": "K/C/O viral fever 1d\nfexofenadine 60mg bedtime anytime 3d",
+    "target_ir": "COND|acute viral fever|moderate|1d\nMED|fexofenadine|60mg|HS|na|3d"
+  },
+  {
+    "id": "rec_08660",
+    "shorthand": "known case of coryza 1d | t. met 850 mg p.r.n. before food x 10 day",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|metformin|850mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_03806",
+    "shorthand": "Syp. rabi 20mg h.s. along with meals x 10d",
+    "target_ir": "MED|rabeprazole|20mg|HS|wm|10d"
+  },
+  {
+    "id": "rec_06871",
+    "shorthand": "C/O vascular headache x 5 day | advil 600mg s.o.s. a.c. x 2 days",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|ibuprofen|600mg|SOS|ac|2d"
+  },
+  {
+    "id": "rec_00595",
+    "shorthand": "known case of apd for 7 days; Cap. vitamin b 1tab sos with food for 10 days",
+    "target_ir": "COND|acid peptic disease|mild|7d\nMED|b_complex|1tab|SOS|wm|10d"
+  },
+  {
+    "id": "rec_00104",
+    "shorthand": "Tab budesonide 200mcg 4 times daily ac x 2 day",
+    "target_ir": "MED|budesonide|200mcg|QID|ac|2d"
+  },
+  {
+    "id": "rec_04054",
+    "shorthand": "T. folic 5 mg sos with meals x 5 days",
+    "target_ir": "MED|folic_acid|5mg|SOS|wm|5d"
+  },
+  {
+    "id": "rec_07325",
+    "shorthand": "known case of headache 5/7\nCap pan 20 mg od ac x 14d",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|pantoprazole|20mg|OD|ac|14d"
+  },
+  {
+    "id": "rec_01510",
+    "shorthand": "dx: sore throat x 5 day | Tab ranitidine 150 mg 1-1-0 pc 10/7",
+    "target_ir": "COND|acute pharyngitis|mild|5d\nMED|ranitidine|150mg|BD|pc|10d"
+  },
+  {
+    "id": "rec_07887",
+    "shorthand": "C. ciplox 750mg bd with food for 1 days",
+    "target_ir": "MED|ciprofloxacin|750mg|BD|wm|1d"
+  },
+  {
+    "id": "rec_09846",
+    "shorthand": "diag: cephalea 2/7\nC. allegra 60mg q8h after meals for 14 days",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|fexofenadine|60mg|TID|pc|14d"
+  },
+  {
+    "id": "rec_07943",
+    "shorthand": "tab. ferrous_ascorbate 100 mg as needed pc x 14d",
+    "target_ir": "MED|ferrous_ascorbate|100mg|SOS|pc|14d"
+  },
+  {
+    "id": "rec_01912",
+    "shorthand": "cap galvus 50mg p.r.n. ac x 10 days",
+    "target_ir": "MED|vildagliptin|50mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_00915",
+    "shorthand": "K/C/O niddm x 1d | Syp. cefix 400mg 4 times daily na x 10 day",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|1d\nMED|cefixime|400mg|QID|na|10d"
+  },
+  {
+    "id": "rec_05332",
+    "shorthand": "t. folic 5 mg single dose with food x 7 day",
+    "target_ir": "MED|folic_acid|5mg|STAT|wm|7d"
+  },
+  {
+    "id": "rec_09591",
+    "shorthand": "syp metronidazole 400mg bedtime p.c. x 2 day + tab novamox 625 mg daily with meals x 7 day",
+    "target_ir": "MED|metronidazole|400mg|HS|pc|2d\nMED|amoxicillin|625mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_07709",
+    "shorthand": "C/O niddm x 7 days | Syp. lipitor 80mg qid with meals 3d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|atorvastatin|80mg|QID|wm|3d"
+  },
+  {
+    "id": "rec_08099",
+    "shorthand": "C/O fever x 3 day\nTab. flovent 250mcg sos before meals x 7 days",
+    "target_ir": "COND|acute viral fever|moderate|3d\nMED|fluticasone|250mcg|SOS|ac|7d"
+  },
+  {
+    "id": "rec_02835",
+    "shorthand": "C/O throat infection x 7 days | Cap folvite 5 mg immediately empty stomach x 10d",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|folic_acid|5mg|STAT|ac|10d"
+  },
+  {
+    "id": "rec_05387",
+    "shorthand": "c/o cephalea for 2 days\ncap aciphex 20 mg q24h na x 14d",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|rabeprazole|20mg|OD|na|14d"
+  },
+  {
+    "id": "rec_09344",
+    "shorthand": "Cap. tramazac 100mg bedtime with food x 1 days",
+    "target_ir": "MED|tramadol|100mg|HS|wm|1d"
+  },
+  {
+    "id": "rec_05548",
+    "shorthand": "dx: elevated bp 1d; zoryl 4 mg s.o.s. na x 10d",
+    "target_ir": "COND|essential hypertension|chronic|1d\nMED|glimepiride|4mg|SOS|na|10d"
+  },
+  {
+    "id": "rec_04196",
+    "shorthand": "C. bactrim 480 mg 2 times daily after food x 10d; Tab. paracetamol 650 mg q6h for 14 days",
+    "target_ir": "MED|cotrimoxazole|480mg|BD|pc|10d\nMED|paracetamol|650mg|QID|na|14d"
+  },
+  {
+    "id": "rec_05922",
+    "shorthand": "complains of vascular headache x 3d\nT. ciplox 750 mg bd pc for 2 days",
+    "target_ir": "COND|migraine headache|moderate|3d\nMED|ciprofloxacin|750mg|BD|pc|2d"
+  },
+  {
+    "id": "rec_05038",
+    "shorthand": "Syp. vitamin_d3 60000iu 1-1-1 wm x 14d",
+    "target_ir": "MED|vitamin_d3|60000iu|TID|wm|14d"
+  },
+  {
+    "id": "rec_08978",
+    "shorthand": "Tab. glycomet 500mg 0-0-1hs with meals x 2 day + Tab. ceph 500mg night after food x 14 day",
+    "target_ir": "MED|metformin|500mg|HS|wm|2d\nMED|cephalexin|500mg|HS|pc|14d"
+  },
+  {
+    "id": "rec_02026",
+    "shorthand": "c/o high blood sugar for 7 days\nTab amoxicillin 500 mg once daily na for 1 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|amoxicillin|500mg|OD|na|1d"
+  },
+  {
+    "id": "rec_06668",
+    "shorthand": "c. cephalexin 250 mg 0-1-0 anytime x 2d, cap metro 200mg bid na 7d",
+    "target_ir": "MED|cephalexin|250mg|OD|na|2d\nMED|metronidazole|200mg|BD|na|7d"
+  },
+  {
+    "id": "rec_08714",
+    "shorthand": "telmisartan 20 mg single dose with food x 3 days",
+    "target_ir": "MED|telmisartan|20mg|STAT|wm|3d"
+  },
+  {
+    "id": "rec_06803",
+    "shorthand": "diag: high blood sugar x 2 day, Syp asthalin 2mg 1-0-1 wm 14/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|salbutamol|2mg|BD|wm|14d"
+  },
+  {
+    "id": "rec_07364",
+    "shorthand": "Cap tenormin 100mg when required with food for 14 days",
+    "target_ir": "MED|atenolol|100mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_01855",
+    "shorthand": "T. voltaren 100mg 1-0-0 before meals x 14 day",
+    "target_ir": "MED|diclofenac|100mg|OD|ac|14d"
+  },
+  {
+    "id": "rec_04311",
+    "shorthand": "cap allegra 60mg immediately p.c. x 5d",
+    "target_ir": "MED|fexofenadine|60mg|STAT|pc|5d"
+  },
+  {
+    "id": "rec_05681",
+    "shorthand": "K/C/O cephalea 2d\nC. singulair 4 mg stat anytime for 3 days",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|montelukast|4mg|STAT|na|3d"
+  },
+  {
+    "id": "rec_08928",
+    "shorthand": "frusemide 20 mg daily along with meals x 5d",
+    "target_ir": "MED|furosemide|20mg|OD|wm|5d"
+  },
+  {
+    "id": "rec_00371",
+    "shorthand": "tab vildagliptin 50 mg single dose post-meal x 3d",
+    "target_ir": "MED|vildagliptin|50mg|STAT|pc|3d"
+  },
+  {
+    "id": "rec_00993",
+    "shorthand": "diag: throat infection x 1d, Cap. rantac 150mg thrice daily anytime x 10 days",
+    "target_ir": "COND|acute pharyngitis|mild|1d\nMED|ranitidine|150mg|TID|na|10d"
+  },
+  {
+    "id": "rec_01782",
+    "shorthand": "known case of allergic cold x 3d | telmikind 80mg daily with meals x 5 days",
+    "target_ir": "COND|allergic rhinitis|mild|3d\nMED|telmisartan|80mg|OD|wm|5d"
+  },
+  {
+    "id": "rec_03761",
+    "shorthand": "k/c/o hay fever 7d; cap sporidex 250mg q6h before food for 1 days",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|cephalexin|250mg|QID|ac|1d"
+  },
+  {
+    "id": "rec_07045",
+    "shorthand": "k/c/o rhinitis x 7 day | t. zithromax 250mg sos x 5 day",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|azithromycin|250mg|SOS|na|5d"
+  },
+  {
+    "id": "rec_07712",
+    "shorthand": "complains of elevated bp x 5 day | C. vitamin_d3 2000iu t.i.d. with food x 3 days",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|vitamin_d3|2000iu|TID|wm|3d"
+  },
+  {
+    "id": "rec_00832",
+    "shorthand": "cap envas 2.5mg 1-0-0 pre-meal x 3d, Cap rabi 10 mg q.i.d. ac x 3 days",
+    "target_ir": "MED|enalapril|2.5mg|OD|ac|3d\nMED|rabeprazole|10mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_01512",
+    "shorthand": "C/O dm x 7d; Syp hctz 50mg night na x 5 day",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|hydrochlorothiazide|50mg|HS|na|5d"
+  },
+  {
+    "id": "rec_04453",
+    "shorthand": "Syp dox 100mg qid after meals 2/7",
+    "target_ir": "MED|doxycycline|100mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_08075",
+    "shorthand": "complains of bronchitis 3/7, Tab. istavel 50 mg h.s. anytime x 7 days",
+    "target_ir": "COND|acute bronchitis|moderate|3d\nMED|sitagliptin|50mg|HS|na|7d"
+  },
+  {
+    "id": "rec_07974",
+    "shorthand": "c/o strep throat 5/7; tab januvia 50mg sos x 2 day",
+    "target_ir": "COND|acute pharyngitis|mild|5d\nMED|sitagliptin|50mg|SOS|na|2d"
+  },
+  {
+    "id": "rec_03539",
+    "shorthand": "diag: high grade fever x 3 days | syp. plavix 75 mg thrice daily with food 3d",
+    "target_ir": "COND|acute viral fever|moderate|3d\nMED|clopidogrel|75mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_07646",
+    "shorthand": "cap jalra 50mg tid ac x 7d + syp enalapril 10 mg 1-1-1 na x 1 day",
+    "target_ir": "MED|vildagliptin|50mg|TID|ac|7d\nMED|enalapril|10mg|TID|na|1d"
+  },
+  {
+    "id": "rec_02838",
+    "shorthand": "Tab folvite 5mg 1-1-1-1 after meals 1d",
+    "target_ir": "MED|folic_acid|5mg|QID|pc|1d"
+  },
+  {
+    "id": "rec_09277",
+    "shorthand": "Tab. fexo 60mg 1-0-1 after meals 7/7 + C. voltaren 50mg twice daily pre-meal 5d",
+    "target_ir": "MED|fexofenadine|60mg|BD|pc|7d\nMED|diclofenac|50mg|BD|ac|5d"
+  },
+  {
+    "id": "rec_09471",
+    "shorthand": "diag: acute bronchial catarrh x 1 days, Cap. vitamin b 1tab tid after food x 5 day",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|b_complex|1tab|TID|pc|5d"
+  },
+  {
+    "id": "rec_04525",
+    "shorthand": "Cap b_complex 1tab stat anytime 10/7, Tab voltaren 100mg prn before meals x 1d",
+    "target_ir": "MED|b_complex|1tab|STAT|na|10d\nMED|diclofenac|100mg|SOS|ac|1d"
+  },
+  {
+    "id": "rec_03443",
+    "shorthand": "T. fexofenadine 60mg 0-1-1 anytime x 5d",
+    "target_ir": "MED|fexofenadine|60mg|BD|na|5d"
+  },
+  {
+    "id": "rec_09442",
+    "shorthand": "tab allegra 60mg 1-1-0 with meals x 1d",
+    "target_ir": "MED|fexofenadine|60mg|BD|wm|1d"
+  },
+  {
+    "id": "rec_03120",
+    "shorthand": "Cap flagyl 400 mg t.i.d. p.c. 14/7",
+    "target_ir": "MED|metronidazole|400mg|TID|pc|14d"
+  },
+  {
+    "id": "rec_00249",
+    "shorthand": "k/c/o chest infection 7d; bandy 400mg 0-0-1hs with meals x 10 days",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|albendazole|400mg|HS|wm|10d"
+  },
+  {
+    "id": "rec_06464",
+    "shorthand": "Syp. vibramycin 100 mg b.i.d. anytime 5/7",
+    "target_ir": "MED|doxycycline|100mg|BD|na|5d"
+  },
+  {
+    "id": "rec_09425",
+    "shorthand": "complains of common cold x 2 day, Tab. disprin 150 mg twice daily na x 10d",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|aspirin|150mg|BD|na|10d"
+  },
+  {
+    "id": "rec_01047",
+    "shorthand": "C/O oa for 3 days; Tab jalra 50mg twice daily 5/7",
+    "target_ir": "COND|osteoarthritis|chronic|3d\nMED|vildagliptin|50mg|BD|na|5d"
+  },
+  {
+    "id": "rec_08668",
+    "shorthand": "Tab levocet 5 mg 1-1-0 x 1d + Syp. vildagliptin 50 mg sos wm 3d",
+    "target_ir": "MED|levocetirizine|5mg|BD|na|1d\nMED|vildagliptin|50mg|SOS|wm|3d"
+  },
+  {
+    "id": "rec_08007",
+    "shorthand": "C. singulair 10 mg q.i.d. post-meal x 7 days",
+    "target_ir": "MED|montelukast|10mg|QID|pc|7d"
+  },
+  {
+    "id": "rec_07864",
+    "shorthand": "diag: chest infection x 2 days, Cap folic_acid 5mg twice daily post meals 2d",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|folic_acid|5mg|BD|pc|2d"
+  },
+  {
+    "id": "rec_05582",
+    "shorthand": "singulair 10mg as needed after meals for 3 days",
+    "target_ir": "MED|montelukast|10mg|SOS|pc|3d"
+  },
+  {
+    "id": "rec_09141",
+    "shorthand": "complains of t2dm x 3 days, cap tramazac 50 mg 1-1-1-1 x 14d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|3d\nMED|tramadol|50mg|QID|na|14d"
+  },
+  {
+    "id": "rec_05308",
+    "shorthand": "cap taxim-o 100mg bedtime after food x 10 day",
+    "target_ir": "MED|cefixime|100mg|HS|pc|10d"
+  },
+  {
+    "id": "rec_02240",
+    "shorthand": "dx: cystitis x 3 day; d3 1000iu q12h after meals x 5 day",
+    "target_ir": "COND|urinary tract infection|moderate|3d\nMED|vitamin_d3|1000iu|BD|pc|5d"
+  },
+  {
+    "id": "rec_00231",
+    "shorthand": "C. hctz 25mg immediately before meals x 14d + T. doxt 100 mg qid post meals 2d",
+    "target_ir": "MED|hydrochlorothiazide|25mg|STAT|ac|14d\nMED|doxycycline|100mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_06922",
+    "shorthand": "tab. furosemide 40 mg tid with meals x 3d",
+    "target_ir": "MED|furosemide|40mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_08899",
+    "shorthand": "Syp metronidazole 400mg h.s. p.c. x 2 day, Syp. cefixime 400 mg 2 times daily after meals x 1d",
+    "target_ir": "MED|metronidazole|400mg|HS|pc|2d\nMED|cefixime|400mg|BD|pc|1d"
+  },
+  {
+    "id": "rec_09128",
+    "shorthand": "tab amoxyclav 625 mg stat p.c. x 7d",
+    "target_ir": "MED|clavulanic_acid|625mg|STAT|pc|7d"
+  },
+  {
+    "id": "rec_08308",
+    "shorthand": "Tab ultram 100 mg when required wm 5/7",
+    "target_ir": "MED|tramadol|100mg|SOS|wm|5d"
+  },
+  {
+    "id": "rec_09657",
+    "shorthand": "cap fexofenadine 60mg q.d. before meals 5d",
+    "target_ir": "MED|fexofenadine|60mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_02395",
+    "shorthand": "Syp voset 5 mg at night anytime x 14 day",
+    "target_ir": "MED|levocetirizine|5mg|HS|na|14d"
+  },
+  {
+    "id": "rec_05424",
+    "shorthand": "Tab. ramipril 5 mg prn along with meals x 3 day; Cap montek 10mg single dose pre-meal x 1 day",
+    "target_ir": "MED|ramipril|5mg|SOS|wm|3d\nMED|montelukast|10mg|STAT|ac|1d"
+  },
+  {
+    "id": "rec_02941",
+    "shorthand": "syp tramadol 50mg q12h post meals 1d; cap tramazac 100 mg q8h post meals for 1 days",
+    "target_ir": "MED|tramadol|50mg|BD|pc|1d\nMED|tramadol|100mg|TID|pc|1d"
+  },
+  {
+    "id": "rec_07272",
+    "shorthand": "Cap ocid 20 mg h.s. with meals x 10 day",
+    "target_ir": "MED|omeprazole|20mg|HS|wm|10d"
+  },
+  {
+    "id": "rec_00799",
+    "shorthand": "Syp. januvia 100 mg when required empty stomach 3d",
+    "target_ir": "MED|sitagliptin|100mg|SOS|ac|3d"
+  },
+  {
+    "id": "rec_09219",
+    "shorthand": "c/o cephalea 3d | c. lasix 40 mg once daily na 10d",
+    "target_ir": "COND|migraine headache|moderate|3d\nMED|furosemide|40mg|OD|na|10d"
+  },
+  {
+    "id": "rec_04749",
+    "shorthand": "Tab. esidrix 25 mg 2 times daily anytime 1d",
+    "target_ir": "MED|hydrochlorothiazide|25mg|BD|na|1d"
+  },
+  {
+    "id": "rec_07071",
+    "shorthand": "syp. omeprazole 20 mg b.i.d. p.c. 1d",
+    "target_ir": "MED|omeprazole|20mg|BD|pc|1d"
+  },
+  {
+    "id": "rec_01299",
+    "shorthand": "aciloc 300 mg 0-0-1 a.c. 10/7",
+    "target_ir": "MED|ranitidine|300mg|OD|ac|10d"
+  },
+  {
+    "id": "rec_00067",
+    "shorthand": "diag: rhinitis 5d; Syp. azithromycin 500 mg tid with food 5/7",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|azithromycin|500mg|TID|wm|5d"
+  },
+  {
+    "id": "rec_08055",
+    "shorthand": "dx: strep throat 7/7; Tab azithromycin 250 mg q.d. before food x 5d",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|azithromycin|250mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_05274",
+    "shorthand": "K/C/O acute fever x 2 day\ncap b_complex 1tab bid along with meals x 10 days",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|b_complex|1tab|BD|wm|10d"
+  },
+  {
+    "id": "rec_03789",
+    "shorthand": "complains of bronchitis x 5 days; T. amoxicillin 250mg thrice daily na 14d",
+    "target_ir": "COND|acute bronchitis|moderate|5d\nMED|amoxicillin|250mg|TID|na|14d"
+  },
+  {
+    "id": "rec_02751",
+    "shorthand": "tab aciphex 10mg 0-0-1hs x 2d, cap amoxicillin 250 mg immediately na 14d",
+    "target_ir": "MED|rabeprazole|10mg|HS|na|2d\nMED|amoxicillin|250mg|STAT|na|14d"
+  },
+  {
+    "id": "rec_07240",
+    "shorthand": "T. vildagliptin 50mg stat na x 3 days + Syp norvasc 2.5 mg 0-0-1hs with meals 3d",
+    "target_ir": "MED|vildagliptin|50mg|STAT|na|3d\nMED|amlodipine|2.5mg|HS|wm|3d"
+  },
+  {
+    "id": "rec_01763",
+    "shorthand": "diag: rhinopharyngitis 2d | cap tramadol 50mg prn na x 14 day",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|tramadol|50mg|SOS|na|14d"
+  },
+  {
+    "id": "rec_03615",
+    "shorthand": "diag: uti for 7 days, tab doxy 100mg q8h before food 14/7",
+    "target_ir": "COND|urinary tract infection|moderate|7d\nMED|doxycycline|100mg|TID|ac|14d"
+  },
+  {
+    "id": "rec_05684",
+    "shorthand": "dx: uti 3/7, Tab. doxycycline 100 mg 0-1-1 ac 1d",
+    "target_ir": "COND|urinary tract infection|moderate|3d\nMED|doxycycline|100mg|BD|ac|1d"
+  },
+  {
+    "id": "rec_03259",
+    "shorthand": "tab metoprolol 50 mg t.i.d. ac 14/7",
+    "target_ir": "MED|metoprolol|50mg|TID|ac|14d"
+  },
+  {
+    "id": "rec_01833",
+    "shorthand": "Cap. protonix 20 mg t.i.d. along with meals x 14 days + tab fexo 120 mg night pre-meal x 1 days",
+    "target_ir": "MED|pantoprazole|20mg|TID|wm|14d\nMED|fexofenadine|120mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_06163",
+    "shorthand": "k/c/o uri 1/7\nzantac 300 mg once daily p.c. x 3 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|ranitidine|300mg|OD|pc|3d"
+  },
+  {
+    "id": "rec_05253",
+    "shorthand": "Tab. fexofenadine 60 mg immediately anytime 7d",
+    "target_ir": "MED|fexofenadine|60mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_08625",
+    "shorthand": "Cap. b_complex 1tab p.r.n. before food x 14 days",
+    "target_ir": "MED|b_complex|1tab|SOS|ac|14d"
+  },
+  {
+    "id": "rec_00325",
+    "shorthand": "Tab. clopidogrel 75 mg b.i.d. wm 3d",
+    "target_ir": "MED|clopidogrel|75mg|BD|wm|3d"
+  },
+  {
+    "id": "rec_09377",
+    "shorthand": "dx: stomach bug for 7 days, t. lopressor 50mg q.d. ac 2d",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|metoprolol|50mg|OD|ac|2d"
+  },
+  {
+    "id": "rec_00821",
+    "shorthand": "Tab metoprolol 100mg 1-1-1 post-meal 7/7",
+    "target_ir": "MED|metoprolol|100mg|TID|pc|7d"
+  },
+  {
+    "id": "rec_02769",
+    "shorthand": "T. jalra 50mg tid wm x 3d",
+    "target_ir": "MED|vildagliptin|50mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_02375",
+    "shorthand": "Cap atocor 20mg qid post meals 7/7",
+    "target_ir": "MED|atorvastatin|20mg|QID|pc|7d"
+  },
+  {
+    "id": "rec_01438",
+    "shorthand": "Tab. folvite 5 mg bedtime na for 7 days\nT. metoprolol 50mg b.i.d. before meals 1/7",
+    "target_ir": "MED|folic_acid|5mg|HS|na|7d\nMED|metoprolol|50mg|BD|ac|1d"
+  },
+  {
+    "id": "rec_02171",
+    "shorthand": "c/o chest infection 1d | Syp novamox 625mg tid post meals x 2 days",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|amoxicillin|625mg|TID|pc|2d"
+  },
+  {
+    "id": "rec_00073",
+    "shorthand": "C/O coryza 7d | T. stamlo 5 mg 1-1-1-1 after food for 5 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|7d\nMED|amlodipine|5mg|QID|pc|5d"
+  },
+  {
+    "id": "rec_02326",
+    "shorthand": "c/o gastroenteritis for 7 days; Syp. amoxyclav 1000mg 1-0-0 with meals x 1 day",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|clavulanic_acid|1000mg|OD|wm|1d"
+  },
+  {
+    "id": "rec_06251",
+    "shorthand": "Syp alerdif 10 mg immediately with food 5d + Syp cetirizine 5 mg 1-1-1 na 2d",
+    "target_ir": "MED|cetirizine|10mg|STAT|wm|5d\nMED|cetirizine|5mg|TID|na|2d"
+  },
+  {
+    "id": "rec_08393",
+    "shorthand": "k/c/o oa 2/7\namlodipine 10mg immediately before food 2/7",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|amlodipine|10mg|STAT|ac|2d"
+  },
+  {
+    "id": "rec_02405",
+    "shorthand": "K/C/O oa 3/7 | C. aciloc 150mg now with food x 3 day",
+    "target_ir": "COND|osteoarthritis|chronic|3d\nMED|ranitidine|150mg|STAT|wm|3d"
+  },
+  {
+    "id": "rec_05396",
+    "shorthand": "C/O hay fever 1d | Syp. aten 100mg 1-0-0 ac x 10 days",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|atenolol|100mg|OD|ac|10d"
+  },
+  {
+    "id": "rec_02999",
+    "shorthand": "c. januvia 50 mg prn x 3 day",
+    "target_ir": "MED|sitagliptin|50mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_01840",
+    "shorthand": "Cap salbutamol 4 mg as needed x 2 days",
+    "target_ir": "MED|salbutamol|4mg|SOS|na|2d"
+  },
+  {
+    "id": "rec_05190",
+    "shorthand": "T. glucophage 1000mg now before meals 2/7; Tab enalapril 5 mg as needed for 5 days",
+    "target_ir": "MED|metformin|1000mg|STAT|ac|2d\nMED|enalapril|5mg|SOS|na|5d"
+  },
+  {
+    "id": "rec_00288",
+    "shorthand": "c/o allergic cold x 3 day; cap. esidrix 25mg single dose na x 14 day",
+    "target_ir": "COND|allergic rhinitis|mild|3d\nMED|hydrochlorothiazide|25mg|STAT|na|14d"
+  },
+  {
+    "id": "rec_03577",
+    "shorthand": "cap clavulanic_acid 1000mg stat before food x 1 days + azee 250mg stat anytime x 10d",
+    "target_ir": "MED|clavulanic_acid|1000mg|STAT|ac|1d\nMED|azithromycin|250mg|STAT|na|10d"
+  },
+  {
+    "id": "rec_01903",
+    "shorthand": "Tab xyzal 5 mg 1-1-0 ac x 5 days; T. b_complex 1tab 1-0-1 wm x 7d",
+    "target_ir": "MED|levocetirizine|5mg|BD|ac|5d\nMED|b_complex|1tab|BD|wm|7d"
+  },
+  {
+    "id": "rec_03147",
+    "shorthand": "syp cotrimoxazole 960 mg q24h x 2 day\ncrestor 20 mg 1-0-1 with food 5d",
+    "target_ir": "MED|cotrimoxazole|960mg|OD|na|2d\nMED|rosuvastatin|20mg|BD|wm|5d"
+  },
+  {
+    "id": "rec_00612",
+    "shorthand": "cap montair 10mg 1-0-0 wm x 7 day",
+    "target_ir": "MED|montelukast|10mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_00724",
+    "shorthand": "c/o arthralgia x 2 day, c. brufen 400mg 0-1-0 with food 14d",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|ibuprofen|400mg|OD|wm|14d"
+  },
+  {
+    "id": "rec_01680",
+    "shorthand": "C/O allergic cold 2/7, calpol 1000 mg when required na 10/7",
+    "target_ir": "COND|allergic rhinitis|mild|2d\nMED|paracetamol|1000mg|SOS|na|10d"
+  },
+  {
+    "id": "rec_05847",
+    "shorthand": "zentel 400mg once daily na 14/7",
+    "target_ir": "MED|albendazole|400mg|OD|na|14d"
+  },
+  {
+    "id": "rec_06210",
+    "shorthand": "dx: rhinopharyngitis x 1d\npcm 1000 mg twice daily anytime 5d",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|paracetamol|1000mg|BD|na|5d"
+  },
+  {
+    "id": "rec_09285",
+    "shorthand": "Syp. septran 960mg q24h a.c. 10/7",
+    "target_ir": "MED|cotrimoxazole|960mg|OD|ac|10d"
+  },
+  {
+    "id": "rec_05142",
+    "shorthand": "Cap. gliclazide 80 mg 1 time daily before food x 1 day, Tab cefixime 100mg night with meals 2/7",
+    "target_ir": "MED|gliclazide|80mg|OD|ac|1d\nMED|cefixime|100mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_01626",
+    "shorthand": "Tab bactrim 960 mg bid p.c. for 10 days\nCap. metro 400mg sos along with meals 14d",
+    "target_ir": "MED|cotrimoxazole|960mg|BD|pc|10d\nMED|metronidazole|400mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_08443",
+    "shorthand": "Syp. enalapril 5 mg thrice daily after food x 3 days",
+    "target_ir": "MED|enalapril|5mg|TID|pc|3d"
+  },
+  {
+    "id": "rec_04334",
+    "shorthand": "complains of arthralgia for 3 days\nTab. rosuvas 5 mg 0-1-1 anytime 7d",
+    "target_ir": "COND|osteoarthritis|chronic|3d\nMED|rosuvastatin|5mg|BD|na|7d"
+  },
+  {
+    "id": "rec_03773",
+    "shorthand": "diag: migraine 1d | Tab. brufen 400 mg 1-1-1 na x 2d",
+    "target_ir": "COND|migraine headache|moderate|1d\nMED|ibuprofen|400mg|TID|na|2d"
+  },
+  {
+    "id": "rec_04139",
+    "shorthand": "Cap. cotrimoxazole 480 mg 1-1-1-1 a.c. x 5d",
+    "target_ir": "MED|cotrimoxazole|480mg|QID|ac|5d"
+  },
+  {
+    "id": "rec_06510",
+    "shorthand": "Cap. metrogyle 200 mg as needed pre-meal x 2d",
+    "target_ir": "MED|metronidazole|200mg|SOS|ac|2d"
+  },
+  {
+    "id": "rec_08109",
+    "shorthand": "K/C/O pyrexia x 3 day | Syp pulmicort 200mcg now p.c. x 5 day",
+    "target_ir": "COND|acute viral fever|moderate|3d\nMED|budesonide|200mcg|STAT|pc|5d"
+  },
+  {
+    "id": "rec_03384",
+    "shorthand": "cap cephalexin 500mg p.r.n. ac x 7 day",
+    "target_ir": "MED|cephalexin|500mg|SOS|ac|7d"
+  },
+  {
+    "id": "rec_08069",
+    "shorthand": "T. azithromycin 500 mg 0-1-0 wm 7d",
+    "target_ir": "MED|azithromycin|500mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_08890",
+    "shorthand": "k/c/o allergy x 1 days | atenolol 50 mg 1-0-1 post-meal x 5 day",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|atenolol|50mg|BD|pc|5d"
+  },
+  {
+    "id": "rec_02738",
+    "shorthand": "C. atorvastatin 10 mg immediately wm for 1 days",
+    "target_ir": "MED|atorvastatin|10mg|STAT|wm|1d"
+  },
+  {
+    "id": "rec_09762",
+    "shorthand": "cholecalciferol 60000iu 1-1-1 after meals 7/7",
+    "target_ir": "MED|vitamin_d3|60000iu|TID|pc|7d"
+  },
+  {
+    "id": "rec_05617",
+    "shorthand": "K/C/O vascular headache x 2d | tab calcirol 2000iu h.s. along with meals x 14 day",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|vitamin_d3|2000iu|HS|wm|14d"
+  },
+  {
+    "id": "rec_06747",
+    "shorthand": "complains of febrile illness 1/7, Syp. atorva 80 mg qid 10/7",
+    "target_ir": "COND|acute viral fever|moderate|1d\nMED|atorvastatin|80mg|QID|na|10d"
+  },
+  {
+    "id": "rec_02382",
+    "shorthand": "Cap. amlong 10 mg q8h after meals x 1 days + tab met 850mg 4 times daily after food x 10d",
+    "target_ir": "MED|amlodipine|10mg|TID|pc|1d\nMED|metformin|850mg|QID|pc|10d"
+  },
+  {
+    "id": "rec_09925",
+    "shorthand": "tab ciprofloxacin 750mg q.d. before food for 2 days",
+    "target_ir": "MED|ciprofloxacin|750mg|OD|ac|2d"
+  },
+  {
+    "id": "rec_01386",
+    "shorthand": "C. pantoprazole 20 mg 1 time daily after meals for 2 days",
+    "target_ir": "MED|pantoprazole|20mg|OD|pc|2d"
+  },
+  {
+    "id": "rec_00329",
+    "shorthand": "K/C/O acute fever for 3 days, Tab rabeloc 20 mg q8h with food for 7 days",
+    "target_ir": "COND|acute viral fever|moderate|3d\nMED|rabeprazole|20mg|TID|wm|7d"
+  },
+  {
+    "id": "rec_05683",
+    "shorthand": "complains of diabetes x 2 day; syp domstal 10 mg 4 times daily after food x 14 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|domperidone|10mg|QID|pc|14d"
+  },
+  {
+    "id": "rec_03409",
+    "shorthand": "k/c/o oa 1d, c. telma 80 mg when required ac 14/7",
+    "target_ir": "COND|osteoarthritis|chronic|1d\nMED|telmisartan|80mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_09532",
+    "shorthand": "Tab. diclofenac 75 mg 0-1-1 for 3 days; crocin 500mg at night x 7d",
+    "target_ir": "MED|diclofenac|75mg|BD|na|3d\nMED|paracetamol|500mg|HS|na|7d"
+  },
+  {
+    "id": "rec_01800",
+    "shorthand": "C. diamicron 30mg night anytime 1d",
+    "target_ir": "MED|gliclazide|30mg|HS|na|1d"
+  },
+  {
+    "id": "rec_00549",
+    "shorthand": "cap istavel 50 mg prn anytime for 1 days",
+    "target_ir": "MED|sitagliptin|50mg|SOS|na|1d"
+  },
+  {
+    "id": "rec_00861",
+    "shorthand": "complains of high blood sugar x 5d\nbactrim 960 mg q.i.d. na x 10 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|cotrimoxazole|960mg|QID|na|10d"
+  },
+  {
+    "id": "rec_05812",
+    "shorthand": "tab clavulanic_acid 1000 mg sos before meals x 1 days",
+    "target_ir": "MED|clavulanic_acid|1000mg|SOS|ac|1d"
+  },
+  {
+    "id": "rec_03519",
+    "shorthand": "cap cozaar 50mg once daily post meals x 5d, cap pantocid 20 mg q24h post meals x 14 day",
+    "target_ir": "MED|losartan|50mg|OD|pc|5d\nMED|pantoprazole|20mg|OD|pc|14d"
+  },
+  {
+    "id": "rec_01500",
+    "shorthand": "Tab ultram 100 mg 2 times daily post meals 14/7",
+    "target_ir": "MED|tramadol|100mg|BD|pc|14d"
+  },
+  {
+    "id": "rec_03382",
+    "shorthand": "cotrimoxazole 480mg single dose na 7/7",
+    "target_ir": "MED|cotrimoxazole|480mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_06361",
+    "shorthand": "K/C/O vascular headache x 7 day | cap ceph 500 mg now along with meals x 10d",
+    "target_ir": "COND|migraine headache|moderate|7d\nMED|cephalexin|500mg|STAT|wm|10d"
+  },
+  {
+    "id": "rec_03992",
+    "shorthand": "Syp. voset 2.5 mg 1-1-1 post meals x 7 days",
+    "target_ir": "MED|levocetirizine|2.5mg|TID|pc|7d"
+  },
+  {
+    "id": "rec_04643",
+    "shorthand": "T. diamicron 40mg prn ac 10d",
+    "target_ir": "MED|gliclazide|40mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_05467",
+    "shorthand": "Syp aquazide 25 mg q24h before meals x 7 days",
+    "target_ir": "MED|hydrochlorothiazide|25mg|OD|ac|7d"
+  },
+  {
+    "id": "rec_05754",
+    "shorthand": "Syp. lasix 40 mg p.r.n. na 3/7 + Syp ondansetron 8 mg s.o.s. before meals for 5 days",
+    "target_ir": "MED|furosemide|40mg|SOS|na|3d\nMED|ondansetron|8mg|SOS|ac|5d"
+  },
+  {
+    "id": "rec_04521",
+    "shorthand": "Cap atocor 10 mg h.s. anytime x 5 day",
+    "target_ir": "MED|atorvastatin|10mg|HS|na|5d"
+  },
+  {
+    "id": "rec_05659",
+    "shorthand": "Tab. azi 250mg immediately p.c. for 10 days",
+    "target_ir": "MED|azithromycin|250mg|STAT|pc|10d"
+  },
+  {
+    "id": "rec_02823",
+    "shorthand": "complains of sore throat 1d, T. istavel 50 mg stat post-meal for 1 days",
+    "target_ir": "COND|acute pharyngitis|mild|1d\nMED|sitagliptin|50mg|STAT|pc|1d"
+  },
+  {
+    "id": "rec_04435",
+    "shorthand": "Tab aciloc 150mg stat wm 1d; Tab. cephalexin 250mg od anytime x 1d",
+    "target_ir": "MED|ranitidine|150mg|STAT|wm|1d\nMED|cephalexin|250mg|OD|na|1d"
+  },
+  {
+    "id": "rec_04663",
+    "shorthand": "Syp levocetirizine 5mg q12h pre-meal for 5 days; T. zoryl 1mg qid a.c. 7d",
+    "target_ir": "MED|levocetirizine|5mg|BD|ac|5d\nMED|glimepiride|1mg|QID|ac|7d"
+  },
+  {
+    "id": "rec_04153",
+    "shorthand": "Cap januvia 100mg 1-0-0 with food for 2 days",
+    "target_ir": "MED|sitagliptin|100mg|OD|wm|2d"
+  },
+  {
+    "id": "rec_06894",
+    "shorthand": "Syp pulmicort 200mcg 1-1-1-1 post meals for 5 days",
+    "target_ir": "MED|budesonide|200mcg|QID|pc|5d"
+  },
+  {
+    "id": "rec_08516",
+    "shorthand": "Cap vildagliptin 50mg twice daily with food 5/7 + T. envas 10 mg h.s. pc 1d",
+    "target_ir": "MED|vildagliptin|50mg|BD|wm|5d\nMED|enalapril|10mg|HS|pc|1d"
+  },
+  {
+    "id": "rec_00606",
+    "shorthand": "C/O elevated bp x 7 day | aspirin 75 mg 1-0-1 p.c. x 14d",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|aspirin|75mg|BD|pc|14d"
+  },
+  {
+    "id": "rec_01303",
+    "shorthand": "diag: cystitis x 2 days | atorva 10 mg at night na 3d",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|atorvastatin|10mg|HS|na|3d"
+  },
+  {
+    "id": "rec_02390",
+    "shorthand": "C. cipcal 500 mg sos 3/7",
+    "target_ir": "MED|calcium_carbonate|500mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_01754",
+    "shorthand": "k/c/o htn x 7 days | pulmicort 200mcg h.s. pre-meal 14d",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|budesonide|200mcg|HS|ac|14d"
+  },
+  {
+    "id": "rec_08233",
+    "shorthand": "vitamin_d3 1000iu when required before food x 10d",
+    "target_ir": "MED|vitamin_d3|1000iu|SOS|ac|10d"
+  },
+  {
+    "id": "rec_02551",
+    "shorthand": "cap flagyl 400mg 0-0-1 wm for 10 days",
+    "target_ir": "MED|metronidazole|400mg|OD|wm|10d"
+  },
+  {
+    "id": "rec_07926",
+    "shorthand": "Cap doxt 100mg at night x 3 days",
+    "target_ir": "MED|doxycycline|100mg|HS|na|3d"
+  },
+  {
+    "id": "rec_09750",
+    "shorthand": "c/o arthralgia x 7 day, cap jalra 50 mg as needed na for 5 days",
+    "target_ir": "COND|osteoarthritis|chronic|7d\nMED|vildagliptin|50mg|SOS|na|5d"
+  },
+  {
+    "id": "rec_08173",
+    "shorthand": "complains of arthralgia 3d\nTab. cephalexin 250 mg stat anytime 3d",
+    "target_ir": "COND|osteoarthritis|chronic|3d\nMED|cephalexin|250mg|STAT|na|3d"
+  },
+  {
+    "id": "rec_06681",
+    "shorthand": "K/C/O age 2/7 | tab aspirin 75mg immediately post-meal x 10d",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|aspirin|75mg|STAT|pc|10d"
+  },
+  {
+    "id": "rec_03681",
+    "shorthand": "Tab rabi 10mg 0-1-0 after meals x 3 day",
+    "target_ir": "MED|rabeprazole|10mg|OD|pc|3d"
+  },
+  {
+    "id": "rec_03038",
+    "shorthand": "Cap fluticasone 50mcg night anytime x 2 day",
+    "target_ir": "MED|fluticasone|50mcg|HS|na|2d"
+  },
+  {
+    "id": "rec_00576",
+    "shorthand": "tab losartan 100mg as needed na 5d",
+    "target_ir": "MED|losartan|100mg|SOS|na|5d"
+  },
+  {
+    "id": "rec_00694",
+    "shorthand": "Syp pan 40 40mg 1-1-1-1 a.c. for 1 days + Tab. vitamin_d3 1000iu thrice daily na for 7 days",
+    "target_ir": "MED|pantoprazole|40mg|QID|ac|1d\nMED|vitamin_d3|1000iu|TID|na|7d"
+  },
+  {
+    "id": "rec_02033",
+    "shorthand": "istavel 100mg night empty stomach 1/7",
+    "target_ir": "MED|sitagliptin|100mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_07084",
+    "shorthand": "Tab amoxicillin 500mg qid anytime 14/7",
+    "target_ir": "MED|amoxicillin|500mg|QID|na|14d"
+  },
+  {
+    "id": "rec_05795",
+    "shorthand": "k/c/o hypertension for 7 days, c. fexo 120 mg now anytime 14/7",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|fexofenadine|120mg|STAT|na|14d"
+  },
+  {
+    "id": "rec_04778",
+    "shorthand": "diag: acute bronchial catarrh x 5 day\nsyp. pantoprazole 20 mg at night na for 14 days",
+    "target_ir": "COND|acute bronchitis|moderate|5d\nMED|pantoprazole|20mg|HS|na|14d"
+  },
+  {
+    "id": "rec_00850",
+    "shorthand": "cap metoprolol 50mg daily post-meal 14/7",
+    "target_ir": "MED|metoprolol|50mg|OD|pc|14d"
+  },
+  {
+    "id": "rec_09911",
+    "shorthand": "Cap. levocetirizine 2.5 mg qid p.c. x 14 day",
+    "target_ir": "MED|levocetirizine|2.5mg|QID|pc|14d"
+  },
+  {
+    "id": "rec_02254",
+    "shorthand": "telmisartan 80mg when required with meals 2/7",
+    "target_ir": "MED|telmisartan|80mg|SOS|wm|2d"
+  },
+  {
+    "id": "rec_02383",
+    "shorthand": "k/c/o htn for 5 days | cetirizine 10 mg q6h na x 1 days",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|cetirizine|10mg|QID|na|1d"
+  },
+  {
+    "id": "rec_08856",
+    "shorthand": "Tab. fexofenadine 120mg q.i.d. 2d",
+    "target_ir": "MED|fexofenadine|120mg|QID|na|2d"
+  },
+  {
+    "id": "rec_02924",
+    "shorthand": "c/o pharyngitis x 7 day, syp flovent 100mcg sos p.c. 5/7",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|fluticasone|100mcg|SOS|pc|5d"
+  },
+  {
+    "id": "rec_00422",
+    "shorthand": "dx: headache 7/7\nT. enalapril 2.5 mg now with food 1d",
+    "target_ir": "COND|migraine headache|moderate|7d\nMED|enalapril|2.5mg|STAT|wm|1d"
+  },
+  {
+    "id": "rec_07351",
+    "shorthand": "k/c/o heartburn x 2 days\nCap vomikind 8mg 2 times daily after food x 14d",
+    "target_ir": "COND|acid peptic disease|mild|2d\nMED|ondansetron|8mg|BD|pc|14d"
+  },
+  {
+    "id": "rec_07282",
+    "shorthand": "complains of elevated bp 7d\nSyp. paracetamol 650mg 1-1-1 pc 2/7",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|paracetamol|650mg|TID|pc|2d"
+  },
+  {
+    "id": "rec_02056",
+    "shorthand": "known case of hypertension x 7d; Tab glimy 2mg night x 5 day",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|glimepiride|2mg|HS|na|5d"
+  },
+  {
+    "id": "rec_04336",
+    "shorthand": "t. frusemide 40 mg immediately na for 3 days; tab furosemide 20 mg s.o.s. wm x 14 days",
+    "target_ir": "MED|furosemide|40mg|STAT|na|3d\nMED|furosemide|20mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_04403",
+    "shorthand": "Syp budesonide 200mcg 1 time daily x 14 days",
+    "target_ir": "MED|budesonide|200mcg|OD|na|14d"
+  },
+  {
+    "id": "rec_04647",
+    "shorthand": "salbutamol 2 mg h.s. with meals x 2 day",
+    "target_ir": "MED|salbutamol|2mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_06692",
+    "shorthand": "Syp ramipril 10 mg 1-0-0 anytime for 1 days",
+    "target_ir": "MED|ramipril|10mg|OD|na|1d"
+  },
+  {
+    "id": "rec_02052",
+    "shorthand": "c/o elevated bp 2d\nC. metrogyle 200 mg at night with meals 1/7",
+    "target_ir": "COND|essential hypertension|chronic|2d\nMED|metronidazole|200mg|HS|wm|1d"
+  },
+  {
+    "id": "rec_02717",
+    "shorthand": "folic 5mg q8h anytime for 10 days + C. telmikind 80 mg immediately anytime 2d",
+    "target_ir": "MED|folic_acid|5mg|TID|na|10d\nMED|telmisartan|80mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_02141",
+    "shorthand": "complains of t2dm 5/7\nT. vibramycin 100mg thrice daily before food x 1 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|doxycycline|100mg|TID|ac|1d"
+  },
+  {
+    "id": "rec_09083",
+    "shorthand": "k/c/o high blood sugar x 2 day\nCap glimepiride 3 mg at night after food x 7 day",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|glimepiride|3mg|HS|pc|7d"
+  },
+  {
+    "id": "rec_00622",
+    "shorthand": "tab metronidazole 200mg daily after food 14/7",
+    "target_ir": "MED|metronidazole|200mg|OD|pc|14d"
+  },
+  {
+    "id": "rec_05764",
+    "shorthand": "C. fe 100 mg when required with food 14/7",
+    "target_ir": "MED|ferrous_ascorbate|100mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_07894",
+    "shorthand": "K/C/O stomach bug x 1d; Syp lasix 40mg once daily na 14d",
+    "target_ir": "COND|acute gastroenteritis|moderate|1d\nMED|furosemide|40mg|OD|na|14d"
+  },
+  {
+    "id": "rec_07863",
+    "shorthand": "dx: high grade fever 2d | cap zentel 400 mg s.o.s. p.c. 2/7",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|albendazole|400mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_08686",
+    "shorthand": "Syp. vomistop 10mg prn before food x 14 day",
+    "target_ir": "MED|domperidone|10mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_09048",
+    "shorthand": "k/c/o pyrexia 5d, tab atorva 10mg 1 time daily with food 1d",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|atorvastatin|10mg|OD|wm|1d"
+  },
+  {
+    "id": "rec_08717",
+    "shorthand": "T. shelcal 500mg 3 times daily after food 10d",
+    "target_ir": "MED|calcium_carbonate|500mg|TID|pc|10d"
+  },
+  {
+    "id": "rec_01098",
+    "shorthand": "K/C/O pharyngitis 3/7; Syp ceph 500 mg q24h pc for 10 days",
+    "target_ir": "COND|acute pharyngitis|mild|3d\nMED|cephalexin|500mg|OD|pc|10d"
+  },
+  {
+    "id": "rec_06089",
+    "shorthand": "Cap. cephalexin 250 mg q.i.d. wm x 5d",
+    "target_ir": "MED|cephalexin|250mg|QID|wm|5d"
+  },
+  {
+    "id": "rec_09755",
+    "shorthand": "singulair 4mg b.i.d. na 5d\nt. vomikind 8mg as needed pre-meal for 2 days",
+    "target_ir": "MED|montelukast|4mg|BD|na|5d\nMED|ondansetron|8mg|SOS|ac|2d"
+  },
+  {
+    "id": "rec_08538",
+    "shorthand": "cap plavix 75 mg h.s. before food x 14 days; T. clopidogrel 75mg sos with food x 7d",
+    "target_ir": "MED|clopidogrel|75mg|HS|ac|14d\nMED|clopidogrel|75mg|SOS|wm|7d"
+  },
+  {
+    "id": "rec_01794",
+    "shorthand": "k/c/o cephalea for 7 days; cap glimepiride 4 mg when required along with meals 3d",
+    "target_ir": "COND|migraine headache|moderate|7d\nMED|glimepiride|4mg|SOS|wm|3d"
+  },
+  {
+    "id": "rec_08270",
+    "shorthand": "cap ecosprin 75 mg stat pc for 5 days",
+    "target_ir": "MED|aspirin|75mg|STAT|pc|5d"
+  },
+  {
+    "id": "rec_08652",
+    "shorthand": "Tab. amoxicillin 500 mg night anytime x 1 day",
+    "target_ir": "MED|amoxicillin|500mg|HS|na|1d"
+  },
+  {
+    "id": "rec_00201",
+    "shorthand": "diag: gastritis x 2d; Cap. hctz 12.5 mg q6h with food x 2d",
+    "target_ir": "COND|acid peptic disease|mild|2d\nMED|hydrochlorothiazide|12.5mg|QID|wm|2d"
+  },
+  {
+    "id": "rec_03670",
+    "shorthand": "Cap. azi 500 mg b.i.d. after meals 10/7",
+    "target_ir": "MED|azithromycin|500mg|BD|pc|10d"
+  },
+  {
+    "id": "rec_07012",
+    "shorthand": "Syp. pcm 500 mg t.i.d. p.c. x 1 day",
+    "target_ir": "MED|paracetamol|500mg|TID|pc|1d"
+  },
+  {
+    "id": "rec_05679",
+    "shorthand": "dx: burning micturition for 1 days; Syp hydrochlorothiazide 25mg tid with meals for 14 days",
+    "target_ir": "COND|urinary tract infection|moderate|1d\nMED|hydrochlorothiazide|25mg|TID|wm|14d"
+  },
+  {
+    "id": "rec_09963",
+    "shorthand": "metoprolol 100mg h.s. ac x 1 days",
+    "target_ir": "MED|metoprolol|100mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_02898",
+    "shorthand": "Cap. altace 5mg qid na 5/7",
+    "target_ir": "MED|ramipril|5mg|QID|na|5d"
+  },
+  {
+    "id": "rec_02693",
+    "shorthand": "Tab cetirizine 10 mg q24h na 14d",
+    "target_ir": "MED|cetirizine|10mg|OD|na|14d"
+  },
+  {
+    "id": "rec_02938",
+    "shorthand": "k/c/o cephalea 3d, t. deplatt 75 mg at night anytime x 10d",
+    "target_ir": "COND|migraine headache|moderate|3d\nMED|clopidogrel|75mg|HS|na|10d"
+  },
+  {
+    "id": "rec_05067",
+    "shorthand": "T. motilium 10mg as needed along with meals 10d",
+    "target_ir": "MED|domperidone|10mg|SOS|wm|10d"
+  },
+  {
+    "id": "rec_06432",
+    "shorthand": "Syp plavix 75mg as needed p.c. for 2 days + cap azith 250 mg twice daily anytime 5/7",
+    "target_ir": "MED|clopidogrel|75mg|SOS|pc|2d\nMED|azithromycin|250mg|BD|na|5d"
+  },
+  {
+    "id": "rec_05481",
+    "shorthand": "Cap altace 2.5 mg 1-0-1 p.c. 2d; C. enalapril 5 mg sos anytime 10d",
+    "target_ir": "MED|ramipril|2.5mg|BD|pc|2d\nMED|enalapril|5mg|SOS|na|10d"
+  },
+  {
+    "id": "rec_05908",
+    "shorthand": "K/C/O pharyngitis x 5 day | Syp. pcm 500 mg night before meals x 5 days",
+    "target_ir": "COND|acute pharyngitis|mild|5d\nMED|paracetamol|500mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_01581",
+    "shorthand": "dx: sore throat x 2d, Syp. telmisartan 80 mg 4 times daily pre-meal x 5 day",
+    "target_ir": "COND|acute pharyngitis|mild|2d\nMED|telmisartan|80mg|QID|ac|5d"
+  },
+  {
+    "id": "rec_09618",
+    "shorthand": "Cap. ciplox 750 mg hs along with meals 3/7",
+    "target_ir": "MED|ciprofloxacin|750mg|HS|wm|3d"
+  },
+  {
+    "id": "rec_04953",
+    "shorthand": "dx: hay fever x 7 days, C. calcium_carbonate 1000 mg 0-0-1hs pre-meal x 10 days",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|calcium_carbonate|1000mg|HS|ac|10d"
+  },
+  {
+    "id": "rec_03927",
+    "shorthand": "Cap. amoxyl 625mg single dose pre-meal 14d",
+    "target_ir": "MED|amoxicillin|625mg|STAT|ac|14d"
+  },
+  {
+    "id": "rec_09027",
+    "shorthand": "Cap met-xl 25mg q8h pre-meal 2d; Tab ferrous_ascorbate 100mg bd before meals for 3 days",
+    "target_ir": "MED|metoprolol|25mg|TID|ac|2d\nMED|ferrous_ascorbate|100mg|BD|ac|3d"
+  },
+  {
+    "id": "rec_05620",
+    "shorthand": "complains of dm 1/7, Cap metoprolol 100 mg q.d. after food x 10d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|1d\nMED|metoprolol|100mg|OD|pc|10d"
+  },
+  {
+    "id": "rec_07811",
+    "shorthand": "Cap. cozaar 50 mg at night with food x 7 day",
+    "target_ir": "MED|losartan|50mg|HS|wm|7d"
+  },
+  {
+    "id": "rec_04398",
+    "shorthand": "known case of migraine x 2 day; Cap. levocetirizine 5mg 1-1-1 with food x 10 days",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|levocetirizine|5mg|TID|wm|10d"
+  },
+  {
+    "id": "rec_03752",
+    "shorthand": "diag: acute bronchial catarrh x 2d\ncozaar 100mg q12h a.c. 5d",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|losartan|100mg|BD|ac|5d"
+  },
+  {
+    "id": "rec_00452",
+    "shorthand": "Cap. micardis 20 mg qid na for 5 days",
+    "target_ir": "MED|telmisartan|20mg|QID|na|5d"
+  },
+  {
+    "id": "rec_08933",
+    "shorthand": "syp sporidex 250mg q.i.d. along with meals 3d",
+    "target_ir": "MED|cephalexin|250mg|QID|wm|3d"
+  },
+  {
+    "id": "rec_08659",
+    "shorthand": "metrogyle 400 mg hs na 2d",
+    "target_ir": "MED|metronidazole|400mg|HS|na|2d"
+  },
+  {
+    "id": "rec_02847",
+    "shorthand": "Syp jalra 50 mg p.r.n. with meals x 7 days",
+    "target_ir": "MED|vildagliptin|50mg|SOS|wm|7d"
+  },
+  {
+    "id": "rec_01897",
+    "shorthand": "Tab. vasotec 10 mg s.o.s. p.c. 2/7, atenolol 100mg 0-1-1 before food x 10 day",
+    "target_ir": "MED|enalapril|10mg|SOS|pc|2d\nMED|atenolol|100mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_02485",
+    "shorthand": "Cap vomikind 4 mg 1-1-0 before food for 14 days",
+    "target_ir": "MED|ondansetron|4mg|BD|ac|14d"
+  },
+  {
+    "id": "rec_00180",
+    "shorthand": "alerdif 5 mg as needed empty stomach x 7 day",
+    "target_ir": "MED|cetirizine|5mg|SOS|ac|7d"
+  },
+  {
+    "id": "rec_06835",
+    "shorthand": "c/o cystitis for 7 days\ncap. losartan 50 mg 1-1-1 wm x 14d",
+    "target_ir": "COND|urinary tract infection|moderate|7d\nMED|losartan|50mg|TID|wm|14d"
+  },
+  {
+    "id": "rec_09349",
+    "shorthand": "c/o bronchitis x 1d, tab cardace 10mg s.o.s. post meals x 14 day",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|ramipril|10mg|SOS|pc|14d"
+  },
+  {
+    "id": "rec_03976",
+    "shorthand": "c/o age x 7 days, vitamin b 1tab q.d. ac x 10 day",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|b_complex|1tab|OD|ac|10d"
+  },
+  {
+    "id": "rec_04595",
+    "shorthand": "diag: burning micturition x 2 day\nT. b_complex 1tab bedtime with food 5/7",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|b_complex|1tab|HS|wm|5d"
+  },
+  {
+    "id": "rec_02399",
+    "shorthand": "complains of fever x 1 days\nTab zentel 400 mg 1-1-1 pre-meal for 5 days",
+    "target_ir": "COND|acute viral fever|moderate|1d\nMED|albendazole|400mg|TID|ac|5d"
+  },
+  {
+    "id": "rec_09980",
+    "shorthand": "dx: bronchitis for 1 days\nt. dolo 1000mg at night before meals 5/7",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|paracetamol|1000mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_00146",
+    "shorthand": "c/o migraine 1d\nT. tramadol 50 mg bid ac x 2 day",
+    "target_ir": "COND|migraine headache|moderate|1d\nMED|tramadol|50mg|BD|ac|2d"
+  },
+  {
+    "id": "rec_04628",
+    "shorthand": "C/O pyrexia x 7 day | tab alerdif 10mg immediately na x 7 day",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|cetirizine|10mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_02988",
+    "shorthand": "amoxicillin 625mg twice daily post-meal for 14 days",
+    "target_ir": "MED|amoxicillin|625mg|BD|pc|14d"
+  },
+  {
+    "id": "rec_08344",
+    "shorthand": "k/c/o strep throat x 5d\ncap vomikind 8mg bd with meals 14d",
+    "target_ir": "COND|acute pharyngitis|mild|5d\nMED|ondansetron|8mg|BD|wm|14d"
+  },
+  {
+    "id": "rec_05475",
+    "shorthand": "C. aten 25mg p.r.n. before meals x 7d",
+    "target_ir": "MED|atenolol|25mg|SOS|ac|7d"
+  },
+  {
+    "id": "rec_05115",
+    "shorthand": "tab alerdif 5 mg q.d. with meals 3/7",
+    "target_ir": "MED|cetirizine|5mg|OD|wm|3d"
+  },
+  {
+    "id": "rec_08157",
+    "shorthand": "Tab vildagliptin 50mg sos empty stomach x 10 days",
+    "target_ir": "MED|vildagliptin|50mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_02018",
+    "shorthand": "C. albendazole 400mg q.i.d. anytime 3d",
+    "target_ir": "MED|albendazole|400mg|QID|na|3d"
+  },
+  {
+    "id": "rec_00790",
+    "shorthand": "T. omeprazole 40mg 3 times daily with meals for 2 days, furosemide 40mg q6h 1/7",
+    "target_ir": "MED|omeprazole|40mg|TID|wm|2d\nMED|furosemide|40mg|QID|na|1d"
+  },
+  {
+    "id": "rec_04352",
+    "shorthand": "tab motrin 400mg now na for 14 days, tab voset 5mg qid anytime for 14 days",
+    "target_ir": "MED|ibuprofen|400mg|STAT|na|14d\nMED|levocetirizine|5mg|QID|na|14d"
+  },
+  {
+    "id": "rec_04938",
+    "shorthand": "C. cefixime 400 mg q.i.d. after food 2d",
+    "target_ir": "MED|cefixime|400mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_06255",
+    "shorthand": "Cap. doxy 100mg q.d. anytime x 7d",
+    "target_ir": "MED|doxycycline|100mg|OD|na|7d"
+  },
+  {
+    "id": "rec_06837",
+    "shorthand": "Cap amoxicillin 250 mg 1-0-0 2d",
+    "target_ir": "MED|amoxicillin|250mg|OD|na|2d"
+  },
+  {
+    "id": "rec_00470",
+    "shorthand": "cap atorvastatin 20mg stat after food x 5d, Cap ventolin 4mg thrice daily post meals x 3 days",
+    "target_ir": "MED|atorvastatin|20mg|STAT|pc|5d\nMED|salbutamol|4mg|TID|pc|3d"
+  },
+  {
+    "id": "rec_03023",
+    "shorthand": "Syp glyciphage 500 mg 1-1-1 na x 2 day, Cap iron 100 mg s.o.s. after food x 10 days",
+    "target_ir": "MED|metformin|500mg|TID|na|2d\nMED|ferrous_ascorbate|100mg|SOS|pc|10d"
+  },
+  {
+    "id": "rec_09939",
+    "shorthand": "Tab. singulair 5mg q8h x 3 days",
+    "target_ir": "MED|montelukast|5mg|TID|na|3d"
+  },
+  {
+    "id": "rec_07044",
+    "shorthand": "Tab disprin 150mg bedtime before meals x 10 day\ncap jalra 50mg q.i.d. after meals 2/7",
+    "target_ir": "MED|aspirin|150mg|HS|ac|10d\nMED|vildagliptin|50mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_04950",
+    "shorthand": "cap ciprofloxacin 250 mg 1-1-0 anytime x 7d",
+    "target_ir": "MED|ciprofloxacin|250mg|BD|na|7d"
+  },
+  {
+    "id": "rec_07737",
+    "shorthand": "T. tramadol 100 mg bedtime a.c. x 14 day, Tab tramazac 100 mg single dose with meals for 10 days",
+    "target_ir": "MED|tramadol|100mg|HS|ac|14d\nMED|tramadol|100mg|STAT|wm|10d"
+  },
+  {
+    "id": "rec_04048",
+    "shorthand": "c/o arthralgia 5d | cap diclo 75 mg when required na x 3 days",
+    "target_ir": "COND|osteoarthritis|chronic|5d\nMED|diclofenac|75mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_07243",
+    "shorthand": "diag: bronchitis x 5d, Tab. crestor 20 mg 2 times daily post-meal x 10d",
+    "target_ir": "COND|acute bronchitis|moderate|5d\nMED|rosuvastatin|20mg|BD|pc|10d"
+  },
+  {
+    "id": "rec_05388",
+    "shorthand": "known case of acute diarrhea for 7 days; rantac 300mg 1-0-1 ac 14d",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|ranitidine|300mg|BD|ac|14d"
+  },
+  {
+    "id": "rec_06197",
+    "shorthand": "C/O rhinitis x 7 day, zifi 100 mg bedtime after food 3d",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|cefixime|100mg|HS|pc|3d"
+  },
+  {
+    "id": "rec_02071",
+    "shorthand": "Cap metronidazole 400mg daily wm x 10 day",
+    "target_ir": "MED|metronidazole|400mg|OD|wm|10d"
+  },
+  {
+    "id": "rec_03507",
+    "shorthand": "C. amoxyl 250mg 1-1-0 3/7\nT. novamox 625 mg 0-0-1 a.c. for 5 days",
+    "target_ir": "MED|amoxicillin|250mg|BD|na|3d\nMED|amoxicillin|625mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_02685",
+    "shorthand": "pan 20mg 1-1-1-1 with food for 7 days",
+    "target_ir": "MED|pantoprazole|20mg|QID|wm|7d"
+  },
+  {
+    "id": "rec_00116",
+    "shorthand": "diag: cold x 5 days\ntab amlong 5mg now wm x 14d",
+    "target_ir": "COND|upper respiratory tract infection|mild|5d\nMED|amlodipine|5mg|STAT|wm|14d"
+  },
+  {
+    "id": "rec_05155",
+    "shorthand": "Cap levocetirizine 2.5 mg daily wm 5/7",
+    "target_ir": "MED|levocetirizine|2.5mg|OD|wm|5d"
+  },
+  {
+    "id": "rec_01550",
+    "shorthand": "cap becosules 1tab when required na 14d",
+    "target_ir": "MED|b_complex|1tab|SOS|na|14d"
+  },
+  {
+    "id": "rec_07171",
+    "shorthand": "C. betaloc 25mg s.o.s. anytime for 10 days",
+    "target_ir": "MED|metoprolol|25mg|SOS|na|10d"
+  },
+  {
+    "id": "rec_02704",
+    "shorthand": "Cap augmentin 1000mg single dose p.c. for 10 days",
+    "target_ir": "MED|clavulanic_acid|1000mg|STAT|pc|10d"
+  },
+  {
+    "id": "rec_02072",
+    "shorthand": "T. albendazole 400 mg sos na x 3d",
+    "target_ir": "MED|albendazole|400mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_02497",
+    "shorthand": "Syp cozaar 25mg as needed pre-meal 10/7",
+    "target_ir": "MED|losartan|25mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_02471",
+    "shorthand": "C. asa 75 mg 0-0-1hs a.c. x 10 day",
+    "target_ir": "MED|aspirin|75mg|HS|ac|10d"
+  },
+  {
+    "id": "rec_06619",
+    "shorthand": "Syp. flagyl 200mg bd before food x 7 day; atenolol 25mg qid x 1 days",
+    "target_ir": "MED|metronidazole|200mg|BD|ac|7d\nMED|atenolol|25mg|QID|na|1d"
+  },
+  {
+    "id": "rec_06688",
+    "shorthand": "tab met-xl 100mg prn wm x 7d, T. asthalin 100mcg q8h along with meals x 3d",
+    "target_ir": "MED|metoprolol|100mg|SOS|wm|7d\nMED|salbutamol|100mcg|TID|wm|3d"
+  },
+  {
+    "id": "rec_09281",
+    "shorthand": "known case of dyspepsia x 1 days, Cap tenormin 50mg prn after meals for 7 days",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|atenolol|50mg|SOS|pc|7d"
+  },
+  {
+    "id": "rec_07269",
+    "shorthand": "diag: high blood sugar x 3 days\nsyp domstal 10mg 0-0-1 with food for 2 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|3d\nMED|domperidone|10mg|OD|wm|2d"
+  },
+  {
+    "id": "rec_06633",
+    "shorthand": "cap. amoxicillin 625mg q6h post-meal x 5 days",
+    "target_ir": "MED|amoxicillin|625mg|QID|pc|5d"
+  },
+  {
+    "id": "rec_06356",
+    "shorthand": "C. rosuvas 5 mg night ac 7/7",
+    "target_ir": "MED|rosuvastatin|5mg|HS|ac|7d"
+  },
+  {
+    "id": "rec_03561",
+    "shorthand": "Cap. met 1000mg as needed empty stomach x 2d",
+    "target_ir": "MED|metformin|1000mg|SOS|ac|2d"
+  },
+  {
+    "id": "rec_08201",
+    "shorthand": "glyloc 80 mg stat x 7d",
+    "target_ir": "MED|gliclazide|80mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_07627",
+    "shorthand": "Cap. altace 5 mg when required 3d",
+    "target_ir": "MED|ramipril|5mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_00719",
+    "shorthand": "Tab. domstal 10mg hs after meals 1d\nSyp furosemide 20 mg h.s. with food x 2 day",
+    "target_ir": "MED|domperidone|10mg|HS|pc|1d\nMED|furosemide|20mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_05564",
+    "shorthand": "ultram 100 mg daily a.c. for 1 days",
+    "target_ir": "MED|tramadol|100mg|OD|ac|1d"
+  },
+  {
+    "id": "rec_02516",
+    "shorthand": "c/o migraine 1d | Syp tenormin 100mg 2 times daily pre-meal 2/7",
+    "target_ir": "COND|migraine headache|moderate|1d\nMED|atenolol|100mg|BD|ac|2d"
+  },
+  {
+    "id": "rec_09990",
+    "shorthand": "Cap. omeprazole 40 mg daily 1d\ncap vitamin b 1tab sos post-meal x 10 day",
+    "target_ir": "MED|omeprazole|40mg|OD|na|1d\nMED|b_complex|1tab|SOS|pc|10d"
+  },
+  {
+    "id": "rec_03377",
+    "shorthand": "T. glyciphage 1000 mg p.r.n. pre-meal 3/7; C. azithromycin 500mg od post-meal x 1d",
+    "target_ir": "MED|metformin|1000mg|SOS|ac|3d\nMED|azithromycin|500mg|OD|pc|1d"
+  },
+  {
+    "id": "rec_09046",
+    "shorthand": "Tab. motilium 10mg sos before food 5d; Cap montelukast 10 mg thrice daily na 3d",
+    "target_ir": "MED|domperidone|10mg|SOS|ac|5d\nMED|montelukast|10mg|TID|na|3d"
+  },
+  {
+    "id": "rec_01577",
+    "shorthand": "Tab flonase 100mcg when required along with meals x 7d",
+    "target_ir": "MED|fluticasone|100mcg|SOS|wm|7d"
+  },
+  {
+    "id": "rec_00761",
+    "shorthand": "cap aciphex 20 mg q12h na for 1 days",
+    "target_ir": "MED|rabeprazole|20mg|BD|na|1d"
+  },
+  {
+    "id": "rec_01643",
+    "shorthand": "c/o arthralgia 5/7 | tab. omeprazole 40mg q.i.d. before meals 2/7",
+    "target_ir": "COND|osteoarthritis|chronic|5d\nMED|omeprazole|40mg|QID|ac|2d"
+  },
+  {
+    "id": "rec_09015",
+    "shorthand": "diag: t2dm 5/7, C. calcirol 2000iu tid na for 3 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|vitamin_d3|2000iu|TID|na|3d"
+  },
+  {
+    "id": "rec_00890",
+    "shorthand": "C. ferrous_ascorbate 100 mg b.i.d. post meals 2d",
+    "target_ir": "MED|ferrous_ascorbate|100mg|BD|pc|2d"
+  },
+  {
+    "id": "rec_09608",
+    "shorthand": "diag: common cold 1/7; polybion 1tab 4 times daily empty stomach 5/7",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|b_complex|1tab|QID|ac|5d"
+  },
+  {
+    "id": "rec_07585",
+    "shorthand": "C. flovent 50mcg bedtime a.c. x 7 day",
+    "target_ir": "MED|fluticasone|50mcg|HS|ac|7d"
+  },
+  {
+    "id": "rec_05106",
+    "shorthand": "Cap. telma 40mg od before food x 7d",
+    "target_ir": "MED|telmisartan|40mg|OD|ac|7d"
+  },
+  {
+    "id": "rec_08211",
+    "shorthand": "Syp amaryl 1mg twice daily empty stomach x 2 days",
+    "target_ir": "MED|glimepiride|1mg|BD|ac|2d"
+  },
+  {
+    "id": "rec_05888",
+    "shorthand": "known case of allergic cold x 7 days\nSyp tramadol 50mg now anytime for 5 days",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|tramadol|50mg|STAT|na|5d"
+  },
+  {
+    "id": "rec_02955",
+    "shorthand": "Cap vasotec 2.5mg 1 time daily ac for 5 days",
+    "target_ir": "MED|enalapril|2.5mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_04097",
+    "shorthand": "dx: burning micturition for 1 days; Syp d-rise 60000iu 1-0-0 x 2 days",
+    "target_ir": "COND|urinary tract infection|moderate|1d\nMED|vitamin_d3|60000iu|OD|na|2d"
+  },
+  {
+    "id": "rec_00496",
+    "shorthand": "Syp. budecort 400mcg b.i.d. post meals 2d, Syp mox 625 mg bd along with meals 1/7",
+    "target_ir": "MED|budesonide|400mcg|BD|pc|2d\nMED|amoxicillin|625mg|BD|wm|1d"
+  },
+  {
+    "id": "rec_02426",
+    "shorthand": "c/o high bp 5/7, C. glimepiride 1 mg when required ac x 14 days",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|glimepiride|1mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_04592",
+    "shorthand": "C/O hay fever 1d, T. ramipril 2.5 mg s.o.s. p.c. 5/7",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|ramipril|2.5mg|SOS|pc|5d"
+  },
+  {
+    "id": "rec_01698",
+    "shorthand": "k/c/o febrile illness x 2 day, cap atorvastatin 40 mg q8h na x 10 day",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|atorvastatin|40mg|TID|na|10d"
+  },
+  {
+    "id": "rec_03081",
+    "shorthand": "Syp alerdif 10 mg s.o.s. post-meal x 2d",
+    "target_ir": "MED|cetirizine|10mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_06914",
+    "shorthand": "cap ibuprofen 400 mg immediately na x 2 days",
+    "target_ir": "MED|ibuprofen|400mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_09166",
+    "shorthand": "complains of high blood sugar x 7 day\nSyp. d3 2000iu 0-1-1 x 14d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|vitamin_d3|2000iu|BD|na|14d"
+  },
+  {
+    "id": "rec_01326",
+    "shorthand": "diag: acute bronchial catarrh x 1 days | cap d-rise 1000iu 1-1-0 na 10/7",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|vitamin_d3|1000iu|BD|na|10d"
+  },
+  {
+    "id": "rec_01263",
+    "shorthand": "tab metronidazole 200 mg p.r.n. ac x 10 day",
+    "target_ir": "MED|metronidazole|200mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_07999",
+    "shorthand": "cap paracetamol 500mg stat post-meal x 3d, Syp januvia 100mg q8h after meals 7d",
+    "target_ir": "MED|paracetamol|500mg|STAT|pc|3d\nMED|sitagliptin|100mg|TID|pc|7d"
+  },
+  {
+    "id": "rec_05107",
+    "shorthand": "T. folic_acid 5mg 1-0-1 wm x 10 day",
+    "target_ir": "MED|folic_acid|5mg|BD|wm|10d"
+  },
+  {
+    "id": "rec_06426",
+    "shorthand": "C/O coryza x 7 days\nflomist 50mcg 0-0-1hs a.c. for 3 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|7d\nMED|fluticasone|50mcg|HS|ac|3d"
+  },
+  {
+    "id": "rec_03827",
+    "shorthand": "c/o strep throat x 2 day | cap pantocid 20mg tid anytime x 10 days",
+    "target_ir": "COND|acute pharyngitis|mild|2d\nMED|pantoprazole|20mg|TID|na|10d"
+  },
+  {
+    "id": "rec_09643",
+    "shorthand": "Tab. zithromax 250mg single dose ac 10d",
+    "target_ir": "MED|azithromycin|250mg|STAT|ac|10d"
+  },
+  {
+    "id": "rec_08530",
+    "shorthand": "Syp. betaloc 25 mg at night na x 10d",
+    "target_ir": "MED|metoprolol|25mg|HS|na|10d"
+  },
+  {
+    "id": "rec_00735",
+    "shorthand": "K/C/O cold 5/7; cap disprin 150 mg 1-1-1 post meals x 14 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|5d\nMED|aspirin|150mg|TID|pc|14d"
+  },
+  {
+    "id": "rec_04916",
+    "shorthand": "dx: rhinitis x 5d, tab ferrous_ascorbate 100 mg as needed with food x 14 day",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|ferrous_ascorbate|100mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_02909",
+    "shorthand": "cap. atorvastatin 80 mg t.i.d. for 2 days\nt. sporidex 500 mg immediately wm 5d",
+    "target_ir": "MED|atorvastatin|80mg|TID|na|2d\nMED|cephalexin|500mg|STAT|wm|5d"
+  },
+  {
+    "id": "rec_06788",
+    "shorthand": "K/C/O htn 1/7\ncap omeprazole 20mg q.i.d. anytime for 2 days",
+    "target_ir": "COND|essential hypertension|chronic|1d\nMED|omeprazole|20mg|QID|na|2d"
+  },
+  {
+    "id": "rec_09268",
+    "shorthand": "complains of joint pain x 7d; cap. glimepiride 3 mg hs na for 2 days",
+    "target_ir": "COND|osteoarthritis|chronic|7d\nMED|glimepiride|3mg|HS|na|2d"
+  },
+  {
+    "id": "rec_02904",
+    "shorthand": "Syp. cotrimoxazole 960 mg stat na x 7 days",
+    "target_ir": "MED|cotrimoxazole|960mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_00933",
+    "shorthand": "t. fexofenadine 120mg once daily anytime 5/7",
+    "target_ir": "MED|fexofenadine|120mg|OD|na|5d"
+  },
+  {
+    "id": "rec_00860",
+    "shorthand": "K/C/O pharyngitis x 7 days; Syp. b_complex 1tab bedtime with meals 2/7",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|b_complex|1tab|HS|wm|2d"
+  },
+  {
+    "id": "rec_00076",
+    "shorthand": "Syp. alerdif 5 mg stat wm for 2 days",
+    "target_ir": "MED|cetirizine|5mg|STAT|wm|2d"
+  },
+  {
+    "id": "rec_01761",
+    "shorthand": "Syp. clavulanic_acid 625mg 1-0-0 wm 14d",
+    "target_ir": "MED|clavulanic_acid|625mg|OD|wm|14d"
+  },
+  {
+    "id": "rec_09353",
+    "shorthand": "complains of rhinopharyngitis for 5 days | Tab. cefixime 100 mg bedtime before food x 10 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|5d\nMED|cefixime|100mg|HS|ac|10d"
+  },
+  {
+    "id": "rec_09455",
+    "shorthand": "Tab. polybion 1tab bedtime pre-meal x 7d\ncap cefixime 400mg q.d. na 10d",
+    "target_ir": "MED|b_complex|1tab|HS|ac|7d\nMED|cefixime|400mg|OD|na|10d"
+  },
+  {
+    "id": "rec_08996",
+    "shorthand": "cap folic_acid 5 mg hs with meals 5d",
+    "target_ir": "MED|folic_acid|5mg|HS|wm|5d"
+  },
+  {
+    "id": "rec_06797",
+    "shorthand": "cap telmisartan 40 mg 1-1-1-1 before meals x 5 day",
+    "target_ir": "MED|telmisartan|40mg|QID|ac|5d"
+  },
+  {
+    "id": "rec_07919",
+    "shorthand": "cephalexin 500 mg qid after meals 14d, amoxicillin 500mg od before meals 10d",
+    "target_ir": "MED|cephalexin|500mg|QID|pc|14d\nMED|amoxicillin|500mg|OD|ac|10d"
+  },
+  {
+    "id": "rec_07352",
+    "shorthand": "C. atorvastatin 80mg bedtime 5/7",
+    "target_ir": "MED|atorvastatin|80mg|HS|na|5d"
+  },
+  {
+    "id": "rec_02734",
+    "shorthand": "Cap vitamin b 1tab 1-1-1-1 with meals for 10 days + tab telmikind 80 mg q8h anytime 5/7",
+    "target_ir": "MED|b_complex|1tab|QID|wm|10d\nMED|telmisartan|80mg|TID|na|5d"
+  },
+  {
+    "id": "rec_00751",
+    "shorthand": "c. disprin 150mg 1 time daily a.c. for 3 days",
+    "target_ir": "MED|aspirin|150mg|OD|ac|3d"
+  },
+  {
+    "id": "rec_05379",
+    "shorthand": "K/C/O febrile illness 7/7; Syp aten 100 mg 4 times daily na x 5 day",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|atenolol|100mg|QID|na|5d"
+  },
+  {
+    "id": "rec_09583",
+    "shorthand": "Syp calcium_carbonate 500 mg when required 5d",
+    "target_ir": "MED|calcium_carbonate|500mg|SOS|na|5d"
+  },
+  {
+    "id": "rec_01452",
+    "shorthand": "C/O apd 5/7; Tab. esidrix 25 mg p.r.n. wm 5d",
+    "target_ir": "COND|acid peptic disease|mild|5d\nMED|hydrochlorothiazide|25mg|SOS|wm|5d"
+  },
+  {
+    "id": "rec_05857",
+    "shorthand": "Syp cetirizine 10mg p.r.n. after meals 7/7 + Tab cifran 500mg once daily anytime x 2 days",
+    "target_ir": "MED|cetirizine|10mg|SOS|pc|7d\nMED|ciprofloxacin|500mg|OD|na|2d"
+  },
+  {
+    "id": "rec_05588",
+    "shorthand": "dx: dyspepsia for 7 days | C. moxikind-cv 1000mg thrice daily anytime 10d",
+    "target_ir": "COND|acid peptic disease|mild|7d\nMED|clavulanic_acid|1000mg|TID|na|10d"
+  },
+  {
+    "id": "rec_00235",
+    "shorthand": "K/C/O acute bronchial catarrh for 1 days, gliclazide 80mg 0-0-1hs before meals x 14d",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|gliclazide|80mg|HS|ac|14d"
+  },
+  {
+    "id": "rec_05600",
+    "shorthand": "complains of febrile illness 3/7\naugmentin 1000 mg when required after food 14/7",
+    "target_ir": "COND|acute viral fever|moderate|3d\nMED|clavulanic_acid|1000mg|SOS|pc|14d"
+  },
+  {
+    "id": "rec_09256",
+    "shorthand": "syp pulmicort 400mcg prn before meals x 5 days",
+    "target_ir": "MED|budesonide|400mcg|SOS|ac|5d"
+  },
+  {
+    "id": "rec_04159",
+    "shorthand": "K/C/O t2dm x 7d; Cap diamicron 40mg when required with food 1/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|gliclazide|40mg|SOS|wm|1d"
+  },
+  {
+    "id": "rec_08119",
+    "shorthand": "complains of sore throat 2d; tab calcium 500mg when required x 7d",
+    "target_ir": "COND|acute pharyngitis|mild|2d\nMED|calcium_carbonate|500mg|SOS|na|7d"
+  },
+  {
+    "id": "rec_02942",
+    "shorthand": "cap septran 960mg now empty stomach 14/7",
+    "target_ir": "MED|cotrimoxazole|960mg|STAT|ac|14d"
+  },
+  {
+    "id": "rec_08956",
+    "shorthand": "complains of headache x 5d; Cap zentel 400 mg bd along with meals 5d",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|albendazole|400mg|BD|wm|5d"
+  },
+  {
+    "id": "rec_06740",
+    "shorthand": "Tab. amlodipine 5 mg stat after meals 7/7; Syp. omeprazole 20mg s.o.s. pre-meal 3/7",
+    "target_ir": "MED|amlodipine|5mg|STAT|pc|7d\nMED|omeprazole|20mg|SOS|ac|3d"
+  },
+  {
+    "id": "rec_03270",
+    "shorthand": "Tab albendazole 400mg hs pre-meal for 7 days",
+    "target_ir": "MED|albendazole|400mg|HS|ac|7d"
+  },
+  {
+    "id": "rec_05509",
+    "shorthand": "Tab. mox 250mg od after meals for 5 days + Syp. cardace 2.5mg at night before food 1/7",
+    "target_ir": "MED|amoxicillin|250mg|OD|pc|5d\nMED|ramipril|2.5mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_08769",
+    "shorthand": "T. losar 25mg now after meals x 10 day",
+    "target_ir": "MED|losartan|25mg|STAT|pc|10d"
+  },
+  {
+    "id": "rec_06854",
+    "shorthand": "syp diamicron 30 mg t.i.d. na 1d",
+    "target_ir": "MED|gliclazide|30mg|TID|na|1d"
+  },
+  {
+    "id": "rec_01488",
+    "shorthand": "complains of oa x 3 day\nSyp. orofer-xt 100 mg 0-1-0 a.c. 14/7",
+    "target_ir": "COND|osteoarthritis|chronic|3d\nMED|ferrous_ascorbate|100mg|OD|ac|14d"
+  },
+  {
+    "id": "rec_05579",
+    "shorthand": "known case of acute fever x 5 days, paracetamol 650 mg q6h pc 7d",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|paracetamol|650mg|QID|pc|7d"
+  },
+  {
+    "id": "rec_08137",
+    "shorthand": "c/o gastroenteritis for 2 days; tab iron 100 mg 1-0-1 after meals x 3 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|ferrous_ascorbate|100mg|BD|pc|3d"
+  },
+  {
+    "id": "rec_00521",
+    "shorthand": "tab diamicron 80mg sos na x 2 days",
+    "target_ir": "MED|gliclazide|80mg|SOS|na|2d"
+  },
+  {
+    "id": "rec_05741",
+    "shorthand": "dx: t2dm x 3d; tab clopilet 75 mg bid along with meals 5d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|3d\nMED|clopidogrel|75mg|BD|wm|5d"
+  },
+  {
+    "id": "rec_05445",
+    "shorthand": "C/O rhinopharyngitis 5/7\nCap vitamin b 1tab night pre-meal x 10 day",
+    "target_ir": "COND|upper respiratory tract infection|mild|5d\nMED|b_complex|1tab|HS|ac|10d"
+  },
+  {
+    "id": "rec_07662",
+    "shorthand": "dx: heartburn 7/7, amoxicillin 500 mg 0-0-1 with food 1/7",
+    "target_ir": "COND|acid peptic disease|mild|7d\nMED|amoxicillin|500mg|OD|wm|1d"
+  },
+  {
+    "id": "rec_02756",
+    "shorthand": "Tab. bandy 400 mg prn na 1d",
+    "target_ir": "MED|albendazole|400mg|SOS|na|1d"
+  },
+  {
+    "id": "rec_04492",
+    "shorthand": "tab septran 960mg once daily anytime 2/7",
+    "target_ir": "MED|cotrimoxazole|960mg|OD|na|2d"
+  },
+  {
+    "id": "rec_06579",
+    "shorthand": "K/C/O vascular headache 3d; Cap. asa 150mg twice daily na for 2 days",
+    "target_ir": "COND|migraine headache|moderate|3d\nMED|aspirin|150mg|BD|na|2d"
+  },
+  {
+    "id": "rec_05849",
+    "shorthand": "Cap montek 5 mg single dose before food x 10d",
+    "target_ir": "MED|montelukast|5mg|STAT|ac|10d"
+  },
+  {
+    "id": "rec_03295",
+    "shorthand": "complains of dm 7d, Syp. ferrous_ascorbate 100mg bedtime pc x 3 day",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|ferrous_ascorbate|100mg|HS|pc|3d"
+  },
+  {
+    "id": "rec_09501",
+    "shorthand": "C/O t2dm 2d | Tab taxim-o 400 mg single dose after food x 3 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|cefixime|400mg|STAT|pc|3d"
+  },
+  {
+    "id": "rec_02050",
+    "shorthand": "dx: rhinitis x 1d; Tab. metronidazole 200 mg prn before meals 10/7",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|metronidazole|200mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_07400",
+    "shorthand": "K/C/O rhinitis for 5 days\nvildagliptin 50mg bid post-meal x 3 day",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|vildagliptin|50mg|BD|pc|3d"
+  },
+  {
+    "id": "rec_07533",
+    "shorthand": "Syp. ranitidine 300mg 1-1-1 10d, Syp. omez 40mg bid before meals x 1d",
+    "target_ir": "MED|ranitidine|300mg|TID|na|10d\nMED|omeprazole|40mg|BD|ac|1d"
+  },
+  {
+    "id": "rec_08162",
+    "shorthand": "C. allegra 120 mg 4 times daily with meals x 2 day",
+    "target_ir": "MED|fexofenadine|120mg|QID|wm|2d"
+  },
+  {
+    "id": "rec_08526",
+    "shorthand": "Syp. calcium 1000mg qid ac x 3 day",
+    "target_ir": "MED|calcium_carbonate|1000mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_00091",
+    "shorthand": "Cap norvasc 2.5 mg bid wm x 7 day",
+    "target_ir": "MED|amlodipine|2.5mg|BD|wm|7d"
+  },
+  {
+    "id": "rec_05485",
+    "shorthand": "Tab. cardace 5 mg 1 time daily before meals 14/7",
+    "target_ir": "MED|ramipril|5mg|OD|ac|14d"
+  },
+  {
+    "id": "rec_06312",
+    "shorthand": "known case of high grade fever x 5 days\nc. amlo 5 mg 1 time daily after meals 14/7",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|amlodipine|5mg|OD|pc|14d"
+  },
+  {
+    "id": "rec_03390",
+    "shorthand": "diclofenac 50 mg immediately 7/7",
+    "target_ir": "MED|diclofenac|50mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_02377",
+    "shorthand": "C/O burning micturition 1/7 | Cap tramadol 50mg single dose with meals x 1 day",
+    "target_ir": "COND|urinary tract infection|moderate|1d\nMED|tramadol|50mg|STAT|wm|1d"
+  },
+  {
+    "id": "rec_04804",
+    "shorthand": "Tab septran 960 mg night a.c. 1/7",
+    "target_ir": "MED|cotrimoxazole|960mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_04379",
+    "shorthand": "dx: dm x 5d, T. crestor 5 mg 2 times daily 3/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|rosuvastatin|5mg|BD|na|3d"
+  },
+  {
+    "id": "rec_01796",
+    "shorthand": "C/O headache 5d, Syp januvia 100 mg 0-1-0 anytime x 2 days",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|sitagliptin|100mg|OD|na|2d"
+  },
+  {
+    "id": "rec_06770",
+    "shorthand": "known case of knee pain x 3 days, Tab esidrix 25mg immediately with meals x 7 days",
+    "target_ir": "COND|osteoarthritis|chronic|3d\nMED|hydrochlorothiazide|25mg|STAT|wm|7d"
+  },
+  {
+    "id": "rec_04982",
+    "shorthand": "c/o cystitis 5/7; becosules 1tab 1-0-1 wm x 1 days",
+    "target_ir": "COND|urinary tract infection|moderate|5d\nMED|b_complex|1tab|BD|wm|1d"
+  },
+  {
+    "id": "rec_09363",
+    "shorthand": "C/O headache x 1 day, cap fluticasone 100mcg immediately p.c. 2/7",
+    "target_ir": "COND|migraine headache|moderate|1d\nMED|fluticasone|100mcg|STAT|pc|2d"
+  },
+  {
+    "id": "rec_00512",
+    "shorthand": "Syp. norvasc 2.5 mg thrice daily p.c. x 14d",
+    "target_ir": "MED|amlodipine|2.5mg|TID|pc|14d"
+  },
+  {
+    "id": "rec_00844",
+    "shorthand": "T. septran 960mg qid na x 3 day",
+    "target_ir": "MED|cotrimoxazole|960mg|QID|na|3d"
+  },
+  {
+    "id": "rec_06686",
+    "shorthand": "C/O gastroenteritis 7d | shelcal 1000 mg daily x 5d",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|calcium_carbonate|1000mg|OD|na|5d"
+  },
+  {
+    "id": "rec_00206",
+    "shorthand": "C. sitagliptin 100mg 0-0-1hs with food x 10 day",
+    "target_ir": "MED|sitagliptin|100mg|HS|wm|10d"
+  },
+  {
+    "id": "rec_01745",
+    "shorthand": "Syp gliclazide 30mg night with food x 10d + cap aciphex 10 mg at night p.c. 7/7",
+    "target_ir": "MED|gliclazide|30mg|HS|wm|10d\nMED|rabeprazole|10mg|HS|pc|7d"
+  },
+  {
+    "id": "rec_01979",
+    "shorthand": "k/c/o acute diarrhea x 5 day, tab glycomet 850mg 1-1-1-1 post-meal x 2 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|5d\nMED|metformin|850mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_03760",
+    "shorthand": "k/c/o high blood sugar x 5 days | cap. b_complex 1tab 4 times daily pc 1d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|b_complex|1tab|QID|pc|1d"
+  },
+  {
+    "id": "rec_07413",
+    "shorthand": "Cap azithromycin 500mg 1-1-1-1 before food 7/7",
+    "target_ir": "MED|azithromycin|500mg|QID|ac|7d"
+  },
+  {
+    "id": "rec_03842",
+    "shorthand": "k/c/o cold for 1 days | Syp cozaar 50 mg 1-1-1-1 3/7",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|losartan|50mg|QID|na|3d"
+  },
+  {
+    "id": "rec_01356",
+    "shorthand": "c/o pyrexia x 2d\nSyp folic 5mg single dose pc for 2 days",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|folic_acid|5mg|STAT|pc|2d"
+  },
+  {
+    "id": "rec_06569",
+    "shorthand": "complains of burning micturition 2/7\ntab. mox 500 mg q12h post-meal x 7d",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|amoxicillin|500mg|BD|pc|7d"
+  },
+  {
+    "id": "rec_04147",
+    "shorthand": "Tab. atocor 10mg hs after food 14d",
+    "target_ir": "MED|atorvastatin|10mg|HS|pc|14d"
+  },
+  {
+    "id": "rec_05687",
+    "shorthand": "C. vomikind 8 mg now anytime x 3d",
+    "target_ir": "MED|ondansetron|8mg|STAT|na|3d"
+  },
+  {
+    "id": "rec_05686",
+    "shorthand": "k/c/o t2dm x 7 days\nTab clavulanic_acid 1000mg immediately wm 7d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|clavulanic_acid|1000mg|STAT|wm|7d"
+  },
+  {
+    "id": "rec_01539",
+    "shorthand": "c/o allergy 1d\nTab. folvite 5mg 0-0-1 pc x 3 days",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|folic_acid|5mg|OD|pc|3d"
+  },
+  {
+    "id": "rec_02175",
+    "shorthand": "budesonide 400mcg p.r.n. along with meals x 7d; cap protonix 20mg q24h pre-meal x 14 day",
+    "target_ir": "MED|budesonide|400mcg|SOS|wm|7d\nMED|pantoprazole|20mg|OD|ac|14d"
+  },
+  {
+    "id": "rec_05734",
+    "shorthand": "tab frusemide 20mg when required post-meal x 7d",
+    "target_ir": "MED|furosemide|20mg|SOS|pc|7d"
+  },
+  {
+    "id": "rec_06296",
+    "shorthand": "Syp advil 400 mg s.o.s. along with meals x 1d",
+    "target_ir": "MED|ibuprofen|400mg|SOS|wm|1d"
+  },
+  {
+    "id": "rec_02261",
+    "shorthand": "C. budesonide 200mcg 1-1-0 empty stomach 5d",
+    "target_ir": "MED|budesonide|200mcg|BD|ac|5d"
+  },
+  {
+    "id": "rec_04911",
+    "shorthand": "known case of high blood sugar 7/7, C. glyciphage 1000 mg od wm x 10 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|metformin|1000mg|OD|wm|10d"
+  },
+  {
+    "id": "rec_04346",
+    "shorthand": "C/O acute fever x 5 day\nC. albuterol 100mcg at night after food x 10 days",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|salbutamol|100mcg|HS|pc|10d"
+  },
+  {
+    "id": "rec_01723",
+    "shorthand": "complains of urti for 2 days | tramadol 50 mg now anytime 2/7",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|tramadol|50mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_06383",
+    "shorthand": "K/C/O acute fever x 2 day; C. metformin 1000mg qid a.c. 2/7",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|metformin|1000mg|QID|ac|2d"
+  },
+  {
+    "id": "rec_08315",
+    "shorthand": "cap calcirol 60000iu q6h pre-meal x 5 days",
+    "target_ir": "MED|vitamin_d3|60000iu|QID|ac|5d"
+  },
+  {
+    "id": "rec_09147",
+    "shorthand": "dx: t2dm 7d | cap levocetirizine 5mg q.i.d. for 3 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|levocetirizine|5mg|QID|na|3d"
+  },
+  {
+    "id": "rec_05276",
+    "shorthand": "known case of t2dm x 7d, tab advil 200mg b.i.d. x 2 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|ibuprofen|200mg|BD|na|2d"
+  },
+  {
+    "id": "rec_06087",
+    "shorthand": "T. azi 250mg daily wm 2/7",
+    "target_ir": "MED|azithromycin|250mg|OD|wm|2d"
+  },
+  {
+    "id": "rec_09225",
+    "shorthand": "Tab vildagliptin 50 mg q.d. anytime x 14 days",
+    "target_ir": "MED|vildagliptin|50mg|OD|na|14d"
+  },
+  {
+    "id": "rec_00308",
+    "shorthand": "cap plavix 75 mg stat before meals for 2 days",
+    "target_ir": "MED|clopidogrel|75mg|STAT|ac|2d"
+  },
+  {
+    "id": "rec_08979",
+    "shorthand": "k/c/o urti 2d\nSyp metronidazole 400mg s.o.s. empty stomach x 3d",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|metronidazole|400mg|SOS|ac|3d"
+  },
+  {
+    "id": "rec_07220",
+    "shorthand": "K/C/O acute fever 2/7\nTab. cardace 5 mg hs 5/7",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|ramipril|5mg|HS|na|5d"
+  },
+  {
+    "id": "rec_03067",
+    "shorthand": "k/c/o cephalea 7d\nSyp. hctz 50 mg hs before meals x 1 days",
+    "target_ir": "COND|migraine headache|moderate|7d\nMED|hydrochlorothiazide|50mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_08604",
+    "shorthand": "tab zithromax 500mg 1-1-1-1 along with meals x 7 day + doxycycline 100 mg once daily with meals 14/7",
+    "target_ir": "MED|azithromycin|500mg|QID|wm|7d\nMED|doxycycline|100mg|OD|wm|14d"
+  },
+  {
+    "id": "rec_05429",
+    "shorthand": "cap septran 960mg tid pc 10d\ncap storvas 40mg 3 times daily a.c. x 2d",
+    "target_ir": "MED|cotrimoxazole|960mg|TID|pc|10d\nMED|atorvastatin|40mg|TID|ac|2d"
+  },
+  {
+    "id": "rec_09391",
+    "shorthand": "C. ecosprin 150mg h.s. anytime x 2d",
+    "target_ir": "MED|aspirin|150mg|HS|na|2d"
+  },
+  {
+    "id": "rec_08861",
+    "shorthand": "cefix 200mg 0-1-0 after food x 3 day",
+    "target_ir": "MED|cefixime|200mg|OD|pc|3d"
+  },
+  {
+    "id": "rec_02164",
+    "shorthand": "c/o diabetes x 3 day\nCap. albuterol 2mg h.s. after food x 14d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|3d\nMED|salbutamol|2mg|HS|pc|14d"
+  },
+  {
+    "id": "rec_03828",
+    "shorthand": "Tab. salbutamol 4 mg 1 time daily anytime x 5 days",
+    "target_ir": "MED|salbutamol|4mg|OD|na|5d"
+  },
+  {
+    "id": "rec_06734",
+    "shorthand": "k/c/o acute bronchial catarrh for 2 days\nc. metformin 500 mg once daily pc 14d",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|metformin|500mg|OD|pc|14d"
+  },
+  {
+    "id": "rec_09385",
+    "shorthand": "syp septran 960mg bid before meals 7/7",
+    "target_ir": "MED|cotrimoxazole|960mg|BD|ac|7d"
+  },
+  {
+    "id": "rec_04835",
+    "shorthand": "Syp advil 200mg 1-0-1 after food x 5d",
+    "target_ir": "MED|ibuprofen|200mg|BD|pc|5d"
+  },
+  {
+    "id": "rec_07057",
+    "shorthand": "k/c/o pharyngitis 3d; Cap esidrix 12.5 mg h.s. na 7/7",
+    "target_ir": "COND|acute pharyngitis|mild|3d\nMED|hydrochlorothiazide|12.5mg|HS|na|7d"
+  },
+  {
+    "id": "rec_06281",
+    "shorthand": "Tab. pantoprazole 40 mg single dose na for 2 days",
+    "target_ir": "MED|pantoprazole|40mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_05172",
+    "shorthand": "Cap novamox 500mg single dose pre-meal 2/7",
+    "target_ir": "MED|amoxicillin|500mg|STAT|ac|2d"
+  },
+  {
+    "id": "rec_02867",
+    "shorthand": "syp. ultram 50 mg 3 times daily p.c. x 5 day",
+    "target_ir": "MED|tramadol|50mg|TID|pc|5d"
+  },
+  {
+    "id": "rec_08716",
+    "shorthand": "syp becosules 1tab t.i.d. wm 10/7; syp. ibuprofen 400 mg q12h post-meal 2d",
+    "target_ir": "MED|b_complex|1tab|TID|wm|10d\nMED|ibuprofen|400mg|BD|pc|2d"
+  },
+  {
+    "id": "rec_00996",
+    "shorthand": "complains of acute bronchial catarrh 7d\nSyp cetirizine 10 mg q12h before meals x 5 days",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|cetirizine|10mg|BD|ac|5d"
+  },
+  {
+    "id": "rec_02204",
+    "shorthand": "fexofenadine 180mg t.i.d. wm x 3d",
+    "target_ir": "MED|fexofenadine|180mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_06414",
+    "shorthand": "cap cefix 400 mg when required anytime for 2 days",
+    "target_ir": "MED|cefixime|400mg|SOS|na|2d"
+  },
+  {
+    "id": "rec_09717",
+    "shorthand": "cap glycomet 1000mg s.o.s. ac 14d",
+    "target_ir": "MED|metformin|1000mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_09823",
+    "shorthand": "tab ibuprofen 200 mg 4 times daily before meals for 10 days",
+    "target_ir": "MED|ibuprofen|200mg|QID|ac|10d"
+  },
+  {
+    "id": "rec_02105",
+    "shorthand": "k/c/o common cold 1/7; tab. atenolol 100mg stat with food 5/7",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|atenolol|100mg|STAT|wm|5d"
+  },
+  {
+    "id": "rec_08143",
+    "shorthand": "c/o stomach bug 3d, C. cipro 250 mg once daily ac 2/7",
+    "target_ir": "COND|acute gastroenteritis|moderate|3d\nMED|ciprofloxacin|250mg|OD|ac|2d"
+  },
+  {
+    "id": "rec_02807",
+    "shorthand": "tab. glyciphage 1000mg h.s. after food for 5 days",
+    "target_ir": "MED|metformin|1000mg|HS|pc|5d"
+  },
+  {
+    "id": "rec_01374",
+    "shorthand": "sporidex 500 mg q.i.d. wm 5/7",
+    "target_ir": "MED|cephalexin|500mg|QID|wm|5d"
+  },
+  {
+    "id": "rec_01077",
+    "shorthand": "fexofenadine 60mg 1-1-0 with food x 1 day; Syp. cotrimoxazole 960 mg 1-0-0 na x 7d",
+    "target_ir": "MED|fexofenadine|60mg|BD|wm|1d\nMED|cotrimoxazole|960mg|OD|na|7d"
+  },
+  {
+    "id": "rec_08346",
+    "shorthand": "T. azithromycin 250 mg bedtime na x 14 day",
+    "target_ir": "MED|azithromycin|250mg|HS|na|14d"
+  },
+  {
+    "id": "rec_09638",
+    "shorthand": "diag: febrile illness x 7 day | fluticasone 50mcg qid post-meal x 3 days",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|fluticasone|50mcg|QID|pc|3d"
+  },
+  {
+    "id": "rec_05572",
+    "shorthand": "Syp zentel 400 mg 1 time daily post meals x 2d",
+    "target_ir": "MED|albendazole|400mg|OD|pc|2d"
+  },
+  {
+    "id": "rec_08478",
+    "shorthand": "tab cefixime 100mg q24h pc for 5 days\nSyp calcium 1000mg q24h p.c. 3/7",
+    "target_ir": "MED|cefixime|100mg|OD|pc|5d\nMED|calcium_carbonate|1000mg|OD|pc|3d"
+  },
+  {
+    "id": "rec_08097",
+    "shorthand": "syp montair 5 mg t.i.d. p.c. 3d, cap polybion 1tab q.i.d. ac x 14 days",
+    "target_ir": "MED|montelukast|5mg|TID|pc|3d\nMED|b_complex|1tab|QID|ac|14d"
+  },
+  {
+    "id": "rec_01995",
+    "shorthand": "dx: dyspepsia x 3 day | Cap. levocet 5 mg tid pre-meal x 2 days",
+    "target_ir": "COND|acid peptic disease|mild|3d\nMED|levocetirizine|5mg|TID|ac|2d"
+  },
+  {
+    "id": "rec_00803",
+    "shorthand": "known case of acidity x 2 days\ncap clavulanic_acid 1000mg q24h pc 5/7",
+    "target_ir": "COND|acid peptic disease|mild|2d\nMED|clavulanic_acid|1000mg|OD|pc|5d"
+  },
+  {
+    "id": "rec_09964",
+    "shorthand": "Syp. montair 4mg at night after food 7d",
+    "target_ir": "MED|montelukast|4mg|HS|pc|7d"
+  },
+  {
+    "id": "rec_04193",
+    "shorthand": "Cap cipro 250 mg p.r.n. with food x 3 day; Syp novamox 250 mg 1-1-0 along with meals x 7 day",
+    "target_ir": "MED|ciprofloxacin|250mg|SOS|wm|3d\nMED|amoxicillin|250mg|BD|wm|7d"
+  },
+  {
+    "id": "rec_06300",
+    "shorthand": "dx: chest infection x 2 day; Syp. cephalexin 500 mg 1-1-1 with meals 1d",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|cephalexin|500mg|TID|wm|1d"
+  },
+  {
+    "id": "rec_07658",
+    "shorthand": "dx: migraine x 2d; tab augmentin 625 mg when required wm 3d",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|clavulanic_acid|625mg|SOS|wm|3d"
+  },
+  {
+    "id": "rec_08398",
+    "shorthand": "k/c/o gastroenteritis for 7 days\ncap enalapril 2.5 mg q12h na x 14 day",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|enalapril|2.5mg|BD|na|14d"
+  },
+  {
+    "id": "rec_03243",
+    "shorthand": "cap metronidazole 200 mg t.i.d. along with meals 1/7",
+    "target_ir": "MED|metronidazole|200mg|TID|wm|1d"
+  },
+  {
+    "id": "rec_01330",
+    "shorthand": "diag: common cold x 1d; Syp zoryl 2mg when required a.c. for 14 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|glimepiride|2mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_08573",
+    "shorthand": "Syp montelukast 4 mg 1-1-1-1 p.c. 5/7",
+    "target_ir": "MED|montelukast|4mg|QID|pc|5d"
+  },
+  {
+    "id": "rec_01736",
+    "shorthand": "Tab calcium_carbonate 1000mg stat pc x 10 days, T. altace 2.5mg p.r.n. x 1d",
+    "target_ir": "MED|calcium_carbonate|1000mg|STAT|pc|10d\nMED|ramipril|2.5mg|SOS|na|1d"
+  },
+  {
+    "id": "rec_05022",
+    "shorthand": "Syp calcium_carbonate 500 mg stat p.c. x 5d",
+    "target_ir": "MED|calcium_carbonate|500mg|STAT|pc|5d"
+  },
+  {
+    "id": "rec_03688",
+    "shorthand": "K/C/O acute bronchial catarrh x 5 day; T. voveran 75 mg prn pre-meal for 2 days",
+    "target_ir": "COND|acute bronchitis|moderate|5d\nMED|diclofenac|75mg|SOS|ac|2d"
+  },
+  {
+    "id": "rec_09065",
+    "shorthand": "cap vitamin_d3 60000iu p.r.n. na x 5 days",
+    "target_ir": "MED|vitamin_d3|60000iu|SOS|na|5d"
+  },
+  {
+    "id": "rec_07067",
+    "shorthand": "k/c/o cold 1d | glycomet 850 mg 0-1-0 empty stomach x 3 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|1d\nMED|metformin|850mg|OD|ac|3d"
+  },
+  {
+    "id": "rec_01324",
+    "shorthand": "tab tenormin 25 mg single dose with food for 2 days",
+    "target_ir": "MED|atenolol|25mg|STAT|wm|2d"
+  },
+  {
+    "id": "rec_09920",
+    "shorthand": "T. rabi 20 mg 0-1-0 a.c. x 7 day",
+    "target_ir": "MED|rabeprazole|20mg|OD|ac|7d"
+  },
+  {
+    "id": "rec_01150",
+    "shorthand": "C/O fever for 7 days | Tab. crocin 1000mg 0-1-1 post-meal 1d",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|paracetamol|1000mg|BD|pc|1d"
+  },
+  {
+    "id": "rec_02695",
+    "shorthand": "diag: age 2d; hydrochlorothiazide 25mg night na for 5 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|hydrochlorothiazide|25mg|HS|na|5d"
+  },
+  {
+    "id": "rec_08649",
+    "shorthand": "tab vasotec 10mg at night empty stomach 7d",
+    "target_ir": "MED|enalapril|10mg|HS|ac|7d"
+  },
+  {
+    "id": "rec_07581",
+    "shorthand": "complains of headache 1d; tab montelukast 5mg q.i.d. with food x 3d",
+    "target_ir": "COND|migraine headache|moderate|1d\nMED|montelukast|5mg|QID|wm|3d"
+  },
+  {
+    "id": "rec_05850",
+    "shorthand": "tab frusemide 20 mg h.s. after food x 10d",
+    "target_ir": "MED|furosemide|20mg|HS|pc|10d"
+  },
+  {
+    "id": "rec_02772",
+    "shorthand": "diag: oa 1/7 | Syp. plavix 75mg daily na x 7d",
+    "target_ir": "COND|osteoarthritis|chronic|1d\nMED|clopidogrel|75mg|OD|na|7d"
+  },
+  {
+    "id": "rec_05055",
+    "shorthand": "Tab norvasc 2.5mg at night wm x 2 day",
+    "target_ir": "MED|amlodipine|2.5mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_07651",
+    "shorthand": "cap d-rise 60000iu prn na 14/7",
+    "target_ir": "MED|vitamin_d3|60000iu|SOS|na|14d"
+  },
+  {
+    "id": "rec_05496",
+    "shorthand": "syp aciphex 10 mg thrice daily with food 10/7",
+    "target_ir": "MED|rabeprazole|10mg|TID|wm|10d"
+  },
+  {
+    "id": "rec_04682",
+    "shorthand": "Tab. paracetamol 650mg now wm 14d",
+    "target_ir": "MED|paracetamol|650mg|STAT|wm|14d"
+  },
+  {
+    "id": "rec_02307",
+    "shorthand": "Syp ocid 40 mg 1-1-1 before food 14/7",
+    "target_ir": "MED|omeprazole|40mg|TID|ac|14d"
+  },
+  {
+    "id": "rec_06610",
+    "shorthand": "C. aspirin 75mg h.s. along with meals for 3 days",
+    "target_ir": "MED|aspirin|75mg|HS|wm|3d"
+  },
+  {
+    "id": "rec_07198",
+    "shorthand": "C/O gastroenteritis x 2d, Syp. lasix 20mg at night na 14/7",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|furosemide|20mg|HS|na|14d"
+  },
+  {
+    "id": "rec_06122",
+    "shorthand": "Cap albendazole 400 mg t.i.d. with meals 14d",
+    "target_ir": "MED|albendazole|400mg|TID|wm|14d"
+  },
+  {
+    "id": "rec_03751",
+    "shorthand": "known case of migraine 5d | Tab. envas 2.5 mg h.s. before meals 7/7",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|enalapril|2.5mg|HS|ac|7d"
+  },
+  {
+    "id": "rec_00690",
+    "shorthand": "cap vildagliptin 50 mg q12h with meals x 10 day; t. zantac 300mg b.i.d. before food x 10 day",
+    "target_ir": "MED|vildagliptin|50mg|BD|wm|10d\nMED|ranitidine|300mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_03362",
+    "shorthand": "Cap zofran 8mg q6h pc x 7d, C. aciphex 10 mg thrice daily after food for 7 days",
+    "target_ir": "MED|ondansetron|8mg|QID|pc|7d\nMED|rabeprazole|10mg|TID|pc|7d"
+  },
+  {
+    "id": "rec_00242",
+    "shorthand": "known case of niddm x 2 day | tab ventolin 100mcg now ac 14/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|salbutamol|100mcg|STAT|ac|14d"
+  },
+  {
+    "id": "rec_06846",
+    "shorthand": "c/o bronchitis 1d; tab. glyciphage 850mg at night with food 5/7",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|metformin|850mg|HS|wm|5d"
+  },
+  {
+    "id": "rec_05497",
+    "shorthand": "c/o acute fever 2d\niron 100mg q24h after meals 10d",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|ferrous_ascorbate|100mg|OD|pc|10d"
+  },
+  {
+    "id": "rec_06101",
+    "shorthand": "K/C/O chest infection x 2 day\nTab tramadol 100mg now with meals x 7 days",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|tramadol|100mg|STAT|wm|7d"
+  },
+  {
+    "id": "rec_06378",
+    "shorthand": "c/o burning micturition 5/7\ntab atorvastatin 10 mg s.o.s. na x 3 day",
+    "target_ir": "COND|urinary tract infection|moderate|5d\nMED|atorvastatin|10mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_02665",
+    "shorthand": "diag: uri x 3d; T. lasix 40 mg 2 times daily with food 10/7",
+    "target_ir": "COND|upper respiratory tract infection|mild|3d\nMED|furosemide|40mg|BD|wm|10d"
+  },
+  {
+    "id": "rec_01649",
+    "shorthand": "c/o headache x 7 days | cap brufen 600mg p.r.n. anytime 1/7",
+    "target_ir": "COND|migraine headache|moderate|7d\nMED|ibuprofen|600mg|SOS|na|1d"
+  },
+  {
+    "id": "rec_01715",
+    "shorthand": "clopidogrel 75 mg qid empty stomach x 5 day",
+    "target_ir": "MED|clopidogrel|75mg|QID|ac|5d"
+  },
+  {
+    "id": "rec_09617",
+    "shorthand": "cap aten 50mg immediately after meals 3d",
+    "target_ir": "MED|atenolol|50mg|STAT|pc|3d"
+  },
+  {
+    "id": "rec_04065",
+    "shorthand": "tab vomistop 10mg 1-1-1-1 pc x 14d",
+    "target_ir": "MED|domperidone|10mg|QID|pc|14d"
+  },
+  {
+    "id": "rec_05667",
+    "shorthand": "cap folic 5 mg now after food 7/7",
+    "target_ir": "MED|folic_acid|5mg|STAT|pc|7d"
+  },
+  {
+    "id": "rec_07956",
+    "shorthand": "K/C/O hay fever 1d; cap atorvastatin 40mg 1-0-0 a.c. 1d",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|atorvastatin|40mg|OD|ac|1d"
+  },
+  {
+    "id": "rec_05911",
+    "shorthand": "known case of uti x 7 days\ngalvus 50mg 0-0-1 anytime 2/7",
+    "target_ir": "COND|urinary tract infection|moderate|7d\nMED|vildagliptin|50mg|OD|na|2d"
+  },
+  {
+    "id": "rec_07735",
+    "shorthand": "cap tenormin 100mg single dose with food for 14 days",
+    "target_ir": "MED|atenolol|100mg|STAT|wm|14d"
+  },
+  {
+    "id": "rec_07697",
+    "shorthand": "C/O cystitis 1d, Cap. ultram 50mg 2 times daily post meals 7d",
+    "target_ir": "COND|urinary tract infection|moderate|1d\nMED|tramadol|50mg|BD|pc|7d"
+  },
+  {
+    "id": "rec_09860",
+    "shorthand": "Tab. ondan 4 mg od before food x 7 days",
+    "target_ir": "MED|ondansetron|4mg|OD|ac|7d"
+  },
+  {
+    "id": "rec_06074",
+    "shorthand": "Tab vomistop 10 mg 2 times daily ac x 7d; crocin 500 mg q8h na 5/7",
+    "target_ir": "MED|domperidone|10mg|BD|ac|7d\nMED|paracetamol|500mg|TID|na|5d"
+  },
+  {
+    "id": "rec_00969",
+    "shorthand": "complains of acute bronchial catarrh 3/7, Cap cefixime 400mg 0-1-0 wm x 1 days",
+    "target_ir": "COND|acute bronchitis|moderate|3d\nMED|cefixime|400mg|OD|wm|1d"
+  },
+  {
+    "id": "rec_05646",
+    "shorthand": "cap pulmicort 400mcg 0-0-1hs empty stomach 14d",
+    "target_ir": "MED|budesonide|400mcg|HS|ac|14d"
+  },
+  {
+    "id": "rec_05039",
+    "shorthand": "k/c/o allergic cold x 5 days\nSyp. aspirin 75 mg when required x 3d",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|aspirin|75mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_02573",
+    "shorthand": "K/C/O coryza x 5 day\nC. diclo 75mg h.s. before meals x 2 day",
+    "target_ir": "COND|upper respiratory tract infection|mild|5d\nMED|diclofenac|75mg|HS|ac|2d"
+  },
+  {
+    "id": "rec_05882",
+    "shorthand": "complains of high bp x 5 days | cap metoprolol 100 mg t.i.d. along with meals x 1 days",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|metoprolol|100mg|TID|wm|1d"
+  },
+  {
+    "id": "rec_06176",
+    "shorthand": "tab lipitor 20 mg qid a.c. x 1 day",
+    "target_ir": "MED|atorvastatin|20mg|QID|ac|1d"
+  },
+  {
+    "id": "rec_02077",
+    "shorthand": "Syp vitamin_d3 2000iu 1 time daily na 7/7 + T. met 500 mg bedtime na x 14 days",
+    "target_ir": "MED|vitamin_d3|2000iu|OD|na|7d\nMED|metformin|500mg|HS|na|14d"
+  },
+  {
+    "id": "rec_01468",
+    "shorthand": "ibugesic 600 mg q8h with food for 3 days",
+    "target_ir": "MED|ibuprofen|600mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_07296",
+    "shorthand": "cap telmisartan 40mg q6h before meals 1/7",
+    "target_ir": "MED|telmisartan|40mg|QID|ac|1d"
+  },
+  {
+    "id": "rec_06754",
+    "shorthand": "K/C/O hay fever 5d\nC. albuterol 2 mg h.s. p.c. x 10d",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|salbutamol|2mg|HS|pc|10d"
+  },
+  {
+    "id": "rec_05440",
+    "shorthand": "complains of pharyngitis x 1 day | Syp. sporidex 250 mg night ac for 5 days",
+    "target_ir": "COND|acute pharyngitis|mild|1d\nMED|cephalexin|250mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_02767",
+    "shorthand": "pulmicort 200mcg bedtime before meals x 7d",
+    "target_ir": "MED|budesonide|200mcg|HS|ac|7d"
+  },
+  {
+    "id": "rec_06126",
+    "shorthand": "pantoprazole 40mg q.d. anytime x 5 day",
+    "target_ir": "MED|pantoprazole|40mg|OD|na|5d"
+  },
+  {
+    "id": "rec_09728",
+    "shorthand": "c/o apd 2/7; tab. doxt 100mg h.s. pc 7/7",
+    "target_ir": "COND|acid peptic disease|mild|2d\nMED|doxycycline|100mg|HS|pc|7d"
+  },
+  {
+    "id": "rec_09895",
+    "shorthand": "tab zifi 100 mg bd wm x 2d",
+    "target_ir": "MED|cefixime|100mg|BD|wm|2d"
+  },
+  {
+    "id": "rec_05261",
+    "shorthand": "voltaren 50mg bd pc 1d",
+    "target_ir": "MED|diclofenac|50mg|BD|pc|1d"
+  },
+  {
+    "id": "rec_07618",
+    "shorthand": "complains of apd 1/7\nT. glimepiride 1 mg q6h after meals 10/7",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|glimepiride|1mg|QID|pc|10d"
+  },
+  {
+    "id": "rec_06792",
+    "shorthand": "k/c/o chest infection 1d | bandy 400mg 1-1-1-1 for 5 days",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|albendazole|400mg|QID|na|5d"
+  },
+  {
+    "id": "rec_04939",
+    "shorthand": "cap amoxyl 250 mg bid post-meal 5d\ncap azithromycin 500 mg p.r.n. na 5/7",
+    "target_ir": "MED|amoxicillin|250mg|BD|pc|5d\nMED|azithromycin|500mg|SOS|na|5d"
+  },
+  {
+    "id": "rec_09199",
+    "shorthand": "Cap. zentel 400 mg q24h na x 10 days",
+    "target_ir": "MED|albendazole|400mg|OD|na|10d"
+  },
+  {
+    "id": "rec_02637",
+    "shorthand": "dx: cephalea 7d | Tab montelukast 4mg q8h after food x 14d",
+    "target_ir": "COND|migraine headache|moderate|7d\nMED|montelukast|4mg|TID|pc|14d"
+  },
+  {
+    "id": "rec_01624",
+    "shorthand": "Cap losar 25 mg bedtime pre-meal x 14d",
+    "target_ir": "MED|losartan|25mg|HS|ac|14d"
+  },
+  {
+    "id": "rec_01749",
+    "shorthand": "C. altace 10mg sos post meals 10/7",
+    "target_ir": "MED|ramipril|10mg|SOS|pc|10d"
+  },
+  {
+    "id": "rec_07729",
+    "shorthand": "dx: niddm for 5 days; Cap domstal 10mg 4 times daily empty stomach for 3 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|domperidone|10mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_03956",
+    "shorthand": "jalra 50 mg single dose after meals x 14 days, Tab. plavix 75mg 1-1-1 3/7",
+    "target_ir": "MED|vildagliptin|50mg|STAT|pc|14d\nMED|clopidogrel|75mg|TID|na|3d"
+  },
+  {
+    "id": "rec_09137",
+    "shorthand": "known case of high blood sugar x 5 day, cap atorvastatin 10mg now pre-meal 1d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|atorvastatin|10mg|STAT|ac|1d"
+  },
+  {
+    "id": "rec_05642",
+    "shorthand": "dx: gerd x 5d, Syp. enalapril 2.5 mg q8h pre-meal x 2 day",
+    "target_ir": "COND|acid peptic disease|mild|5d\nMED|enalapril|2.5mg|TID|ac|2d"
+  },
+  {
+    "id": "rec_08273",
+    "shorthand": "K/C/O arthralgia x 2d\nSyp metro 400 mg immediately post-meal 14/7",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|metronidazole|400mg|STAT|pc|14d"
+  },
+  {
+    "id": "rec_09646",
+    "shorthand": "Tab rabeprazole 10mg single dose a.c. x 1 day\nC. calcium 1000mg q6h after food for 10 days",
+    "target_ir": "MED|rabeprazole|10mg|STAT|ac|1d\nMED|calcium_carbonate|1000mg|QID|pc|10d"
+  },
+  {
+    "id": "rec_00005",
+    "shorthand": "complains of bronchitis 2d, syp. cetz 10mg q12h na x 14d",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|cetirizine|10mg|BD|na|14d"
+  },
+  {
+    "id": "rec_01980",
+    "shorthand": "C. jalra 50 mg daily pre-meal x 7 days; cap telmikind 80 mg q.i.d. along with meals x 2 days",
+    "target_ir": "MED|vildagliptin|50mg|OD|ac|7d\nMED|telmisartan|80mg|QID|wm|2d"
+  },
+  {
+    "id": "rec_06110",
+    "shorthand": "complains of hypertension 3/7; montelukast 10mg 2 times daily for 7 days",
+    "target_ir": "COND|essential hypertension|chronic|3d\nMED|montelukast|10mg|BD|na|7d"
+  },
+  {
+    "id": "rec_03898",
+    "shorthand": "dx: bronchitis 7/7, cap. pan 20 mg bedtime anytime 1d",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|pantoprazole|20mg|HS|na|1d"
+  },
+  {
+    "id": "rec_09158",
+    "shorthand": "cap flomist 50mcg 1-1-1-1 x 5d + Tab. losar 100mg at night anytime 1/7",
+    "target_ir": "MED|fluticasone|50mcg|QID|na|5d\nMED|losartan|100mg|HS|na|1d"
+  },
+  {
+    "id": "rec_07957",
+    "shorthand": "complains of arthralgia for 7 days, C. hydrochlorothiazide 12.5mg 4 times daily ac 14d",
+    "target_ir": "COND|osteoarthritis|chronic|7d\nMED|hydrochlorothiazide|12.5mg|QID|ac|14d"
+  },
+  {
+    "id": "rec_07687",
+    "shorthand": "Syp. polybion 1tab tid na x 5d",
+    "target_ir": "MED|b_complex|1tab|TID|na|5d"
+  },
+  {
+    "id": "rec_01294",
+    "shorthand": "cap aspirin 150 mg q12h post meals x 1 days",
+    "target_ir": "MED|aspirin|150mg|BD|pc|1d"
+  },
+  {
+    "id": "rec_07753",
+    "shorthand": "C. glyloc 80 mg bedtime wm 14d + Cap becosules 1tab at night p.c. x 14 day",
+    "target_ir": "MED|gliclazide|80mg|HS|wm|14d\nMED|b_complex|1tab|HS|pc|14d"
+  },
+  {
+    "id": "rec_03410",
+    "shorthand": "Tab. calcium_carbonate 1000mg single dose post meals x 3d + cap ramipril 5 mg qid empty stomach x 3 day",
+    "target_ir": "MED|calcium_carbonate|1000mg|STAT|pc|3d\nMED|ramipril|5mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_08168",
+    "shorthand": "k/c/o rhinitis x 5 days\ntab enalapril 5 mg 1-1-1-1 before meals 1d",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|enalapril|5mg|QID|ac|1d"
+  },
+  {
+    "id": "rec_06484",
+    "shorthand": "K/C/O gastroenteritis 1d, C. januvia 100 mg 1-1-0 with food 2d",
+    "target_ir": "COND|acute gastroenteritis|moderate|1d\nMED|sitagliptin|100mg|BD|wm|2d"
+  },
+  {
+    "id": "rec_00672",
+    "shorthand": "Cap omeprazole 40mg 0-0-1hs anytime x 7d",
+    "target_ir": "MED|omeprazole|40mg|HS|na|7d"
+  },
+  {
+    "id": "rec_02125",
+    "shorthand": "C. gliclazide 30mg p.r.n. after meals x 7d",
+    "target_ir": "MED|gliclazide|30mg|SOS|pc|7d"
+  },
+  {
+    "id": "rec_07598",
+    "shorthand": "c/o dm x 2d\nCap atenolol 25 mg tid post meals for 10 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|atenolol|25mg|TID|pc|10d"
+  },
+  {
+    "id": "rec_01003",
+    "shorthand": "k/c/o uri x 3 day, cap salbutamol 4mg bedtime na x 1 day",
+    "target_ir": "COND|upper respiratory tract infection|mild|3d\nMED|salbutamol|4mg|HS|na|1d"
+  },
+  {
+    "id": "rec_06329",
+    "shorthand": "cap. losar 25 mg now x 7 day",
+    "target_ir": "MED|losartan|25mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_03754",
+    "shorthand": "complains of cystitis x 2 day; tab. keflex 500 mg 0-0-1hs with food 10d",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|cephalexin|500mg|HS|wm|10d"
+  },
+  {
+    "id": "rec_05220",
+    "shorthand": "dx: common cold x 2d | albuterol 2mg prn post meals x 2d",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|salbutamol|2mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_02403",
+    "shorthand": "C. acetaminophen 1000mg 2 times daily p.c. for 5 days",
+    "target_ir": "MED|paracetamol|1000mg|BD|pc|5d"
+  },
+  {
+    "id": "rec_05336",
+    "shorthand": "T. voltaren 50 mg night anytime x 7 day",
+    "target_ir": "MED|diclofenac|50mg|HS|na|7d"
+  },
+  {
+    "id": "rec_01106",
+    "shorthand": "t. atenolol 25mg at night ac x 5d",
+    "target_ir": "MED|atenolol|25mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_09974",
+    "shorthand": "known case of knee pain x 1 day\nTab. bandy 400mg od pre-meal x 5 days",
+    "target_ir": "COND|osteoarthritis|chronic|1d\nMED|albendazole|400mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_00959",
+    "shorthand": "C/O chest infection for 7 days; Syp cefix 100mg 2 times daily after meals for 14 days",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|cefixime|100mg|BD|pc|14d"
+  },
+  {
+    "id": "rec_01248",
+    "shorthand": "Syp zentel 400mg 0-0-1 with food x 2d, glycomet 850 mg prn a.c. 10d",
+    "target_ir": "MED|albendazole|400mg|OD|wm|2d\nMED|metformin|850mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_00443",
+    "shorthand": "complains of pharyngitis 2/7\nTab budecort 400mcg now anytime for 5 days",
+    "target_ir": "COND|acute pharyngitis|mild|2d\nMED|budesonide|400mcg|STAT|na|5d"
+  },
+  {
+    "id": "rec_08837",
+    "shorthand": "levocet 5 mg as needed p.c. 5d",
+    "target_ir": "MED|levocetirizine|5mg|SOS|pc|5d"
+  },
+  {
+    "id": "rec_02804",
+    "shorthand": "cap orofer-xt 100mg single dose na x 5 days; cap diclofenac 100mg as needed p.c. 2d",
+    "target_ir": "MED|ferrous_ascorbate|100mg|STAT|na|5d\nMED|diclofenac|100mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_03010",
+    "shorthand": "cap albendazole 400mg s.o.s. empty stomach x 3d\nT. fe 100 mg hs before meals for 5 days",
+    "target_ir": "MED|albendazole|400mg|SOS|ac|3d\nMED|ferrous_ascorbate|100mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_03730",
+    "shorthand": "k/c/o throat infection x 2 day; azithromycin 250 mg 1-0-1 empty stomach x 1 day",
+    "target_ir": "COND|acute pharyngitis|mild|2d\nMED|azithromycin|250mg|BD|ac|1d"
+  },
+  {
+    "id": "rec_07016",
+    "shorthand": "dx: fever 1/7\nTab. fe 100mg h.s. pre-meal for 1 days",
+    "target_ir": "COND|acute viral fever|moderate|1d\nMED|ferrous_ascorbate|100mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_08043",
+    "shorthand": "C. cefix 200 mg single dose na x 1 days",
+    "target_ir": "MED|cefixime|200mg|STAT|na|1d"
+  },
+  {
+    "id": "rec_09409",
+    "shorthand": "c/o diabetes 2d; Tab zantac 300 mg immediately post-meal x 14d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|ranitidine|300mg|STAT|pc|14d"
+  },
+  {
+    "id": "rec_04302",
+    "shorthand": "C. diclo 100 mg 0-1-1 a.c. for 3 days",
+    "target_ir": "MED|diclofenac|100mg|BD|ac|3d"
+  },
+  {
+    "id": "rec_04486",
+    "shorthand": "complains of gastroenteritis x 2 day\nTab rabi 10 mg b.i.d. p.c. 2d",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|rabeprazole|10mg|BD|pc|2d"
+  },
+  {
+    "id": "rec_09527",
+    "shorthand": "complains of cold 7/7; losar 100mg qid anytime x 14d",
+    "target_ir": "COND|upper respiratory tract infection|mild|7d\nMED|losartan|100mg|QID|na|14d"
+  },
+  {
+    "id": "rec_01082",
+    "shorthand": "tab levocetirizine 2.5 mg q.i.d. post meals 2d + cap rosuvastatin 20mg stat p.c. 10d",
+    "target_ir": "MED|levocetirizine|2.5mg|QID|pc|2d\nMED|rosuvastatin|20mg|STAT|pc|10d"
+  },
+  {
+    "id": "rec_02301",
+    "shorthand": "cap envas 2.5mg tid pre-meal x 14 days",
+    "target_ir": "MED|enalapril|2.5mg|TID|ac|14d"
+  },
+  {
+    "id": "rec_02190",
+    "shorthand": "K/C/O high bp x 3d, tab galvus 50 mg q24h anytime for 5 days",
+    "target_ir": "COND|essential hypertension|chronic|3d\nMED|vildagliptin|50mg|OD|na|5d"
+  },
+  {
+    "id": "rec_08929",
+    "shorthand": "K/C/O allergic cold x 1 days; Cap. budesonide 200mcg immediately post meals 3d",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|budesonide|200mcg|STAT|pc|3d"
+  },
+  {
+    "id": "rec_07668",
+    "shorthand": "complains of cold 3d\nT. ferrous_ascorbate 100 mg 0-1-0 for 3 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|3d\nMED|ferrous_ascorbate|100mg|OD|na|3d"
+  },
+  {
+    "id": "rec_06881",
+    "shorthand": "Cap. ventolin 2mg tid anytime for 1 days + tab folic 5mg 0-0-1 wm x 7 days",
+    "target_ir": "MED|salbutamol|2mg|TID|na|1d\nMED|folic_acid|5mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_04138",
+    "shorthand": "c/o vascular headache x 1 day, T. altace 2.5 mg as needed 3/7",
+    "target_ir": "COND|migraine headache|moderate|1d\nMED|ramipril|2.5mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_01214",
+    "shorthand": "k/c/o apd x 1 days\ndisprin 75 mg q8h na 7d",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|aspirin|75mg|TID|na|7d"
+  },
+  {
+    "id": "rec_07551",
+    "shorthand": "Syp. amlong 5mg q.i.d. wm for 2 days",
+    "target_ir": "MED|amlodipine|5mg|QID|wm|2d"
+  },
+  {
+    "id": "rec_02878",
+    "shorthand": "known case of oa for 5 days\nSyp amox 500mg prn pre-meal 2d",
+    "target_ir": "COND|osteoarthritis|chronic|5d\nMED|amoxicillin|500mg|SOS|ac|2d"
+  },
+  {
+    "id": "rec_06386",
+    "shorthand": "Cap hydrochlorothiazide 50mg p.r.n. before meals for 10 days",
+    "target_ir": "MED|hydrochlorothiazide|50mg|SOS|ac|10d"
+  },
+  {
+    "id": "rec_01103",
+    "shorthand": "complains of diabetes 7d | C. januvia 100 mg prn after food x 1 day",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|sitagliptin|100mg|SOS|pc|1d"
+  },
+  {
+    "id": "rec_08567",
+    "shorthand": "Syp. rantac 150 mg immediately post meals 10d",
+    "target_ir": "MED|ranitidine|150mg|STAT|pc|10d"
+  },
+  {
+    "id": "rec_09452",
+    "shorthand": "tenormin 50 mg immediately after food for 3 days, folic 5mg now anytime 7d",
+    "target_ir": "MED|atenolol|50mg|STAT|pc|3d\nMED|folic_acid|5mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_08228",
+    "shorthand": "cephalexin 500 mg immediately wm x 2 days",
+    "target_ir": "MED|cephalexin|500mg|STAT|wm|2d"
+  },
+  {
+    "id": "rec_05666",
+    "shorthand": "syp. omeprazole 20 mg 4 times daily with meals x 7d\ncap envas 10 mg 1-1-1 before meals 3/7",
+    "target_ir": "MED|omeprazole|20mg|QID|wm|7d\nMED|enalapril|10mg|TID|ac|3d"
+  },
+  {
+    "id": "rec_01129",
+    "shorthand": "Syp cardace 2.5 mg 1-1-1-1 anytime x 3 day",
+    "target_ir": "MED|ramipril|2.5mg|QID|na|3d"
+  },
+  {
+    "id": "rec_00866",
+    "shorthand": "Cap folic_acid 5 mg 1-1-0 pc 2/7\nTab omez 40 mg single dose anytime x 7 days",
+    "target_ir": "MED|folic_acid|5mg|BD|pc|2d\nMED|omeprazole|40mg|STAT|na|7d"
+  },
+  {
+    "id": "rec_00627",
+    "shorthand": "C/O heartburn for 5 days; C. ondansetron 4 mg p.r.n. pc 2d",
+    "target_ir": "COND|acid peptic disease|mild|5d\nMED|ondansetron|4mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_08093",
+    "shorthand": "known case of high bp 1/7; cap. jalra 50 mg twice daily p.c. x 7 days",
+    "target_ir": "COND|essential hypertension|chronic|1d\nMED|vildagliptin|50mg|BD|pc|7d"
+  },
+  {
+    "id": "rec_04810",
+    "shorthand": "K/C/O acidity for 5 days | losar 25 mg single dose a.c. 2d",
+    "target_ir": "COND|acid peptic disease|mild|5d\nMED|losartan|25mg|STAT|ac|2d"
+  },
+  {
+    "id": "rec_05541",
+    "shorthand": "Tab. tenormin 25mg bid p.c. x 10 days + C. metoprolol 100mg 0-1-1 na 2/7",
+    "target_ir": "MED|atenolol|25mg|BD|pc|10d\nMED|metoprolol|100mg|BD|na|2d"
+  },
+  {
+    "id": "rec_02629",
+    "shorthand": "tab tramadol 100mg night before food 7/7, Tab. bandy 400mg tid with food 2d",
+    "target_ir": "MED|tramadol|100mg|HS|ac|7d\nMED|albendazole|400mg|TID|wm|2d"
+  },
+  {
+    "id": "rec_03661",
+    "shorthand": "known case of oa x 2 days | lasix 20 mg 1-1-0 before food for 3 days",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|furosemide|20mg|BD|ac|3d"
+  },
+  {
+    "id": "rec_05605",
+    "shorthand": "diag: uti x 7 days, T. zofran 8 mg when required pre-meal for 14 days",
+    "target_ir": "COND|urinary tract infection|moderate|7d\nMED|ondansetron|8mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_01990",
+    "shorthand": "Cap. rosuvastatin 5 mg at night pre-meal x 3 days",
+    "target_ir": "MED|rosuvastatin|5mg|HS|ac|3d"
+  },
+  {
+    "id": "rec_05580",
+    "shorthand": "Cap. furosemide 20mg bid anytime 7/7",
+    "target_ir": "MED|furosemide|20mg|BD|na|7d"
+  },
+  {
+    "id": "rec_06479",
+    "shorthand": "T. cetz 5mg qid ac x 1 days, Cap tramazac 50 mg od along with meals 7d",
+    "target_ir": "MED|cetirizine|5mg|QID|ac|1d\nMED|tramadol|50mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_09259",
+    "shorthand": "C/O common cold 2/7 | tab taxim-o 200 mg 2 times daily ac x 3d",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|cefixime|200mg|BD|ac|3d"
+  },
+  {
+    "id": "rec_07748",
+    "shorthand": "tab ondansetron 8 mg single dose before food x 7 day",
+    "target_ir": "MED|ondansetron|8mg|STAT|ac|7d"
+  },
+  {
+    "id": "rec_09686",
+    "shorthand": "Tab montelukast 5mg q6h anytime x 7 days; tab aspirin 150mg t.i.d. before meals x 7 day",
+    "target_ir": "MED|montelukast|5mg|QID|na|7d\nMED|aspirin|150mg|TID|ac|7d"
+  },
+  {
+    "id": "rec_01203",
+    "shorthand": "C/O allergy for 3 days | Tab flonase 50mcg q.i.d. ac x 3 days",
+    "target_ir": "COND|allergic rhinitis|mild|3d\nMED|fluticasone|50mcg|QID|ac|3d"
+  },
+  {
+    "id": "rec_00022",
+    "shorthand": "cap tenormin 100 mg q6h after meals x 7 days + Tab tenormin 100 mg 0-0-1hs before food x 5d",
+    "target_ir": "MED|atenolol|100mg|QID|pc|7d\nMED|atenolol|100mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_04087",
+    "shorthand": "c/o pharyngitis for 5 days, Tab salbutamol 4mg 1-1-1-1 with food for 2 days",
+    "target_ir": "COND|acute pharyngitis|mild|5d\nMED|salbutamol|4mg|QID|wm|2d"
+  },
+  {
+    "id": "rec_00403",
+    "shorthand": "k/c/o acute bronchial catarrh for 7 days | cephalexin 250mg od with food for 5 days",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|cephalexin|250mg|OD|wm|5d"
+  },
+  {
+    "id": "rec_01343",
+    "shorthand": "Tab panto 40mg od p.c. x 7 days",
+    "target_ir": "MED|pantoprazole|40mg|OD|pc|7d"
+  },
+  {
+    "id": "rec_05637",
+    "shorthand": "c/o uti 2d | Syp telmisartan 40 mg at night pc x 1d",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|telmisartan|40mg|HS|pc|1d"
+  },
+  {
+    "id": "rec_04420",
+    "shorthand": "amox 625mg 0-0-1hs wm x 14 days\ntab amoxyclav 1000mg bd x 5 day",
+    "target_ir": "MED|amoxicillin|625mg|HS|wm|14d\nMED|clavulanic_acid|1000mg|BD|na|5d"
+  },
+  {
+    "id": "rec_01050",
+    "shorthand": "c/o pyrexia x 3 day; cap cephalexin 500mg q12h 7/7",
+    "target_ir": "COND|acute viral fever|moderate|3d\nMED|cephalexin|500mg|BD|na|7d"
+  },
+  {
+    "id": "rec_02731",
+    "shorthand": "cap. hydrochlorothiazide 25 mg as needed pc x 5d",
+    "target_ir": "MED|hydrochlorothiazide|25mg|SOS|pc|5d"
+  },
+  {
+    "id": "rec_02517",
+    "shorthand": "diag: burning micturition 3d; Syp calcium 500 mg tid na 7/7",
+    "target_ir": "COND|urinary tract infection|moderate|3d\nMED|calcium_carbonate|500mg|TID|na|7d"
+  },
+  {
+    "id": "rec_05825",
+    "shorthand": "known case of coryza 7d | cap. diamicron 80 mg qid na 7d",
+    "target_ir": "COND|upper respiratory tract infection|mild|7d\nMED|gliclazide|80mg|QID|na|7d"
+  },
+  {
+    "id": "rec_04457",
+    "shorthand": "vitamin b 1tab 0-0-1hs a.c. x 2 days; C. vildagliptin 50 mg 1-0-1 after food x 14 day",
+    "target_ir": "MED|b_complex|1tab|HS|ac|2d\nMED|vildagliptin|50mg|BD|pc|14d"
+  },
+  {
+    "id": "rec_00194",
+    "shorthand": "Tab. aspirin 75mg 1-1-1-1 along with meals x 1 day",
+    "target_ir": "MED|aspirin|75mg|QID|wm|1d"
+  },
+  {
+    "id": "rec_04088",
+    "shorthand": "known case of viral fever x 3d; ciprofloxacin 250mg single dose pre-meal 1/7",
+    "target_ir": "COND|acute viral fever|moderate|3d\nMED|ciprofloxacin|250mg|STAT|ac|1d"
+  },
+  {
+    "id": "rec_01693",
+    "shorthand": "cap furosemide 20 mg 0-0-1hs pc x 5d",
+    "target_ir": "MED|furosemide|20mg|HS|pc|5d"
+  },
+  {
+    "id": "rec_02641",
+    "shorthand": "known case of cystitis x 1d, Tab. rantac 300mg when required wm 7d",
+    "target_ir": "COND|urinary tract infection|moderate|1d\nMED|ranitidine|300mg|SOS|wm|7d"
+  },
+  {
+    "id": "rec_07682",
+    "shorthand": "Syp atorva 10mg 1-1-1 empty stomach for 1 days",
+    "target_ir": "MED|atorvastatin|10mg|TID|ac|1d"
+  },
+  {
+    "id": "rec_02221",
+    "shorthand": "istavel 50 mg q8h after food 1/7",
+    "target_ir": "MED|sitagliptin|50mg|TID|pc|1d"
+  },
+  {
+    "id": "rec_07039",
+    "shorthand": "Cap ferrous_ascorbate 100mg prn with food for 1 days",
+    "target_ir": "MED|ferrous_ascorbate|100mg|SOS|wm|1d"
+  },
+  {
+    "id": "rec_00271",
+    "shorthand": "complains of stomach bug x 7 day\ncap sporidex 250 mg q.i.d. for 14 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|cephalexin|250mg|QID|na|14d"
+  },
+  {
+    "id": "rec_03793",
+    "shorthand": "known case of pharyngitis x 5d | cap sporidex 250mg sos with food x 14d",
+    "target_ir": "COND|acute pharyngitis|mild|5d\nMED|cephalexin|250mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_07602",
+    "shorthand": "Tab galvus 50 mg h.s. p.c. 1/7, Tab. met 500 mg 1-1-1-1 with meals x 5 days",
+    "target_ir": "MED|vildagliptin|50mg|HS|pc|1d\nMED|metformin|500mg|QID|wm|5d"
+  },
+  {
+    "id": "rec_08327",
+    "shorthand": "known case of cystitis x 5 day | cap clopidogrel 75mg t.i.d. na 14/7",
+    "target_ir": "COND|urinary tract infection|moderate|5d\nMED|clopidogrel|75mg|TID|na|14d"
+  },
+  {
+    "id": "rec_01457",
+    "shorthand": "cap. domstal 10 mg night p.c. for 5 days",
+    "target_ir": "MED|domperidone|10mg|HS|pc|5d"
+  },
+  {
+    "id": "rec_09206",
+    "shorthand": "domperidone 10mg s.o.s. pc 1d + tab. tramazac 100mg at night with meals x 1 days",
+    "target_ir": "MED|domperidone|10mg|SOS|pc|1d\nMED|tramadol|100mg|HS|wm|1d"
+  },
+  {
+    "id": "rec_05193",
+    "shorthand": "T. ibugesic 400 mg p.r.n. post meals x 10d, C. b_complex 1tab h.s. with meals x 7 day",
+    "target_ir": "MED|ibuprofen|400mg|SOS|pc|10d\nMED|b_complex|1tab|HS|wm|7d"
+  },
+  {
+    "id": "rec_00441",
+    "shorthand": "tab d-rise 2000iu thrice daily post-meal x 7d",
+    "target_ir": "MED|vitamin_d3|2000iu|TID|pc|7d"
+  },
+  {
+    "id": "rec_01604",
+    "shorthand": "diag: cephalea x 5 day | Cap. omeprazole 40mg 1-1-1 na for 2 days",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|omeprazole|40mg|TID|na|2d"
+  },
+  {
+    "id": "rec_00869",
+    "shorthand": "C. diclo 100mg hs empty stomach 1d",
+    "target_ir": "MED|diclofenac|100mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_09843",
+    "shorthand": "c. azithromycin 250 mg thrice daily wm for 10 days",
+    "target_ir": "MED|azithromycin|250mg|TID|wm|10d"
+  },
+  {
+    "id": "rec_01812",
+    "shorthand": "Tab domstal 10 mg q.i.d. post meals for 1 days",
+    "target_ir": "MED|domperidone|10mg|QID|pc|1d"
+  },
+  {
+    "id": "rec_00240",
+    "shorthand": "metoprolol 50 mg s.o.s. p.c. 10d + tab tramadol 50mg bedtime na 7/7",
+    "target_ir": "MED|metoprolol|50mg|SOS|pc|10d\nMED|tramadol|50mg|HS|na|7d"
+  },
+  {
+    "id": "rec_03972",
+    "shorthand": "known case of age 7d\nSyp ondan 4 mg hs na x 3 day",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|ondansetron|4mg|HS|na|3d"
+  },
+  {
+    "id": "rec_01762",
+    "shorthand": "vomikind 4 mg p.r.n. with meals x 1 day; Cap. ferrous_ascorbate 100 mg sos with food 3/7",
+    "target_ir": "MED|ondansetron|4mg|SOS|wm|1d\nMED|ferrous_ascorbate|100mg|SOS|wm|3d"
+  },
+  {
+    "id": "rec_03683",
+    "shorthand": "diag: gastroenteritis for 3 days | tab atorvastatin 10mg p.r.n. after food x 10 day",
+    "target_ir": "COND|acute gastroenteritis|moderate|3d\nMED|atorvastatin|10mg|SOS|pc|10d"
+  },
+  {
+    "id": "rec_08542",
+    "shorthand": "dx: arthralgia x 1 days, Cap ramipril 10mg bid before meals 10/7",
+    "target_ir": "COND|osteoarthritis|chronic|1d\nMED|ramipril|10mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_03501",
+    "shorthand": "Syp. gliclazide 80 mg thrice daily ac x 1 days",
+    "target_ir": "MED|gliclazide|80mg|TID|ac|1d"
+  },
+  {
+    "id": "rec_07442",
+    "shorthand": "Syp. rabi 10 mg h.s. p.c. for 1 days",
+    "target_ir": "MED|rabeprazole|10mg|HS|pc|1d"
+  },
+  {
+    "id": "rec_04299",
+    "shorthand": "cotrimoxazole 480mg q.i.d. p.c. 5/7, ultram 100mg 1-1-0 before meals x 5 day",
+    "target_ir": "MED|cotrimoxazole|480mg|QID|pc|5d\nMED|tramadol|100mg|BD|ac|5d"
+  },
+  {
+    "id": "rec_04252",
+    "shorthand": "rabeprazole 20mg at night post meals x 2 days",
+    "target_ir": "MED|rabeprazole|20mg|HS|pc|2d"
+  },
+  {
+    "id": "rec_07595",
+    "shorthand": "cetirizine 5 mg immediately na 3d, T. fe 100mg single dose a.c. for 3 days",
+    "target_ir": "MED|cetirizine|5mg|STAT|na|3d\nMED|ferrous_ascorbate|100mg|STAT|ac|3d"
+  },
+  {
+    "id": "rec_02123",
+    "shorthand": "Tab vomikind 8 mg immediately na 2/7, Syp ibuprofen 400mg now after meals 1d",
+    "target_ir": "MED|ondansetron|8mg|STAT|na|2d\nMED|ibuprofen|400mg|STAT|pc|1d"
+  },
+  {
+    "id": "rec_08246",
+    "shorthand": "k/c/o burning micturition 5d\ncap voset 2.5mg stat anytime x 5 day",
+    "target_ir": "COND|urinary tract infection|moderate|5d\nMED|levocetirizine|2.5mg|STAT|na|5d"
+  },
+  {
+    "id": "rec_07676",
+    "shorthand": "Syp. enalapril 2.5mg now along with meals x 3 days",
+    "target_ir": "MED|enalapril|2.5mg|STAT|wm|3d"
+  },
+  {
+    "id": "rec_09005",
+    "shorthand": "folic 5mg 1-0-1 wm x 1 day; tab rabeprazole 10 mg 1-1-1 along with meals for 3 days",
+    "target_ir": "MED|folic_acid|5mg|BD|wm|1d\nMED|rabeprazole|10mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_00202",
+    "shorthand": "Syp. zentel 400mg immediately a.c. for 7 days",
+    "target_ir": "MED|albendazole|400mg|STAT|ac|7d"
+  },
+  {
+    "id": "rec_00997",
+    "shorthand": "tab amlodipine 2.5mg q6h na x 14 day",
+    "target_ir": "MED|amlodipine|2.5mg|QID|na|14d"
+  },
+  {
+    "id": "rec_03093",
+    "shorthand": "c/o age 2d\nSyp rabeprazole 20mg t.i.d. anytime x 14 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|rabeprazole|20mg|TID|na|14d"
+  },
+  {
+    "id": "rec_07925",
+    "shorthand": "ondansetron 8 mg 1-1-1-1 anytime x 7 days",
+    "target_ir": "MED|ondansetron|8mg|QID|na|7d"
+  },
+  {
+    "id": "rec_06631",
+    "shorthand": "T. pulmicort 400mcg at night before meals x 14 day",
+    "target_ir": "MED|budesonide|400mcg|HS|ac|14d"
+  },
+  {
+    "id": "rec_02368",
+    "shorthand": "c/o urti for 7 days | T. dox 100 mg tid p.c. for 14 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|7d\nMED|doxycycline|100mg|TID|pc|14d"
+  },
+  {
+    "id": "rec_03471",
+    "shorthand": "dx: uti for 3 days; Tab. plavix 75 mg as needed pre-meal x 1 day",
+    "target_ir": "COND|urinary tract infection|moderate|3d\nMED|clopidogrel|75mg|SOS|ac|1d"
+  },
+  {
+    "id": "rec_02032",
+    "shorthand": "Cap. rantac 150 mg prn anytime x 3 day + vildagliptin 50 mg tid for 10 days",
+    "target_ir": "MED|ranitidine|150mg|SOS|na|3d\nMED|vildagliptin|50mg|TID|na|10d"
+  },
+  {
+    "id": "rec_01371",
+    "shorthand": "cap. vasotec 5 mg q.i.d. after food 1/7",
+    "target_ir": "MED|enalapril|5mg|QID|pc|1d"
+  },
+  {
+    "id": "rec_09651",
+    "shorthand": "c/o throat infection for 7 days\ncap uprise-d3 60000iu 0-1-0 after meals for 2 days",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|vitamin_d3|60000iu|OD|pc|2d"
+  },
+  {
+    "id": "rec_07947",
+    "shorthand": "T. deplatt 75 mg thrice daily a.c. 10/7",
+    "target_ir": "MED|clopidogrel|75mg|TID|ac|10d"
+  },
+  {
+    "id": "rec_04427",
+    "shorthand": "C/O rhinitis x 2 days | Tab ciprofloxacin 250mg p.r.n. pre-meal 14d",
+    "target_ir": "COND|allergic rhinitis|mild|2d\nMED|ciprofloxacin|250mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_01079",
+    "shorthand": "Tab azee 250 mg q24h pre-meal 3d",
+    "target_ir": "MED|azithromycin|250mg|OD|ac|3d"
+  },
+  {
+    "id": "rec_04449",
+    "shorthand": "Cap panto 20 mg t.i.d. anytime 3d",
+    "target_ir": "MED|pantoprazole|20mg|TID|na|3d"
+  },
+  {
+    "id": "rec_03308",
+    "shorthand": "amlo 5mg prn p.c. x 1 day\nallegra 180 mg stat 10d",
+    "target_ir": "MED|amlodipine|5mg|SOS|pc|1d\nMED|fexofenadine|180mg|STAT|na|10d"
+  },
+  {
+    "id": "rec_02338",
+    "shorthand": "cap clopilet 75mg 0-1-0 after meals for 10 days, cap. amlong 10mg immediately post meals for 7 days",
+    "target_ir": "MED|clopidogrel|75mg|OD|pc|10d\nMED|amlodipine|10mg|STAT|pc|7d"
+  },
+  {
+    "id": "rec_02110",
+    "shorthand": "dx: uti for 3 days; Tab. salbutamol 100mcg as needed along with meals x 7 days",
+    "target_ir": "COND|urinary tract infection|moderate|3d\nMED|salbutamol|100mcg|SOS|wm|7d"
+  },
+  {
+    "id": "rec_00419",
+    "shorthand": "known case of loose motions x 2 day; Cap aspirin 75mg hs pre-meal for 2 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|aspirin|75mg|HS|ac|2d"
+  },
+  {
+    "id": "rec_06869",
+    "shorthand": "K/C/O chest infection 5/7\nTab novamox 625 mg 1 time daily x 10d",
+    "target_ir": "COND|acute bronchitis|moderate|5d\nMED|amoxicillin|625mg|OD|na|10d"
+  },
+  {
+    "id": "rec_09746",
+    "shorthand": "omeprazole 10 mg q.d. anytime 7d",
+    "target_ir": "MED|omeprazole|10mg|OD|na|7d"
+  },
+  {
+    "id": "rec_04156",
+    "shorthand": "dx: fever 1d\nC. l-cet 5mg as needed before food 3d",
+    "target_ir": "COND|acute viral fever|moderate|1d\nMED|levocetirizine|5mg|SOS|ac|3d"
+  },
+  {
+    "id": "rec_06431",
+    "shorthand": "diag: viral fever x 5d, Cap. orofer-xt 100 mg 1-1-0 na x 14 days",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|ferrous_ascorbate|100mg|BD|na|14d"
+  },
+  {
+    "id": "rec_00405",
+    "shorthand": "known case of hay fever for 5 days, syp. clopidogrel 75 mg prn wm 10/7",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|clopidogrel|75mg|SOS|wm|10d"
+  },
+  {
+    "id": "rec_02684",
+    "shorthand": "cap zentel 400mg qid wm 1/7",
+    "target_ir": "MED|albendazole|400mg|QID|wm|1d"
+  },
+  {
+    "id": "rec_08026",
+    "shorthand": "Cap. rabeprazole 10 mg daily anytime x 10d",
+    "target_ir": "MED|rabeprazole|10mg|OD|na|10d"
+  },
+  {
+    "id": "rec_07076",
+    "shorthand": "K/C/O headache 2d | T. bactrim 960mg daily a.c. x 5d",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|cotrimoxazole|960mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_02703",
+    "shorthand": "K/C/O high blood sugar x 5 day; bactrim 960mg bd na 3/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|cotrimoxazole|960mg|BD|na|3d"
+  },
+  {
+    "id": "rec_06637",
+    "shorthand": "C. aten 100mg 1-0-1 wm 3/7\npulmicort 400mcg q8h a.c. x 10 day",
+    "target_ir": "MED|atenolol|100mg|BD|wm|3d\nMED|budesonide|400mcg|TID|ac|10d"
+  },
+  {
+    "id": "rec_06249",
+    "shorthand": "K/C/O allergy x 3d | C. diamicron 40 mg qid na x 2 day",
+    "target_ir": "COND|allergic rhinitis|mild|3d\nMED|gliclazide|40mg|QID|na|2d"
+  },
+  {
+    "id": "rec_06436",
+    "shorthand": "K/C/O headache x 2 days\nSyp glimy 1 mg once daily post meals x 2 day",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|glimepiride|1mg|OD|pc|2d"
+  },
+  {
+    "id": "rec_09807",
+    "shorthand": "tab brufen 200 mg immediately pc for 1 days",
+    "target_ir": "MED|ibuprofen|200mg|STAT|pc|1d"
+  },
+  {
+    "id": "rec_06175",
+    "shorthand": "known case of strep throat 2d\nTab tramazac 50mg 1-0-0 after meals x 3 day",
+    "target_ir": "COND|acute pharyngitis|mild|2d\nMED|tramadol|50mg|OD|pc|3d"
+  },
+  {
+    "id": "rec_00105",
+    "shorthand": "cap vibramycin 100 mg 1 time daily 3/7",
+    "target_ir": "MED|doxycycline|100mg|OD|na|3d"
+  },
+  {
+    "id": "rec_00705",
+    "shorthand": "dx: acute bronchial catarrh x 2 days\nt. pan 40 mg prn p.c. x 14d",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|pantoprazole|40mg|SOS|pc|14d"
+  },
+  {
+    "id": "rec_04609",
+    "shorthand": "Cap azithromycin 250 mg stat 1/7",
+    "target_ir": "MED|azithromycin|250mg|STAT|na|1d"
+  },
+  {
+    "id": "rec_04021",
+    "shorthand": "known case of cephalea x 2 days | C. montair 4mg p.r.n. with meals for 7 days",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|montelukast|4mg|SOS|wm|7d"
+  },
+  {
+    "id": "rec_08825",
+    "shorthand": "k/c/o cold 7/7, tab. losar 25 mg 4 times daily with food 3d",
+    "target_ir": "COND|upper respiratory tract infection|mild|7d\nMED|losartan|25mg|QID|wm|3d"
+  },
+  {
+    "id": "rec_01994",
+    "shorthand": "disprin 75 mg 1 time daily post meals for 1 days",
+    "target_ir": "MED|aspirin|75mg|OD|pc|1d"
+  },
+  {
+    "id": "rec_04756",
+    "shorthand": "k/c/o rhinitis x 2d | tab glyloc 80 mg q6h post-meal for 5 days",
+    "target_ir": "COND|allergic rhinitis|mild|2d\nMED|gliclazide|80mg|QID|pc|5d"
+  },
+  {
+    "id": "rec_00573",
+    "shorthand": "Tab cetzine 5mg now before food 14d, Syp vitamin_d3 60000iu now anytime for 2 days",
+    "target_ir": "MED|cetirizine|5mg|STAT|ac|14d\nMED|vitamin_d3|60000iu|STAT|na|2d"
+  },
+  {
+    "id": "rec_07885",
+    "shorthand": "C/O uti x 2 day; zofran 4 mg bedtime x 14 day",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|ondansetron|4mg|HS|na|14d"
+  },
+  {
+    "id": "rec_06889",
+    "shorthand": "known case of diabetes 5/7\nTab. vomistop 10 mg 3 times daily a.c. 1/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|5d\nMED|domperidone|10mg|TID|ac|1d"
+  },
+  {
+    "id": "rec_04740",
+    "shorthand": "dx: joint pain 2/7; Tab gliclazide 30mg daily post-meal for 14 days",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|gliclazide|30mg|OD|pc|14d"
+  },
+  {
+    "id": "rec_06599",
+    "shorthand": "panto 20 mg as needed x 3 day",
+    "target_ir": "MED|pantoprazole|20mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_02975",
+    "shorthand": "T. montelukast 4mg 0-1-0 post-meal x 10d",
+    "target_ir": "MED|montelukast|4mg|OD|pc|10d"
+  },
+  {
+    "id": "rec_03513",
+    "shorthand": "c/o niddm 2d; cap domperidone 10 mg 0-0-1 ac x 5 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|domperidone|10mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_08293",
+    "shorthand": "diag: oa x 1 days; Cap budecort 200mcg thrice daily with meals for 1 days",
+    "target_ir": "COND|osteoarthritis|chronic|1d\nMED|budesonide|200mcg|TID|wm|1d"
+  },
+  {
+    "id": "rec_03639",
+    "shorthand": "known case of arthralgia x 2 days\nC. folvite 5 mg q12h pre-meal x 10 day",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|folic_acid|5mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_00879",
+    "shorthand": "tab plavix 75mg immediately 1/7",
+    "target_ir": "MED|clopidogrel|75mg|STAT|na|1d"
+  },
+  {
+    "id": "rec_05790",
+    "shorthand": "C/O arthralgia for 5 days; hydrochlorothiazide 12.5 mg sos post meals x 2 day",
+    "target_ir": "COND|osteoarthritis|chronic|5d\nMED|hydrochlorothiazide|12.5mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_07248",
+    "shorthand": "Syp protonix 40mg daily pre-meal x 5d",
+    "target_ir": "MED|pantoprazole|40mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_07340",
+    "shorthand": "Tab. pantoprazole 40mg q12h post meals x 1 days",
+    "target_ir": "MED|pantoprazole|40mg|BD|pc|1d"
+  },
+  {
+    "id": "rec_01672",
+    "shorthand": "Syp. calcirol 1000iu single dose after meals x 2 days",
+    "target_ir": "MED|vitamin_d3|1000iu|STAT|pc|2d"
+  },
+  {
+    "id": "rec_03336",
+    "shorthand": "tab. envas 10mg 3 times daily post meals 2d",
+    "target_ir": "MED|enalapril|10mg|TID|pc|2d"
+  },
+  {
+    "id": "rec_01928",
+    "shorthand": "diag: knee pain 5d | Cap. aspirin 75mg 4 times daily post-meal x 5d",
+    "target_ir": "COND|osteoarthritis|chronic|5d\nMED|aspirin|75mg|QID|pc|5d"
+  },
+  {
+    "id": "rec_09620",
+    "shorthand": "C. zofran 8mg qid before meals x 5 days",
+    "target_ir": "MED|ondansetron|8mg|QID|ac|5d"
+  },
+  {
+    "id": "rec_09093",
+    "shorthand": "c/o elevated bp x 3d\ncap januvia 100mg as needed post-meal 14d",
+    "target_ir": "COND|essential hypertension|chronic|3d\nMED|sitagliptin|100mg|SOS|pc|14d"
+  },
+  {
+    "id": "rec_05517",
+    "shorthand": "complains of migraine x 5 days; syp. hctz 50 mg sos with meals for 10 days",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|hydrochlorothiazide|50mg|SOS|wm|10d"
+  },
+  {
+    "id": "rec_06701",
+    "shorthand": "Cap. altace 10 mg prn na x 5d, Cap. ondan 8 mg 2 times daily a.c. 10d",
+    "target_ir": "MED|ramipril|10mg|SOS|na|5d\nMED|ondansetron|8mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_00748",
+    "shorthand": "tab fluticasone 100mcg q6h ac x 5 day",
+    "target_ir": "MED|fluticasone|100mcg|QID|ac|5d"
+  },
+  {
+    "id": "rec_09966",
+    "shorthand": "crocin 1000mg p.r.n. with food x 2d",
+    "target_ir": "MED|paracetamol|1000mg|SOS|wm|2d"
+  },
+  {
+    "id": "rec_09081",
+    "shorthand": "known case of t2dm x 1 day | T. ramipril 5mg at night with food 1/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|1d\nMED|ramipril|5mg|HS|wm|1d"
+  },
+  {
+    "id": "rec_01352",
+    "shorthand": "Tab. clavulanic_acid 1000 mg night post meals 2/7",
+    "target_ir": "MED|clavulanic_acid|1000mg|HS|pc|2d"
+  },
+  {
+    "id": "rec_09521",
+    "shorthand": "Cap paracetamol 500 mg t.i.d. x 14 day + cap disprin 150 mg p.r.n. x 14 day",
+    "target_ir": "MED|paracetamol|500mg|TID|na|14d\nMED|aspirin|150mg|SOS|na|14d"
+  },
+  {
+    "id": "rec_09607",
+    "shorthand": "glyloc 40mg stat post meals x 7d",
+    "target_ir": "MED|gliclazide|40mg|STAT|pc|7d"
+  },
+  {
+    "id": "rec_02716",
+    "shorthand": "complains of acute fever x 2 days; syp tenormin 50 mg q.i.d. na x 2d",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|atenolol|50mg|QID|na|2d"
+  },
+  {
+    "id": "rec_08081",
+    "shorthand": "dx: pharyngitis 3/7 | Tab bandy 400mg 1-0-1 p.c. x 5 day",
+    "target_ir": "COND|acute pharyngitis|mild|3d\nMED|albendazole|400mg|BD|pc|5d"
+  },
+  {
+    "id": "rec_09672",
+    "shorthand": "Cap. telma 80mg as needed post-meal x 3d",
+    "target_ir": "MED|telmisartan|80mg|SOS|pc|3d"
+  },
+  {
+    "id": "rec_03369",
+    "shorthand": "Tab. fluticasone 100mcg stat post-meal 2/7",
+    "target_ir": "MED|fluticasone|100mcg|STAT|pc|2d"
+  },
+  {
+    "id": "rec_02332",
+    "shorthand": "paracetamol 1000 mg stat for 14 days",
+    "target_ir": "MED|paracetamol|1000mg|STAT|na|14d"
+  },
+  {
+    "id": "rec_01016",
+    "shorthand": "k/c/o apd for 1 days\nSyp singulair 10 mg tid with food 2/7",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|montelukast|10mg|TID|wm|2d"
+  },
+  {
+    "id": "rec_01283",
+    "shorthand": "cap zoryl 4mg q24h pc x 3d",
+    "target_ir": "MED|glimepiride|4mg|OD|pc|3d"
+  },
+  {
+    "id": "rec_02489",
+    "shorthand": "Syp tenormin 100 mg stat before meals x 7d, Syp. rabeprazole 10mg q.d. after food x 7 day",
+    "target_ir": "MED|atenolol|100mg|STAT|ac|7d\nMED|rabeprazole|10mg|OD|pc|7d"
+  },
+  {
+    "id": "rec_09148",
+    "shorthand": "dx: dyspepsia x 1d, C. amoxicillin 500 mg prn before meals 14/7",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|amoxicillin|500mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_08463",
+    "shorthand": "tab domstal 10 mg 0-1-0 with meals 7d",
+    "target_ir": "MED|domperidone|10mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_07877",
+    "shorthand": "diag: burning micturition x 5d\nTab montair 4mg hs post-meal x 3d",
+    "target_ir": "COND|urinary tract infection|moderate|5d\nMED|montelukast|4mg|HS|pc|3d"
+  },
+  {
+    "id": "rec_03279",
+    "shorthand": "Tab cephalexin 500mg q6h with food x 3 day",
+    "target_ir": "MED|cephalexin|500mg|QID|wm|3d"
+  },
+  {
+    "id": "rec_02151",
+    "shorthand": "Cap. metoprolol 50 mg b.i.d. anytime 14/7",
+    "target_ir": "MED|metoprolol|50mg|BD|na|14d"
+  },
+  {
+    "id": "rec_05342",
+    "shorthand": "C. altace 2.5 mg 0-0-1 empty stomach 3d",
+    "target_ir": "MED|ramipril|2.5mg|OD|ac|3d"
+  },
+  {
+    "id": "rec_02093",
+    "shorthand": "dx: gastroenteritis 7/7\nTab albuterol 2 mg single dose before food x 3 day",
+    "target_ir": "COND|acute gastroenteritis|moderate|7d\nMED|salbutamol|2mg|STAT|ac|3d"
+  },
+  {
+    "id": "rec_06623",
+    "shorthand": "C. amlodipine 2.5 mg 1-1-1-1 post-meal for 1 days, rosuvas 10mg 1-1-1-1 p.c. 1d",
+    "target_ir": "MED|amlodipine|2.5mg|QID|pc|1d\nMED|rosuvastatin|10mg|QID|pc|1d"
+  },
+  {
+    "id": "rec_03891",
+    "shorthand": "Tab. tramadol 50mg sos na 14/7",
+    "target_ir": "MED|tramadol|50mg|SOS|na|14d"
+  },
+  {
+    "id": "rec_00793",
+    "shorthand": "dx: oa 5d, Syp. iron 100mg 0-0-1 with meals for 5 days",
+    "target_ir": "COND|osteoarthritis|chronic|5d\nMED|ferrous_ascorbate|100mg|OD|wm|5d"
+  },
+  {
+    "id": "rec_02258",
+    "shorthand": "dx: rhinopharyngitis 3d\nCap. ibuprofen 200mg 4 times daily wm x 1 days",
+    "target_ir": "COND|upper respiratory tract infection|mild|3d\nMED|ibuprofen|200mg|QID|wm|1d"
+  },
+  {
+    "id": "rec_03833",
+    "shorthand": "Tab budesonide 400mcg t.i.d. anytime x 7 day; Syp. montair 10 mg single dose wm x 5d",
+    "target_ir": "MED|budesonide|400mcg|TID|na|7d\nMED|montelukast|10mg|STAT|wm|5d"
+  },
+  {
+    "id": "rec_01741",
+    "shorthand": "Tab amoxyclav 1000mg q.i.d. empty stomach x 7d",
+    "target_ir": "MED|clavulanic_acid|1000mg|QID|ac|7d"
+  },
+  {
+    "id": "rec_03193",
+    "shorthand": "C/O acute fever x 7d; budesonide 200mcg twice daily anytime 3d",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|budesonide|200mcg|BD|na|3d"
+  },
+  {
+    "id": "rec_09722",
+    "shorthand": "dx: common cold for 2 days; Syp. frusemide 20 mg 0-0-1hs wm x 5d",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|furosemide|20mg|HS|wm|5d"
+  },
+  {
+    "id": "rec_06550",
+    "shorthand": "complains of high blood sugar 3/7\ntab amoxyclav 1000mg q.i.d. with meals 7/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|3d\nMED|clavulanic_acid|1000mg|QID|wm|7d"
+  },
+  {
+    "id": "rec_05493",
+    "shorthand": "Cap doxycycline 100 mg single dose after food for 7 days; Syp micardis 20mg 1-1-1 before food 7d",
+    "target_ir": "MED|doxycycline|100mg|STAT|pc|7d\nMED|telmisartan|20mg|TID|ac|7d"
+  },
+  {
+    "id": "rec_08895",
+    "shorthand": "Syp. telma 20 mg q.d. before meals x 14d",
+    "target_ir": "MED|telmisartan|20mg|OD|ac|14d"
+  },
+  {
+    "id": "rec_07656",
+    "shorthand": "known case of rhinitis 7/7\ntab jalra 50mg q.d. pc for 5 days",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|vildagliptin|50mg|OD|pc|5d"
+  },
+  {
+    "id": "rec_04701",
+    "shorthand": "T. ciprofloxacin 250mg immediately with meals for 3 days",
+    "target_ir": "MED|ciprofloxacin|250mg|STAT|wm|3d"
+  },
+  {
+    "id": "rec_07643",
+    "shorthand": "K/C/O urti x 3 day; cap crocin 1000 mg s.o.s. along with meals 5/7",
+    "target_ir": "COND|upper respiratory tract infection|mild|3d\nMED|paracetamol|1000mg|SOS|wm|5d"
+  },
+  {
+    "id": "rec_02156",
+    "shorthand": "complains of allergy 5d, T. fe 100 mg p.r.n. along with meals x 7 days",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|ferrous_ascorbate|100mg|SOS|wm|7d"
+  },
+  {
+    "id": "rec_01120",
+    "shorthand": "Tab singulair 10 mg q.i.d. ac x 2 days",
+    "target_ir": "MED|montelukast|10mg|QID|ac|2d"
+  },
+  {
+    "id": "rec_09580",
+    "shorthand": "ferrous_ascorbate 100 mg q8h a.c. x 7 days",
+    "target_ir": "MED|ferrous_ascorbate|100mg|TID|ac|7d"
+  },
+  {
+    "id": "rec_03919",
+    "shorthand": "atocor 10 mg when required wm 3/7",
+    "target_ir": "MED|atorvastatin|10mg|SOS|wm|3d"
+  },
+  {
+    "id": "rec_08087",
+    "shorthand": "diag: acute diarrhea x 5 day\nzofran 8mg tid after food x 1 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|5d\nMED|ondansetron|8mg|TID|pc|1d"
+  },
+  {
+    "id": "rec_03600",
+    "shorthand": "cap. prilosec 20mg sos with food x 2d",
+    "target_ir": "MED|omeprazole|20mg|SOS|wm|2d"
+  },
+  {
+    "id": "rec_03788",
+    "shorthand": "dx: bronchitis 5d, Syp. aspirin 75 mg q8h along with meals x 1 day",
+    "target_ir": "COND|acute bronchitis|moderate|5d\nMED|aspirin|75mg|TID|wm|1d"
+  },
+  {
+    "id": "rec_07430",
+    "shorthand": "cap. frusemide 40mg s.o.s. pre-meal x 5 days",
+    "target_ir": "MED|furosemide|40mg|SOS|ac|5d"
+  },
+  {
+    "id": "rec_04329",
+    "shorthand": "Syp. diclo 50mg immediately along with meals x 1 days",
+    "target_ir": "MED|diclofenac|50mg|STAT|wm|1d"
+  },
+  {
+    "id": "rec_07657",
+    "shorthand": "cap plavix 75mg stat with food 7d",
+    "target_ir": "MED|clopidogrel|75mg|STAT|wm|7d"
+  },
+  {
+    "id": "rec_01670",
+    "shorthand": "Tab. glyciphage 1000mg hs with meals x 2d",
+    "target_ir": "MED|metformin|1000mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_01613",
+    "shorthand": "diag: chest infection 1d\namlo 10mg 3 times daily ac for 7 days",
+    "target_ir": "COND|acute bronchitis|moderate|1d\nMED|amlodipine|10mg|TID|ac|7d"
+  },
+  {
+    "id": "rec_00397",
+    "shorthand": "Tab. rosuvastatin 10mg hs with meals 2d; Syp cetirizine 5mg t.i.d. post-meal 5d",
+    "target_ir": "MED|rosuvastatin|10mg|HS|wm|2d\nMED|cetirizine|5mg|TID|pc|5d"
+  },
+  {
+    "id": "rec_05309",
+    "shorthand": "Tab cotrimoxazole 960mg h.s. along with meals x 2 day",
+    "target_ir": "MED|cotrimoxazole|960mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_03758",
+    "shorthand": "dx: knee pain for 2 days\ntab moxikind-cv 1000mg 0-0-1 na x 1d",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|clavulanic_acid|1000mg|OD|na|1d"
+  },
+  {
+    "id": "rec_02045",
+    "shorthand": "k/c/o rhinitis 1d, tab. rosuvas 20 mg now with meals x 14d",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|rosuvastatin|20mg|STAT|wm|14d"
+  },
+  {
+    "id": "rec_01717",
+    "shorthand": "cap deplatt 75mg bedtime before food 3d",
+    "target_ir": "MED|clopidogrel|75mg|HS|ac|3d"
+  },
+  {
+    "id": "rec_03899",
+    "shorthand": "Syp. vitamin_d3 2000iu prn anytime x 1 day, tab pantocid 40mg stat empty stomach for 3 days",
+    "target_ir": "MED|vitamin_d3|2000iu|SOS|na|1d\nMED|pantoprazole|40mg|STAT|ac|3d"
+  },
+  {
+    "id": "rec_04315",
+    "shorthand": "k/c/o arthralgia x 2d | Cap. asa 150mg q6h post-meal x 7 days",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|aspirin|150mg|QID|pc|7d"
+  },
+  {
+    "id": "rec_06382",
+    "shorthand": "Cap. cephalexin 500mg when required after meals x 5 day",
+    "target_ir": "MED|cephalexin|500mg|SOS|pc|5d"
+  },
+  {
+    "id": "rec_04771",
+    "shorthand": "dx: dm x 2 days; cap xyzal 5mg 3 times daily with meals for 1 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|2d\nMED|levocetirizine|5mg|TID|wm|1d"
+  },
+  {
+    "id": "rec_08267",
+    "shorthand": "Tab. januvia 100 mg q.i.d. wm x 2d",
+    "target_ir": "MED|sitagliptin|100mg|QID|wm|2d"
+  },
+  {
+    "id": "rec_04276",
+    "shorthand": "cap betaloc 100mg qid pc x 10 day, syp. rabi 10 mg bid pre-meal 14d",
+    "target_ir": "MED|metoprolol|100mg|QID|pc|10d\nMED|rabeprazole|10mg|BD|ac|14d"
+  },
+  {
+    "id": "rec_08142",
+    "shorthand": "Tab. amlong 10 mg 3 times daily with meals for 7 days",
+    "target_ir": "MED|amlodipine|10mg|TID|wm|7d"
+  },
+  {
+    "id": "rec_04195",
+    "shorthand": "complains of apd x 2 day; cap. prilosec 20mg q8h along with meals for 3 days",
+    "target_ir": "COND|acid peptic disease|mild|2d\nMED|omeprazole|20mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_07311",
+    "shorthand": "known case of gastroenteritis for 5 days | Tab. furosemide 20 mg thrice daily before meals for 10 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|5d\nMED|furosemide|20mg|TID|ac|10d"
+  },
+  {
+    "id": "rec_07782",
+    "shorthand": "C. deplatt 75 mg thrice daily post meals x 5 days",
+    "target_ir": "MED|clopidogrel|75mg|TID|pc|5d"
+  },
+  {
+    "id": "rec_02869",
+    "shorthand": "Syp. levocetirizine 2.5 mg 0-0-1hs before food 5/7",
+    "target_ir": "MED|levocetirizine|2.5mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_05226",
+    "shorthand": "cap atorvastatin 40 mg at night after meals 10d + tab azee 500mg q24h anytime x 1 day",
+    "target_ir": "MED|atorvastatin|40mg|HS|pc|10d\nMED|azithromycin|500mg|OD|na|1d"
+  },
+  {
+    "id": "rec_08194",
+    "shorthand": "cap paracetamol 500mg od post-meal x 14 day",
+    "target_ir": "MED|paracetamol|500mg|OD|pc|14d"
+  },
+  {
+    "id": "rec_02398",
+    "shorthand": "lipitor 40mg 3 times daily with food x 14 day",
+    "target_ir": "MED|atorvastatin|40mg|TID|wm|14d"
+  },
+  {
+    "id": "rec_09292",
+    "shorthand": "Cap. rosuvastatin 5mg daily before meals 1d",
+    "target_ir": "MED|rosuvastatin|5mg|OD|ac|1d"
+  },
+  {
+    "id": "rec_01220",
+    "shorthand": "T. ceph 250mg q8h anytime 7/7, lipitor 40mg hs x 3 days",
+    "target_ir": "MED|cephalexin|250mg|TID|na|7d\nMED|atorvastatin|40mg|HS|na|3d"
+  },
+  {
+    "id": "rec_01628",
+    "shorthand": "t. disprin 150mg 0-0-1hs anytime x 14 days",
+    "target_ir": "MED|aspirin|150mg|HS|na|14d"
+  },
+  {
+    "id": "rec_02785",
+    "shorthand": "Tab fexo 180mg single dose empty stomach x 2 day",
+    "target_ir": "MED|fexofenadine|180mg|STAT|ac|2d"
+  },
+  {
+    "id": "rec_07769",
+    "shorthand": "C. amoxicillin 500 mg thrice daily after food x 2 day",
+    "target_ir": "MED|amoxicillin|500mg|TID|pc|2d"
+  },
+  {
+    "id": "rec_06337",
+    "shorthand": "diag: loose motions 1/7; losartan 25mg 0-1-0 along with meals 5d",
+    "target_ir": "COND|acute gastroenteritis|moderate|1d\nMED|losartan|25mg|OD|wm|5d"
+  },
+  {
+    "id": "rec_02934",
+    "shorthand": "known case of throat infection x 7 day, Syp lipitor 20mg s.o.s. after meals 1d",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|atorvastatin|20mg|SOS|pc|1d"
+  },
+  {
+    "id": "rec_06505",
+    "shorthand": "C. aspirin 150mg as needed wm x 10 day",
+    "target_ir": "MED|aspirin|150mg|SOS|wm|10d"
+  },
+  {
+    "id": "rec_00574",
+    "shorthand": "k/c/o headache x 5 day | bandy 400 mg 1-1-1-1 before meals 3/7",
+    "target_ir": "COND|migraine headache|moderate|5d\nMED|albendazole|400mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_09209",
+    "shorthand": "c/o elevated bp 5/7, zithromax 500mg immediately p.c. x 5 day",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|azithromycin|500mg|STAT|pc|5d"
+  },
+  {
+    "id": "rec_09782",
+    "shorthand": "K/C/O elevated bp 1/7\nC. ciprofloxacin 250mg qid pre-meal x 1 day",
+    "target_ir": "COND|essential hypertension|chronic|1d\nMED|ciprofloxacin|250mg|QID|ac|1d"
+  },
+  {
+    "id": "rec_02990",
+    "shorthand": "Cap metoprolol 25mg thrice daily p.c. for 1 days",
+    "target_ir": "MED|metoprolol|25mg|TID|pc|1d"
+  },
+  {
+    "id": "rec_00012",
+    "shorthand": "c/o allergy x 2 days\nt. diamicron 30mg daily along with meals 3/7",
+    "target_ir": "COND|allergic rhinitis|mild|2d\nMED|gliclazide|30mg|OD|wm|3d"
+  },
+  {
+    "id": "rec_07054",
+    "shorthand": "tab calcium_carbonate 500mg 1-1-1 along with meals x 5 days",
+    "target_ir": "MED|calcium_carbonate|500mg|TID|wm|5d"
+  },
+  {
+    "id": "rec_03440",
+    "shorthand": "Cap folvite 5mg 0-1-0 pc 2/7",
+    "target_ir": "MED|folic_acid|5mg|OD|pc|2d"
+  },
+  {
+    "id": "rec_06930",
+    "shorthand": "Tab. tramazac 100mg stat anytime 2/7",
+    "target_ir": "MED|tramadol|100mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_08467",
+    "shorthand": "complains of fever for 1 days; doxy 100mg q24h x 3d",
+    "target_ir": "COND|acute viral fever|moderate|1d\nMED|doxycycline|100mg|OD|na|3d"
+  },
+  {
+    "id": "rec_08632",
+    "shorthand": "T. lipitor 40mg p.r.n. post-meal for 7 days + T. fluticasone 50mcg when required with food x 1 day",
+    "target_ir": "MED|atorvastatin|40mg|SOS|pc|7d\nMED|fluticasone|50mcg|SOS|wm|1d"
+  },
+  {
+    "id": "rec_08411",
+    "shorthand": "diag: hay fever for 5 days; Syp altace 2.5mg 0-0-1 x 7d",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|ramipril|2.5mg|OD|na|7d"
+  },
+  {
+    "id": "rec_01543",
+    "shorthand": "diag: febrile illness x 5d; cap zithromax 250mg now na 2d",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|azithromycin|250mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_01684",
+    "shorthand": "diag: uri x 5 days | tab allegra 180mg now anytime x 2d",
+    "target_ir": "COND|upper respiratory tract infection|mild|5d\nMED|fexofenadine|180mg|STAT|na|2d"
+  },
+  {
+    "id": "rec_09848",
+    "shorthand": "tab cefixime 400mg h.s. a.c. 3/7",
+    "target_ir": "MED|cefixime|400mg|HS|ac|3d"
+  },
+  {
+    "id": "rec_06731",
+    "shorthand": "cap cozaar 50 mg 0-0-1hs before meals for 7 days",
+    "target_ir": "MED|losartan|50mg|HS|ac|7d"
+  },
+  {
+    "id": "rec_03435",
+    "shorthand": "tab cifran 250mg hs after meals 1d + Cap met 850mg p.r.n. with food for 14 days",
+    "target_ir": "MED|ciprofloxacin|250mg|HS|pc|1d\nMED|metformin|850mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_04165",
+    "shorthand": "c/o high grade fever for 5 days, Syp. ferrous_ascorbate 100 mg p.r.n. along with meals 5/7",
+    "target_ir": "COND|acute viral fever|moderate|5d\nMED|ferrous_ascorbate|100mg|SOS|wm|5d"
+  },
+  {
+    "id": "rec_06926",
+    "shorthand": "cap montek 10mg 1-0-0 with meals 3/7",
+    "target_ir": "MED|montelukast|10mg|OD|wm|3d"
+  },
+  {
+    "id": "rec_06259",
+    "shorthand": "Tab. zofran 4 mg stat anytime x 10 day",
+    "target_ir": "MED|ondansetron|4mg|STAT|na|10d"
+  },
+  {
+    "id": "rec_02325",
+    "shorthand": "T. metformin 500 mg bedtime anytime for 2 days",
+    "target_ir": "MED|metformin|500mg|HS|na|2d"
+  },
+  {
+    "id": "rec_05945",
+    "shorthand": "diag: diabetes x 7 days\nC. moxikind-cv 625mg twice daily post-meal 7d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|clavulanic_acid|625mg|BD|pc|7d"
+  },
+  {
+    "id": "rec_08203",
+    "shorthand": "Syp paracetamol 650mg p.r.n. x 1 days",
+    "target_ir": "MED|paracetamol|650mg|SOS|na|1d"
+  },
+  {
+    "id": "rec_07623",
+    "shorthand": "tab furosemide 20 mg h.s. with meals 2d",
+    "target_ir": "MED|furosemide|20mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_01538",
+    "shorthand": "Cap dolo 650 650mg 1-1-1-1 post meals x 2d",
+    "target_ir": "MED|paracetamol|650mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_01569",
+    "shorthand": "dx: age x 5 day, Cap. domstal 10mg at night ac for 1 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|5d\nMED|domperidone|10mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_06820",
+    "shorthand": "C. rabeprazole 20 mg od empty stomach 1d\nTab. istavel 50mg 1-1-1 with meals x 3d",
+    "target_ir": "MED|rabeprazole|20mg|OD|ac|1d\nMED|sitagliptin|50mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_05853",
+    "shorthand": "Tab. b_complex 1tab q6h wm x 10 day",
+    "target_ir": "MED|b_complex|1tab|QID|wm|10d"
+  },
+  {
+    "id": "rec_00928",
+    "shorthand": "dx: stomach bug x 3 days\nTab. tenormin 50 mg qid p.c. for 14 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|3d\nMED|atenolol|50mg|QID|pc|14d"
+  },
+  {
+    "id": "rec_01421",
+    "shorthand": "Syp. levocet 2.5 mg q6h x 2 day\nTab deplatt 75mg 0-1-1 before food x 10 days",
+    "target_ir": "MED|levocetirizine|2.5mg|QID|na|2d\nMED|clopidogrel|75mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_00668",
+    "shorthand": "complains of age x 3 day\nT. pulmicort 400mcg bedtime with meals for 5 days",
+    "target_ir": "COND|acute gastroenteritis|moderate|3d\nMED|budesonide|400mcg|HS|wm|5d"
+  },
+  {
+    "id": "rec_03355",
+    "shorthand": "cap vitamin_d3 2000iu q24h p.c. x 5 day",
+    "target_ir": "MED|vitamin_d3|2000iu|OD|pc|5d"
+  },
+  {
+    "id": "rec_07497",
+    "shorthand": "T. amoxyclav 625 mg q.i.d. na x 2 day",
+    "target_ir": "MED|clavulanic_acid|625mg|QID|na|2d"
+  },
+  {
+    "id": "rec_06374",
+    "shorthand": "Syp. becosules 1tab night after food x 5 day",
+    "target_ir": "MED|b_complex|1tab|HS|pc|5d"
+  },
+  {
+    "id": "rec_04502",
+    "shorthand": "complains of throat infection x 5d\nsyp motrin 200mg thrice daily p.c. for 5 days",
+    "target_ir": "COND|acute pharyngitis|mild|5d\nMED|ibuprofen|200mg|TID|pc|5d"
+  },
+  {
+    "id": "rec_09536",
+    "shorthand": "c/o bronchitis x 2d; Syp cotrimoxazole 960mg s.o.s. x 10 days",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|cotrimoxazole|960mg|SOS|na|10d"
+  },
+  {
+    "id": "rec_05616",
+    "shorthand": "k/c/o htn 3/7 | Syp aquazide 12.5mg q.i.d. along with meals x 14d",
+    "target_ir": "COND|essential hypertension|chronic|3d\nMED|hydrochlorothiazide|12.5mg|QID|wm|14d"
+  },
+  {
+    "id": "rec_04308",
+    "shorthand": "tab albuterol 4 mg 0-0-1hs na 3/7",
+    "target_ir": "MED|salbutamol|4mg|HS|na|3d"
+  },
+  {
+    "id": "rec_06389",
+    "shorthand": "K/C/O migraine x 2d | T. tramazac 50mg night after meals for 5 days",
+    "target_ir": "COND|migraine headache|moderate|2d\nMED|tramadol|50mg|HS|pc|5d"
+  },
+  {
+    "id": "rec_05697",
+    "shorthand": "known case of oa for 7 days, T. doxycycline 100mg 1-1-1-1 anytime 5/7",
+    "target_ir": "COND|osteoarthritis|chronic|7d\nMED|doxycycline|100mg|QID|na|5d"
+  },
+  {
+    "id": "rec_09095",
+    "shorthand": "doxt 100mg stat na for 1 days; syp. glycomet 850 mg 0-1-1 wm 5d",
+    "target_ir": "MED|doxycycline|100mg|STAT|na|1d\nMED|metformin|850mg|BD|wm|5d"
+  },
+  {
+    "id": "rec_08619",
+    "shorthand": "cap lasix 40 mg immediately x 3d",
+    "target_ir": "MED|furosemide|40mg|STAT|na|3d"
+  },
+  {
+    "id": "rec_03138",
+    "shorthand": "c/o allergic cold for 2 days\ntab. envas 5mg prn wm x 2 days",
+    "target_ir": "COND|allergic rhinitis|mild|2d\nMED|enalapril|5mg|SOS|wm|2d"
+  },
+  {
+    "id": "rec_04943",
+    "shorthand": "c/o common cold 2/7, cap sporidex 500 mg thrice daily 7d",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|cephalexin|500mg|TID|na|7d"
+  },
+  {
+    "id": "rec_06784",
+    "shorthand": "c. amoxicillin 625mg 0-0-1hs pre-meal 1/7\nenvas 2.5mg now pc 10/7",
+    "target_ir": "MED|amoxicillin|625mg|HS|ac|1d\nMED|enalapril|2.5mg|STAT|pc|10d"
+  },
+  {
+    "id": "rec_00498",
+    "shorthand": "bactrim 480 mg qid a.c. for 2 days",
+    "target_ir": "MED|cotrimoxazole|480mg|QID|ac|2d"
+  },
+  {
+    "id": "rec_08781",
+    "shorthand": "Cap. cholecalciferol 60000iu immediately for 1 days + amlong 2.5mg q12h along with meals x 10 day",
+    "target_ir": "MED|vitamin_d3|60000iu|STAT|na|1d\nMED|amlodipine|2.5mg|BD|wm|10d"
+  },
+  {
+    "id": "rec_02967",
+    "shorthand": "plavix 75 mg thrice daily a.c. 3d",
+    "target_ir": "MED|clopidogrel|75mg|TID|ac|3d"
+  },
+  {
+    "id": "rec_05970",
+    "shorthand": "known case of acidity 2/7, vildagliptin 50 mg night for 1 days",
+    "target_ir": "COND|acid peptic disease|mild|2d\nMED|vildagliptin|50mg|HS|na|1d"
+  },
+  {
+    "id": "rec_09431",
+    "shorthand": "known case of oa x 7 days | glycomet 500mg q.i.d. after food x 5 day",
+    "target_ir": "COND|osteoarthritis|chronic|7d\nMED|metformin|500mg|QID|pc|5d"
+  },
+  {
+    "id": "rec_03292",
+    "shorthand": "Cap. d-rise 1000iu when required with food 7/7",
+    "target_ir": "MED|vitamin_d3|1000iu|SOS|wm|7d"
+  },
+  {
+    "id": "rec_06140",
+    "shorthand": "C/O hypertension x 5d, Syp. losartan 25mg q.i.d. na 5/7",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|losartan|25mg|QID|na|5d"
+  },
+  {
+    "id": "rec_09449",
+    "shorthand": "known case of t2dm x 1 days; cap vasotec 10 mg hs with meals 2d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|1d\nMED|enalapril|10mg|HS|wm|2d"
+  },
+  {
+    "id": "rec_02160",
+    "shorthand": "c. zantac 150 mg bd before food 1d + voset 2.5 mg 4 times daily p.c. for 2 days",
+    "target_ir": "MED|ranitidine|150mg|BD|ac|1d\nMED|levocetirizine|2.5mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_00069",
+    "shorthand": "cap tramadol 50 mg bid empty stomach x 2 days, syp. furosemide 20mg b.i.d. with food 1d",
+    "target_ir": "MED|tramadol|50mg|BD|ac|2d\nMED|furosemide|20mg|BD|wm|1d"
+  },
+  {
+    "id": "rec_02848",
+    "shorthand": "k/c/o vascular headache for 3 days | tab domperidone 10 mg qid with food for 3 days",
+    "target_ir": "COND|migraine headache|moderate|3d\nMED|domperidone|10mg|QID|wm|3d"
+  },
+  {
+    "id": "rec_01572",
+    "shorthand": "Tab. fluticasone 50mcg now na x 3d",
+    "target_ir": "MED|fluticasone|50mcg|STAT|na|3d"
+  },
+  {
+    "id": "rec_02856",
+    "shorthand": "T. telmisartan 80 mg 3 times daily with meals 3/7",
+    "target_ir": "MED|telmisartan|80mg|TID|wm|3d"
+  },
+  {
+    "id": "rec_09371",
+    "shorthand": "domperidone 10mg bedtime post-meal x 14 day",
+    "target_ir": "MED|domperidone|10mg|HS|pc|14d"
+  },
+  {
+    "id": "rec_01795",
+    "shorthand": "complains of gastritis x 1d, Tab. vomikind 4mg q.i.d. post-meal x 3 days",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|ondansetron|4mg|QID|pc|3d"
+  },
+  {
+    "id": "rec_03182",
+    "shorthand": "known case of throat infection x 7 day\nbudesonide 200mcg t.i.d. with meals x 2 days",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|budesonide|200mcg|TID|wm|2d"
+  },
+  {
+    "id": "rec_00045",
+    "shorthand": "C/O uti for 2 days | tab shelcal 500mg 1-1-1-1 x 1 days",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|calcium_carbonate|500mg|QID|na|1d"
+  },
+  {
+    "id": "rec_08879",
+    "shorthand": "tab rabeprazole 20 mg q.i.d. x 3 days",
+    "target_ir": "MED|rabeprazole|20mg|QID|na|3d"
+  },
+  {
+    "id": "rec_01429",
+    "shorthand": "flonase 50mcg p.r.n. pc 5d",
+    "target_ir": "MED|fluticasone|50mcg|SOS|pc|5d"
+  },
+  {
+    "id": "rec_03421",
+    "shorthand": "Cap. pantoprazole 40mg thrice daily a.c. x 5d\ntab allegra 180 mg as needed after meals 1d",
+    "target_ir": "MED|pantoprazole|40mg|TID|ac|5d\nMED|fexofenadine|180mg|SOS|pc|1d"
+  },
+  {
+    "id": "rec_06056",
+    "shorthand": "K/C/O diabetes 7d; norvasc 5 mg stat p.c. x 1 day",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|amlodipine|5mg|STAT|pc|1d"
+  },
+  {
+    "id": "rec_04167",
+    "shorthand": "diag: arthralgia x 7d; C. atenolol 100 mg hs with meals for 3 days",
+    "target_ir": "COND|osteoarthritis|chronic|7d\nMED|atenolol|100mg|HS|wm|3d"
+  },
+  {
+    "id": "rec_08189",
+    "shorthand": "tab omeprazole 40 mg q.i.d. after food x 5d, Tab. ventolin 2 mg thrice daily anytime x 14 day",
+    "target_ir": "MED|omeprazole|40mg|QID|pc|5d\nMED|salbutamol|2mg|TID|na|14d"
+  },
+  {
+    "id": "rec_07960",
+    "shorthand": "diag: chest infection 3d\nSyp disprin 150 mg 4 times daily 2d",
+    "target_ir": "COND|acute bronchitis|moderate|3d\nMED|aspirin|150mg|QID|na|2d"
+  },
+  {
+    "id": "rec_05892",
+    "shorthand": "Syp. vomistop 10 mg 0-0-1hs wm 10/7",
+    "target_ir": "MED|domperidone|10mg|HS|wm|10d"
+  },
+  {
+    "id": "rec_07786",
+    "shorthand": "c/o chest infection x 7d | Syp omeprazole 10mg q.i.d. x 5 days",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|omeprazole|10mg|QID|na|5d"
+  },
+  {
+    "id": "rec_07299",
+    "shorthand": "tab fexofenadine 180 mg q.d. pc for 7 days",
+    "target_ir": "MED|fexofenadine|180mg|OD|pc|7d"
+  },
+  {
+    "id": "rec_02582",
+    "shorthand": "tab amaryl 2mg hs post meals x 2 day",
+    "target_ir": "MED|glimepiride|2mg|HS|pc|2d"
+  },
+  {
+    "id": "rec_01419",
+    "shorthand": "Tab disprin 150 mg now after food for 2 days",
+    "target_ir": "MED|aspirin|150mg|STAT|pc|2d"
+  },
+  {
+    "id": "rec_03404",
+    "shorthand": "Syp cardace 10mg 1-0-1 before food 7d",
+    "target_ir": "MED|ramipril|10mg|BD|ac|7d"
+  },
+  {
+    "id": "rec_05929",
+    "shorthand": "Syp ciprofloxacin 750mg stat before food for 7 days",
+    "target_ir": "MED|ciprofloxacin|750mg|STAT|ac|7d"
+  },
+  {
+    "id": "rec_09718",
+    "shorthand": "k/c/o gastritis for 7 days\ncap hctz 25mg p.r.n. na x 14 days",
+    "target_ir": "COND|acid peptic disease|mild|7d\nMED|hydrochlorothiazide|25mg|SOS|na|14d"
+  },
+  {
+    "id": "rec_05433",
+    "shorthand": "k/c/o diabetes x 1 day, tab ventolin 100mcg at night along with meals for 3 days",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|1d\nMED|salbutamol|100mcg|HS|wm|3d"
+  },
+  {
+    "id": "rec_01560",
+    "shorthand": "complains of allergy x 1d, Tab januvia 50 mg hs after meals for 1 days",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|sitagliptin|50mg|HS|pc|1d"
+  },
+  {
+    "id": "rec_00729",
+    "shorthand": "ciplox 750mg 1-1-1 with food for 2 days",
+    "target_ir": "MED|ciprofloxacin|750mg|TID|wm|2d"
+  },
+  {
+    "id": "rec_06867",
+    "shorthand": "c/o high grade fever x 7 days, tab azee 500mg bid 3d",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|azithromycin|500mg|BD|na|3d"
+  },
+  {
+    "id": "rec_08092",
+    "shorthand": "azithromycin 500mg as needed after meals x 5 day",
+    "target_ir": "MED|azithromycin|500mg|SOS|pc|5d"
+  },
+  {
+    "id": "rec_09602",
+    "shorthand": "dx: gastritis x 3 day\ntab. losartan 25 mg now anytime x 14 days",
+    "target_ir": "COND|acid peptic disease|mild|3d\nMED|losartan|25mg|STAT|na|14d"
+  },
+  {
+    "id": "rec_01057",
+    "shorthand": "Syp ciprofloxacin 500 mg 0-0-1hs before meals for 1 days\nSyp rosave 20 mg 3 times daily a.c. x 3 day",
+    "target_ir": "MED|ciprofloxacin|500mg|HS|ac|1d\nMED|rosuvastatin|20mg|TID|ac|3d"
+  },
+  {
+    "id": "rec_02313",
+    "shorthand": "k/c/o throat infection 7d | C. istavel 100mg 1-1-1 na x 5 days",
+    "target_ir": "COND|acute pharyngitis|mild|7d\nMED|sitagliptin|100mg|TID|na|5d"
+  },
+  {
+    "id": "rec_01308",
+    "shorthand": "T. budesonide 400mcg tid p.c. x 10 day, Cap vomistop 10mg 1-1-1-1 before meals x 2 day",
+    "target_ir": "MED|budesonide|400mcg|TID|pc|10d\nMED|domperidone|10mg|QID|ac|2d"
+  },
+  {
+    "id": "rec_02115",
+    "shorthand": "Cap ibuprofen 400mg 0-0-1hs post meals for 10 days",
+    "target_ir": "MED|ibuprofen|400mg|HS|pc|10d"
+  },
+  {
+    "id": "rec_04769",
+    "shorthand": "taxim-o 100mg q.i.d. wm 2/7",
+    "target_ir": "MED|cefixime|100mg|QID|wm|2d"
+  },
+  {
+    "id": "rec_06896",
+    "shorthand": "cap. aten 25mg 4 times daily after food 10/7",
+    "target_ir": "MED|atenolol|25mg|QID|pc|10d"
+  },
+  {
+    "id": "rec_03837",
+    "shorthand": "tab telmisartan 80mg single dose after food x 14d",
+    "target_ir": "MED|telmisartan|80mg|STAT|pc|14d"
+  },
+  {
+    "id": "rec_01297",
+    "shorthand": "C/O htn x 7 days; C. salbutamol 100mcg 1-1-1 pc x 10 day",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|salbutamol|100mcg|TID|pc|10d"
+  },
+  {
+    "id": "rec_01341",
+    "shorthand": "tab micardis 20mg bid empty stomach for 10 days",
+    "target_ir": "MED|telmisartan|20mg|BD|ac|10d"
+  },
+  {
+    "id": "rec_06516",
+    "shorthand": "C/O cystitis 5/7, cozaar 25 mg 0-0-1hs post-meal for 3 days",
+    "target_ir": "COND|urinary tract infection|moderate|5d\nMED|losartan|25mg|HS|pc|3d"
+  },
+  {
+    "id": "rec_03013",
+    "shorthand": "Syp cozaar 25 mg tid na 7d",
+    "target_ir": "MED|losartan|25mg|TID|na|7d"
+  },
+  {
+    "id": "rec_08603",
+    "shorthand": "cap glyloc 40mg s.o.s. ac x 2 day\nenalapril 2.5mg 2 times daily with meals x 3 day",
+    "target_ir": "MED|gliclazide|40mg|SOS|ac|2d\nMED|enalapril|2.5mg|BD|wm|3d"
+  },
+  {
+    "id": "rec_02165",
+    "shorthand": "Tab becosules 1tab h.s. ac x 5 day, Cap fexo 120mg q.i.d. ac x 3 days",
+    "target_ir": "MED|b_complex|1tab|HS|ac|5d\nMED|fexofenadine|120mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_01974",
+    "shorthand": "tab vildagliptin 50mg q.i.d. with meals for 5 days",
+    "target_ir": "MED|vildagliptin|50mg|QID|wm|5d"
+  },
+  {
+    "id": "rec_07535",
+    "shorthand": "complains of htn x 2 days, Cap augmentin 1000mg at night anytime for 3 days",
+    "target_ir": "COND|essential hypertension|chronic|2d\nMED|clavulanic_acid|1000mg|HS|na|3d"
+  },
+  {
+    "id": "rec_00324",
+    "shorthand": "cap. bactrim 480 mg bedtime before meals x 1 days",
+    "target_ir": "MED|cotrimoxazole|480mg|HS|ac|1d"
+  },
+  {
+    "id": "rec_01332",
+    "shorthand": "k/c/o fever x 2 days, albendazole 400 mg thrice daily p.c. x 14 days",
+    "target_ir": "COND|acute viral fever|moderate|2d\nMED|albendazole|400mg|TID|pc|14d"
+  },
+  {
+    "id": "rec_08284",
+    "shorthand": "known case of high bp x 7d; tab. ibugesic 200 mg now wm for 2 days",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|ibuprofen|200mg|STAT|wm|2d"
+  },
+  {
+    "id": "rec_05918",
+    "shorthand": "complains of throat infection 1d\ntab cotrimoxazole 480 mg night p.c. x 1 days",
+    "target_ir": "COND|acute pharyngitis|mild|1d\nMED|cotrimoxazole|480mg|HS|pc|1d"
+  },
+  {
+    "id": "rec_09415",
+    "shorthand": "known case of hay fever for 7 days, tab cardace 5 mg q8h wm 7d",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|ramipril|5mg|TID|wm|7d"
+  },
+  {
+    "id": "rec_05766",
+    "shorthand": "C/O oa x 5d | Syp. flovent 50mcg prn na 14/7",
+    "target_ir": "COND|osteoarthritis|chronic|5d\nMED|fluticasone|50mcg|SOS|na|14d"
+  },
+  {
+    "id": "rec_02483",
+    "shorthand": "C/O gastroenteritis for 2 days; Syp. uprise-d3 2000iu 1-1-1 anytime 2/7",
+    "target_ir": "COND|acute gastroenteritis|moderate|2d\nMED|vitamin_d3|2000iu|TID|na|2d"
+  },
+  {
+    "id": "rec_01969",
+    "shorthand": "C. met-xl 50 mg 2 times daily pc x 7 days",
+    "target_ir": "MED|metoprolol|50mg|BD|pc|7d"
+  },
+  {
+    "id": "rec_00150",
+    "shorthand": "C. folic_acid 5mg 0-1-0 p.c. for 14 days; Syp. ibuprofen 200 mg prn after food x 2 day",
+    "target_ir": "MED|folic_acid|5mg|OD|pc|14d\nMED|ibuprofen|200mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_02441",
+    "shorthand": "T. jalra 50 mg s.o.s. na 1/7",
+    "target_ir": "MED|vildagliptin|50mg|SOS|na|1d"
+  },
+  {
+    "id": "rec_06245",
+    "shorthand": "complains of high bp for 7 days, Cap. aten 25mg 1-1-1-1 x 2d",
+    "target_ir": "COND|essential hypertension|chronic|7d\nMED|atenolol|25mg|QID|na|2d"
+  },
+  {
+    "id": "rec_07930",
+    "shorthand": "Tab. vitamin b 1tab 3 times daily anytime for 5 days",
+    "target_ir": "MED|b_complex|1tab|TID|na|5d"
+  },
+  {
+    "id": "rec_00750",
+    "shorthand": "Syp. cefixime 400 mg b.i.d. pre-meal x 3d",
+    "target_ir": "MED|cefixime|400mg|BD|ac|3d"
+  },
+  {
+    "id": "rec_07544",
+    "shorthand": "tab. septran 960mg h.s. post-meal x 3d\ntab istavel 100mg s.o.s. before meals x 5 day",
+    "target_ir": "MED|cotrimoxazole|960mg|HS|pc|3d\nMED|sitagliptin|100mg|SOS|ac|5d"
+  },
+  {
+    "id": "rec_08623",
+    "shorthand": "Syp. losar 50mg thrice daily empty stomach x 5 days",
+    "target_ir": "MED|losartan|50mg|TID|ac|5d"
+  },
+  {
+    "id": "rec_06990",
+    "shorthand": "known case of arthralgia x 2 days | tab. bandy 400mg q8h post meals x 7d",
+    "target_ir": "COND|osteoarthritis|chronic|2d\nMED|albendazole|400mg|TID|pc|7d"
+  },
+  {
+    "id": "rec_02479",
+    "shorthand": "hydrochlorothiazide 25mg immediately na for 2 days\nC. ibuprofen 200mg b.i.d. post-meal 5/7",
+    "target_ir": "MED|hydrochlorothiazide|25mg|STAT|na|2d\nMED|ibuprofen|200mg|BD|pc|5d"
+  },
+  {
+    "id": "rec_00393",
+    "shorthand": "dx: strep throat x 3d\nCap becosules 1tab b.i.d. after meals x 1d",
+    "target_ir": "COND|acute pharyngitis|mild|3d\nMED|b_complex|1tab|BD|pc|1d"
+  },
+  {
+    "id": "rec_05673",
+    "shorthand": "Tab diclofenac 100 mg twice daily na x 14 days",
+    "target_ir": "MED|diclofenac|100mg|BD|na|14d"
+  },
+  {
+    "id": "rec_06076",
+    "shorthand": "cap domperidone 10 mg prn x 10 days",
+    "target_ir": "MED|domperidone|10mg|SOS|na|10d"
+  },
+  {
+    "id": "rec_09208",
+    "shorthand": "C/O elevated bp x 5 days; Tab cetzine 5 mg hs after food 7d",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|cetirizine|5mg|HS|pc|7d"
+  },
+  {
+    "id": "rec_09162",
+    "shorthand": "Cap zentel 400 mg q24h empty stomach 3d + tab calcirol 1000iu 1-1-1-1 na x 1 days",
+    "target_ir": "MED|albendazole|400mg|OD|ac|3d\nMED|vitamin_d3|1000iu|QID|na|1d"
+  },
+  {
+    "id": "rec_05457",
+    "shorthand": "tab uprise-d3 2000iu single dose p.c. 1d",
+    "target_ir": "MED|vitamin_d3|2000iu|STAT|pc|1d"
+  },
+  {
+    "id": "rec_00316",
+    "shorthand": "known case of dyspepsia for 3 days | T. gliclazide 80mg q12h before meals x 14 day",
+    "target_ir": "COND|acid peptic disease|mild|3d\nMED|gliclazide|80mg|BD|ac|14d"
+  },
+  {
+    "id": "rec_06722",
+    "shorthand": "Syp albendazole 400 mg q8h na x 2d",
+    "target_ir": "MED|albendazole|400mg|TID|na|2d"
+  },
+  {
+    "id": "rec_06987",
+    "shorthand": "tramazac 50 mg 2 times daily pre-meal x 2 days",
+    "target_ir": "MED|tramadol|50mg|BD|ac|2d"
+  },
+  {
+    "id": "rec_06606",
+    "shorthand": "diag: allergy 7d; Syp ranitidine 150 mg stat after food x 2 days",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|ranitidine|150mg|STAT|pc|2d"
+  },
+  {
+    "id": "rec_07980",
+    "shorthand": "k/c/o chest infection x 7d, calcium_carbonate 1000mg daily pre-meal x 10d",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|calcium_carbonate|1000mg|OD|ac|10d"
+  },
+  {
+    "id": "rec_06953",
+    "shorthand": "K/C/O rhinitis for 1 days\nTab atenolol 100 mg 2 times daily along with meals for 3 days",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|atenolol|100mg|BD|wm|3d"
+  },
+  {
+    "id": "rec_06552",
+    "shorthand": "c/o headache x 3 days; Syp cefixime 200mg night after food x 5d",
+    "target_ir": "COND|migraine headache|moderate|3d\nMED|cefixime|200mg|HS|pc|5d"
+  },
+  {
+    "id": "rec_02635",
+    "shorthand": "complains of high bp 3/7, C. hydrochlorothiazide 50 mg hs x 3 days",
+    "target_ir": "COND|essential hypertension|chronic|3d\nMED|hydrochlorothiazide|50mg|HS|na|3d"
+  },
+  {
+    "id": "rec_03017",
+    "shorthand": "Cap. vomistop 10 mg p.r.n. x 3 days",
+    "target_ir": "MED|domperidone|10mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_05318",
+    "shorthand": "dx: viral fever x 7 day\nT. zoryl 2 mg stat before food for 1 days",
+    "target_ir": "COND|acute viral fever|moderate|7d\nMED|glimepiride|2mg|STAT|ac|1d"
+  },
+  {
+    "id": "rec_05026",
+    "shorthand": "Syp. paracetamol 650 mg q24h a.c. 7/7",
+    "target_ir": "MED|paracetamol|650mg|OD|ac|7d"
+  },
+  {
+    "id": "rec_09868",
+    "shorthand": "k/c/o t2dm 7d, Cap. telma 40mg daily 7/7",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|7d\nMED|telmisartan|40mg|OD|na|7d"
+  },
+  {
+    "id": "rec_09071",
+    "shorthand": "known case of burning micturition for 1 days\nC. montek 4 mg s.o.s. a.c. for 5 days",
+    "target_ir": "COND|urinary tract infection|moderate|1d\nMED|montelukast|4mg|SOS|ac|5d"
+  },
+  {
+    "id": "rec_04852",
+    "shorthand": "diclofenac 100mg prn na x 14d",
+    "target_ir": "MED|diclofenac|100mg|SOS|na|14d"
+  },
+  {
+    "id": "rec_02468",
+    "shorthand": "Syp. levocetirizine 2.5 mg qid wm 10d",
+    "target_ir": "MED|levocetirizine|2.5mg|QID|wm|10d"
+  },
+  {
+    "id": "rec_05471",
+    "shorthand": "t. cotrimoxazole 480 mg stat along with meals x 2d",
+    "target_ir": "MED|cotrimoxazole|480mg|STAT|wm|2d"
+  },
+  {
+    "id": "rec_09927",
+    "shorthand": "K/C/O heartburn 5d, tab galvus 50mg daily p.c. x 5 days",
+    "target_ir": "COND|acid peptic disease|mild|5d\nMED|vildagliptin|50mg|OD|pc|5d"
+  },
+  {
+    "id": "rec_00402",
+    "shorthand": "dx: niddm x 3 day; Cap. doxycycline 100 mg 1-1-0 with meals x 14d",
+    "target_ir": "COND|type 2 diabetes mellitus|chronic|3d\nMED|doxycycline|100mg|BD|wm|14d"
+  },
+  {
+    "id": "rec_05994",
+    "shorthand": "syp. flagyl 400 mg prn anytime for 1 days",
+    "target_ir": "MED|metronidazole|400mg|SOS|na|1d"
+  },
+  {
+    "id": "rec_01828",
+    "shorthand": "rabeloc 10mg when required after meals x 1d",
+    "target_ir": "MED|rabeprazole|10mg|SOS|pc|1d"
+  },
+  {
+    "id": "rec_03326",
+    "shorthand": "cap enalapril 2.5 mg single dose na x 10d",
+    "target_ir": "MED|enalapril|2.5mg|STAT|na|10d"
+  },
+  {
+    "id": "rec_00280",
+    "shorthand": "doxycycline 100 mg q.i.d. p.c. 7/7",
+    "target_ir": "MED|doxycycline|100mg|QID|pc|7d"
+  },
+  {
+    "id": "rec_05301",
+    "shorthand": "Syp levocetirizine 2.5mg 3 times daily post meals 3d",
+    "target_ir": "MED|levocetirizine|2.5mg|TID|pc|3d"
+  },
+  {
+    "id": "rec_01426",
+    "shorthand": "Tab. folvite 5 mg q8h pc for 3 days",
+    "target_ir": "MED|folic_acid|5mg|TID|pc|3d"
+  },
+  {
+    "id": "rec_02244",
+    "shorthand": "Tab. lasix 20 mg daily after meals x 1 days",
+    "target_ir": "MED|furosemide|20mg|OD|pc|1d"
+  },
+  {
+    "id": "rec_08525",
+    "shorthand": "K/C/O throat infection x 3 day\nSyp cetz 10 mg stat along with meals for 3 days",
+    "target_ir": "COND|acute pharyngitis|mild|3d\nMED|cetirizine|10mg|STAT|wm|3d"
+  },
+  {
+    "id": "rec_00256",
+    "shorthand": "Syp vasotec 10mg as needed na x 10 day",
+    "target_ir": "MED|enalapril|10mg|SOS|na|10d"
+  },
+  {
+    "id": "rec_03304",
+    "shorthand": "c. omeprazole 40 mg when required with food x 10 day",
+    "target_ir": "MED|omeprazole|40mg|SOS|wm|10d"
+  },
+  {
+    "id": "rec_06732",
+    "shorthand": "t. folvite 5mg thrice daily pc for 3 days\nazi 500mg 1-0-1 after food for 5 days",
+    "target_ir": "MED|folic_acid|5mg|TID|pc|3d\nMED|azithromycin|500mg|BD|pc|5d"
+  },
+  {
+    "id": "rec_01253",
+    "shorthand": "diag: bronchitis 7d | tab enalapril 2.5mg 0-0-1 wm 10d",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|enalapril|2.5mg|OD|wm|10d"
+  },
+  {
+    "id": "rec_07446",
+    "shorthand": "C/O rhinitis 5/7, Syp. atorvastatin 20 mg 1-1-0 after meals 10d",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|atorvastatin|20mg|BD|pc|10d"
+  },
+  {
+    "id": "rec_09761",
+    "shorthand": "c/o chest infection x 5 day, T. domstal 10mg bedtime with food x 3d",
+    "target_ir": "COND|acute bronchitis|moderate|5d\nMED|domperidone|10mg|HS|wm|3d"
+  },
+  {
+    "id": "rec_09627",
+    "shorthand": "Cap betaloc 100mg q6h before meals x 3 day",
+    "target_ir": "MED|metoprolol|100mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_05123",
+    "shorthand": "Tab advil 600mg thrice daily before food for 3 days",
+    "target_ir": "MED|ibuprofen|600mg|TID|ac|3d"
+  },
+  {
+    "id": "rec_05157",
+    "shorthand": "c/o gerd x 1d; Syp. fexo 60mg qid with food 7d",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|fexofenadine|60mg|QID|wm|7d"
+  },
+  {
+    "id": "rec_07654",
+    "shorthand": "Cap storvas 40mg bedtime x 2 days\nT. cefixime 200mg sos before food 14d",
+    "target_ir": "MED|atorvastatin|40mg|HS|na|2d\nMED|cefixime|200mg|SOS|ac|14d"
+  },
+  {
+    "id": "rec_00269",
+    "shorthand": "k/c/o cystitis 2/7; cefix 100 mg 4 times daily p.c. 14/7",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|cefixime|100mg|QID|pc|14d"
+  },
+  {
+    "id": "rec_08925",
+    "shorthand": "C/O common cold x 7d\ncap cozaar 50 mg bd p.c. 14d",
+    "target_ir": "COND|upper respiratory tract infection|mild|7d\nMED|losartan|50mg|BD|pc|14d"
+  },
+  {
+    "id": "rec_08052",
+    "shorthand": "Tab. doxt 100mg p.r.n. after food 1d",
+    "target_ir": "MED|doxycycline|100mg|SOS|pc|1d"
+  },
+  {
+    "id": "rec_02329",
+    "shorthand": "c/o bronchitis x 2 days, Cap allegra 60 mg 0-1-1 pre-meal for 1 days",
+    "target_ir": "COND|acute bronchitis|moderate|2d\nMED|fexofenadine|60mg|BD|ac|1d"
+  },
+  {
+    "id": "rec_01858",
+    "shorthand": "c. envas 2.5mg tid anytime 2d + tab b_complex 1tab q6h anytime x 14 day",
+    "target_ir": "MED|enalapril|2.5mg|TID|na|2d\nMED|b_complex|1tab|QID|na|14d"
+  },
+  {
+    "id": "rec_08866",
+    "shorthand": "Cap aspirin 75mg q.i.d. anytime x 7 day",
+    "target_ir": "MED|aspirin|75mg|QID|na|7d"
+  },
+  {
+    "id": "rec_06439",
+    "shorthand": "known case of heartburn x 3d, cap zithromax 250 mg q.i.d. pc x 2 days",
+    "target_ir": "COND|acid peptic disease|mild|3d\nMED|azithromycin|250mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_08334",
+    "shorthand": "k/c/o arthralgia 3d | T. cifran 500 mg 4 times daily pc for 2 days",
+    "target_ir": "COND|osteoarthritis|chronic|3d\nMED|ciprofloxacin|500mg|QID|pc|2d"
+  },
+  {
+    "id": "rec_04140",
+    "shorthand": "T. flagyl 400 mg 3 times daily x 2 day\nC. ultram 50mg q.i.d. before meals 3d",
+    "target_ir": "MED|metronidazole|400mg|TID|na|2d\nMED|tramadol|50mg|QID|ac|3d"
+  },
+  {
+    "id": "rec_03622",
+    "shorthand": "t. rabeloc 10 mg qid a.c. x 10 day",
+    "target_ir": "MED|rabeprazole|10mg|QID|ac|10d"
+  },
+  {
+    "id": "rec_09014",
+    "shorthand": "c. metformin 850mg p.r.n. p.c. x 2 day",
+    "target_ir": "MED|metformin|850mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_08898",
+    "shorthand": "syp clopilet 75 mg q12h after food for 10 days\ncap fe 100mg q.d. ac x 7 day",
+    "target_ir": "MED|clopidogrel|75mg|BD|pc|10d\nMED|ferrous_ascorbate|100mg|OD|ac|7d"
+  },
+  {
+    "id": "rec_04128",
+    "shorthand": "T. montelukast 10mg single dose with meals x 1 day; Syp ramipril 10 mg as needed after meals x 2 day",
+    "target_ir": "MED|montelukast|10mg|STAT|wm|1d\nMED|ramipril|10mg|SOS|pc|2d"
+  },
+  {
+    "id": "rec_05557",
+    "shorthand": "Cap atocor 40mg 1-0-0 pc x 5d",
+    "target_ir": "MED|atorvastatin|40mg|OD|pc|5d"
+  },
+  {
+    "id": "rec_02557",
+    "shorthand": "C/O elevated bp x 5 days | cap septran 960mg 1-1-1-1 x 3 day",
+    "target_ir": "COND|essential hypertension|chronic|5d\nMED|cotrimoxazole|960mg|QID|na|3d"
+  },
+  {
+    "id": "rec_00651",
+    "shorthand": "T. metronidazole 400 mg night empty stomach 5d",
+    "target_ir": "MED|metronidazole|400mg|HS|ac|5d"
+  },
+  {
+    "id": "rec_04680",
+    "shorthand": "c/o burning micturition x 2 day; Cap. zithromax 250 mg 1 time daily with meals 7/7",
+    "target_ir": "COND|urinary tract infection|moderate|2d\nMED|azithromycin|250mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_05831",
+    "shorthand": "complains of rhinitis 7d\nt. allegra 180 mg 1-1-1 for 1 days",
+    "target_ir": "COND|allergic rhinitis|mild|7d\nMED|fexofenadine|180mg|TID|na|1d"
+  },
+  {
+    "id": "rec_02447",
+    "shorthand": "complains of hay fever x 5 days; T. metronidazole 400mg 2 times daily a.c. x 14 day",
+    "target_ir": "COND|allergic rhinitis|mild|5d\nMED|metronidazole|400mg|BD|ac|14d"
+  },
+  {
+    "id": "rec_07036",
+    "shorthand": "c/o acidity for 5 days | cap montelukast 5 mg od with food 7d",
+    "target_ir": "COND|acid peptic disease|mild|5d\nMED|montelukast|5mg|OD|wm|7d"
+  },
+  {
+    "id": "rec_05623",
+    "shorthand": "diag: gerd 1d\nCap amlo 10 mg q.i.d. post-meal 7/7",
+    "target_ir": "COND|acid peptic disease|mild|1d\nMED|amlodipine|10mg|QID|pc|7d"
+  },
+  {
+    "id": "rec_02708",
+    "shorthand": "C. brufen 200mg 0-1-0 empty stomach 5/7",
+    "target_ir": "MED|ibuprofen|200mg|OD|ac|5d"
+  },
+  {
+    "id": "rec_08885",
+    "shorthand": "Tab bandy 400mg s.o.s. along with meals 14/7",
+    "target_ir": "MED|albendazole|400mg|SOS|wm|14d"
+  },
+  {
+    "id": "rec_09165",
+    "shorthand": "complains of rhinitis x 3 day; T. singulair 10 mg h.s. before food x 3 days",
+    "target_ir": "COND|allergic rhinitis|mild|3d\nMED|montelukast|10mg|HS|ac|3d"
+  },
+  {
+    "id": "rec_02007",
+    "shorthand": "C. vitamin b 1tab single dose pre-meal x 3 day",
+    "target_ir": "MED|b_complex|1tab|STAT|ac|3d"
+  },
+  {
+    "id": "rec_08744",
+    "shorthand": "cap. betaloc 25 mg once daily anytime x 10 days\ntab disprin 150mg p.r.n. a.c. x 3 day",
+    "target_ir": "MED|metoprolol|25mg|OD|na|10d\nMED|aspirin|150mg|SOS|ac|3d"
+  },
+  {
+    "id": "rec_08083",
+    "shorthand": "C/O uri for 2 days\nTab. b_complex 1tab 1-1-1 with food x 10d",
+    "target_ir": "COND|upper respiratory tract infection|mild|2d\nMED|b_complex|1tab|TID|wm|10d"
+  },
+  {
+    "id": "rec_04412",
+    "shorthand": "tab lasix 20 mg 1-1-1 na x 7 days",
+    "target_ir": "MED|furosemide|20mg|TID|na|7d"
+  },
+  {
+    "id": "rec_05565",
+    "shorthand": "T. bactrim 960 mg once daily with meals x 2d",
+    "target_ir": "MED|cotrimoxazole|960mg|OD|wm|2d"
+  },
+  {
+    "id": "rec_05650",
+    "shorthand": "C. b_complex 1tab immediately for 14 days, lasix 20 mg 2 times daily anytime 2d",
+    "target_ir": "MED|b_complex|1tab|STAT|na|14d\nMED|furosemide|20mg|BD|na|2d"
+  },
+  {
+    "id": "rec_04086",
+    "shorthand": "Syp bandy 400mg 0-1-1 post-meal x 1 day",
+    "target_ir": "MED|albendazole|400mg|BD|pc|1d"
+  },
+  {
+    "id": "rec_03215",
+    "shorthand": "diag: allergy x 1 days | syp. ramipril 10 mg s.o.s. na for 3 days",
+    "target_ir": "COND|allergic rhinitis|mild|1d\nMED|ramipril|10mg|SOS|na|3d"
+  },
+  {
+    "id": "rec_00017",
+    "shorthand": "complains of chest infection x 7 days, fe 100 mg tid post-meal for 5 days",
+    "target_ir": "COND|acute bronchitis|moderate|7d\nMED|ferrous_ascorbate|100mg|TID|pc|5d"
+  },
+  {
+    "id": "rec_05191",
+    "shorthand": "Cap. omeprazole 40 mg 1-1-1-1 with meals for 5 days",
+    "target_ir": "MED|omeprazole|40mg|QID|wm|5d"
+  },
+  {
+    "id": "rec_01061",
+    "shorthand": "diclo 75 mg bid with meals x 3 day",
+    "target_ir": "MED|diclofenac|75mg|BD|wm|3d"
+  },
+  {
+    "id": "rec_01319",
+    "shorthand": "glyciphage 850mg qid empty stomach 5/7",
+    "target_ir": "MED|metformin|850mg|QID|ac|5d"
+  },
+  {
+    "id": "rec_09933",
+    "shorthand": "syp. vitamin_d3 60000iu 1-0-1 with food x 3 day",
+    "target_ir": "MED|vitamin_d3|60000iu|BD|wm|3d"
+  },
+  {
+    "id": "rec_05982",
+    "shorthand": "Syp tramazac 100mg qid pc x 14 days, cap clavulanic_acid 625 mg bd wm x 10 day",
+    "target_ir": "MED|tramadol|100mg|QID|pc|14d\nMED|clavulanic_acid|625mg|BD|wm|10d"
+  },
+  {
+    "id": "rec_04142",
+    "shorthand": "C/O burning micturition for 5 days\ntab domperidone 10mg stat post meals for 7 days",
+    "target_ir": "COND|urinary tract infection|moderate|5d\nMED|domperidone|10mg|STAT|pc|7d"
+  },
+  {
+    "id": "rec_02223",
+    "shorthand": "Tab. hydrochlorothiazide 12.5 mg 4 times daily na 14/7\nSyp. amlo 2.5mg od na x 2d",
+    "target_ir": "MED|hydrochlorothiazide|12.5mg|QID|na|14d\nMED|amlodipine|2.5mg|OD|na|2d"
+  },
+  {
+    "id": "rec_00293",
+    "shorthand": "Cap. rosave 10mg 0-0-1 empty stomach 7d",
+    "target_ir": "MED|rosuvastatin|10mg|OD|ac|7d"
+  },
+  {
+    "id": "rec_09976",
+    "shorthand": "known case of allergy 3/7\ntab tramadol 100mg 1 time daily after food 7d",
+    "target_ir": "COND|allergic rhinitis|mild|3d\nMED|tramadol|100mg|OD|pc|7d"
+  },
+  {
+    "id": "rec_06675",
+    "shorthand": "telmikind 40mg s.o.s. before food x 5 days",
+    "target_ir": "MED|telmisartan|40mg|SOS|ac|5d"
+  },
+  {
+    "id": "rec_02741",
+    "shorthand": "cardace 10mg thrice daily anytime x 7 day",
+    "target_ir": "MED|ramipril|10mg|TID|na|7d"
+  }
+]
