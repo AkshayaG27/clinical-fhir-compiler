@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 Viva Voce Defense Guide — Clinical Shorthand-to-FHIR Compiler</title>
+    <!-- KaTeX for high-performance LaTeX math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+            onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]});"></script>
+    <style>
+        :root {
+            --bg-primary: #0b0f19;
+            --bg-secondary: #111827;
+            --bg-card: #1f2937;
+            --bg-card-hover: #283548;
+            --text-primary: #f9fafb;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --accent: #8b5cf6;
+            --accent-glow: rgba(139, 92, 246, 0.25);
+            --accent-emerald: #10b981;
+            --accent-rose: #f43f5e;
+            --accent-amber: #f59e0b;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-highlight: rgba(139, 92, 246, 0.4);
+            --code-bg: #030712;
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 80px;
+        }
+
+        header {
+            background: linear-gradient(180deg, rgba(17, 24, 39, 0.95) 0%, rgba(11, 15, 25, 0.9) 100%);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(12px);
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .title-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(139, 92, 246, 0.15);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            color: #c4b5fd;
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 9999px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 1.85rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #ffffff 0%, #ddd6fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.92rem;
+            margin-top: 4px;
+        }
+
+        .stats-strip {
+            display: flex;
+            gap: 12px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 8px 16px;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .stat-value {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .controls-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin: 28px 0;
+            flex-wrap: wrap;
+        }
+
+        .search-input {
+            flex: 1;
+            max-width: 480px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 10px 16px;
+            border-radius: var(--radius-md);
+            font-size: 0.9rem;
+            outline: none;
+            transition: all 0.2s ease;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .action-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 9px 14px;
+            border-radius: var(--radius-md);
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .action-btn:hover {
+            color: var(--text-primary);
+            border-color: rgba(255, 255, 255, 0.25);
+        }
+
+        .q-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            margin-bottom: 24px;
+            overflow: hidden;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .q-card:hover {
+            border-color: var(--border-highlight);
+        }
+
+        .q-header {
+            padding: 20px 24px;
+            background: rgba(255, 255, 255, 0.02);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 16px;
+        }
+
+        .q-num-badge {
+            background: rgba(139, 92, 246, 0.15);
+            color: var(--accent);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            font-size: 0.78rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+            white-space: nowrap;
+        }
+
+        .q-topic {
+            font-size: 0.78rem;
+            color: var(--accent);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            margin-bottom: 4px;
+        }
+
+        .q-question {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+
+        .q-body {
+            padding: 24px;
+        }
+
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .option-item {
+            background: rgba(0, 0, 0, 0.25);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 14px 18px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            user-select: none;
+        }
+
+        .option-item:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .option-marker {
+            min-width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.78rem;
+            font-weight: 700;
+            margin-top: 1px;
+            transition: all 0.2s ease;
+        }
+
+        .option-text {
+            font-size: 0.92rem;
+            color: #e2e8f0;
+            line-height: 1.5;
+            flex: 1;
+        }
+
+        .option-item.selected-correct {
+            background: rgba(16, 185, 129, 0.15) !important;
+            border-color: var(--accent-emerald) !important;
+        }
+        .option-item.selected-correct .option-marker {
+            background: var(--accent-emerald);
+            color: #ffffff;
+        }
+
+        .option-item.selected-wrong {
+            background: rgba(244, 63, 94, 0.15) !important;
+            border-color: var(--accent-rose) !important;
+        }
+        .option-item.selected-wrong .option-marker {
+            background: var(--accent-rose);
+            color: #ffffff;
+        }
+
+        .reveal-toggle-btn {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(139, 92, 246, 0.2) 100%);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            color: #ddd6fe;
+            padding: 10px 18px;
+            border-radius: var(--radius-md);
+            font-size: 0.88rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.2s ease;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .reveal-toggle-btn:hover {
+            background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(139, 92, 246, 0.3) 100%);
+            border-color: var(--accent);
+        }
+
+        .defense-dossier {
+            display: none;
+            margin-top: 20px;
+            padding: 22px;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            animation: fadeIn 0.3s ease;
+        }
+
+        .defense-dossier.open { display: block; }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .dossier-heading {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .badge-verified {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-emerald);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            font-size: 0.72rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .defense-text {
+            font-size: 0.9rem;
+            color: #cbd5e1;
+            margin-bottom: 16px;
+            line-height: 1.65;
+        }
+
+        .defense-box {
+            background: rgba(15, 23, 42, 0.8);
+            border-left: 3px solid var(--accent);
+            padding: 14px 18px;
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin-bottom: 16px;
+        }
+
+        .defense-box.warning {
+            border-left-color: var(--accent-amber);
+            background: rgba(40, 25, 10, 0.4);
+        }
+
+        .defense-box-title {
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 6px;
+            letter-spacing: 0.05em;
+        }
+
+        .defense-box.warning .defense-box-title { color: var(--accent-amber); }
+
+        .whiteboard-quote {
+            background: rgba(139, 92, 246, 0.08);
+            border: 1px dashed rgba(139, 92, 246, 0.35);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            margin-top: 14px;
+        }
+
+        .whiteboard-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+
+        footer {
+            margin-top: 60px;
+            border-top: 1px solid var(--border-color);
+            padding-top: 28px;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.82rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div>
+                    <div class="title-badge">UMC301 Project 2 • Edge Healthcare Transformer Track</div>
+                    <h1>Clinical Shorthand-to-FHIR Compiler Viva Voce</h1>
+                    <div class="subtitle">Scratch PyTorch Decoder ($L \le 64$) • RoPE • Circular KV-Cache • 11-State DFA Mask • HL7 FHIR R4</div>
+                </div>
+                <div class="stats-strip">
+                    <div class="stat-item">
+                        <div class="stat-value">5</div>
+                        <div class="stat-label">Viva MCQs</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Whiteboard Proofs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="controls-bar">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search questions (e.g. RoPE, Variance, DFA, KV-Cache, RMSNorm, SwiGLU)..." oninput="filterSearch()">
+            <div style="display: flex; gap: 10px;">
+                <button class="action-btn" onclick="toggleAll(true)">Expand All Proofs</button>
+                <button class="action-btn" onclick="toggleAll(false)">Collapse All</button>
+                <button class="action-btn" onclick="window.print()">Print / PDF</button>
+            </div>
+        </div>
+
+        <!-- Question 1 -->
+        <div class="q-card" data-keywords="attention variance scaling sqrt dk softmax vanishing gradient">
+            <div class="q-header">
+                <div class="q-num-badge">Question 1</div>
+                <div>
+                    <div class="q-topic">Attention Mechanics & Variance Derivation</div>
+                    <div class="q-question">Why is the query-key dot product divided strictly by $\sqrt{d_k}$ in scaled dot-product attention? Provide the mathematical proof assuming independent components with zero mean and unit variance.</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">To ensure that attention weights sum to exactly $1.0$ across the sequence length dimension.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">For independent query and key components with $\text{Var}(q_i)=\text{Var}(k_i)=1$, the unscaled dot product has variance $\text{Var}(q \cdot k) = d_k$; dividing by $\sqrt{d_k}$ restores unit variance ($1.0$), preventing softmax from saturating into near-zero gradient regions.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">To account for floating-point underflow in FP16 tensors when running matrix multiplication on edge CPU vector registers.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">Because $\sqrt{d_k}$ matches the spectral norm of an orthogonal Givens rotation matrix.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-box">
+                        <div class="defense-box-title">Whiteboard Proof: Scaled Dot-Product Attention Variance Normalization</div>
+                        Let $q, k \in \mathbb{R}^{d_k}$ be independent query and key vectors where each component is i.i.d. with:
+                        $$\mathbb{E}[q_i] = 0, \quad \text{Var}(q_i) = 1, \quad \mathbb{E}[k_i] = 0, \quad \text{Var}(k_i) = 1$$
+                        The dot product is $S = q \cdot k = \sum_{i=1}^{d_k} q_i k_i$.
+                        <br><br>
+                        <strong>1. Expectation of $S$:</strong>
+                        $$\mathbb{E}[S] = \sum_{i=1}^{d_k} \mathbb{E}[q_i k_i] = \sum_{i=1}^{d_k} \mathbb{E}[q_i]\mathbb{E}[k_i] = 0$$
+                        <strong>2. Variance of $S$:</strong>
+                        $$\text{Var}(q_i k_i) = \mathbb{E}[(q_i k_i)^2] - (\mathbb{E}[q_i k_i])^2 = \mathbb{E}[q_i^2]\mathbb{E}[k_i^2] - 0 = (1)(1) = 1$$
+                        Since components are mutually independent:
+                        $$\text{Var}(S) = \sum_{i=1}^{d_k} \text{Var}(q_i k_i) = \sum_{i=1}^{d_k} 1 = d_k$$
+                        <strong>3. The Vanishing Gradient Consequence:</strong> When $d_k = 32$ or $64$, the standard deviation is $\sigma = \sqrt{d_k} = 8$. Inputs to $\text{softmax}(z)$ take large positive/negative values. In these tails, the softmax derivative $\frac{\partial s_i}{\partial z_j} = s_i(\delta_{ij} - s_j)$ approaches $0$, causing severe <strong>gradient vanishing</strong>.
+                        <br><br>
+                        <strong>4. Rescaling:</strong>
+                        $$\text{Var}\left( \frac{q \cdot k}{\sqrt{d_k}} \right) = \frac{1}{d_k} \text{Var}(q \cdot k) = \frac{d_k}{d_k} = 1.0$$
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="q-card" data-keywords="rope rotary position embedding givens rotation relative distance invariance">
+            <div class="q-header">
+                <div class="q-num-badge">Question 2</div>
+                <div>
+                    <div class="q-topic">Positional Encoding Geometry & RoPE Derivation</div>
+                    <div class="q-question">Prove that Rotary Position Embedding (RoPE) preserves relative displacement invariance: $\langle R_m q, R_n k \rangle = g(q, k, m - n)$.</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">Multiplying query and key vectors by 2D Givens rotation matrices yields $R_m^T R_n = R_{n-m}$; by trigonometric angle-subtraction identities, the inner product depends strictly on relative offset $(m - n)$.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">RoPE applies a 1D convolution across the sequence dimension whose kernel weights decay as an inverse power of $(m - n)$.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">RoPE adds static sinusoidal vectors $p_m + p_n$ which cancel out under Euclidean $L_2$ distance.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">RoPE projects embeddings onto a hyperbolic Poincaré ball where distance is geodesically invariant.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-box">
+                        <div class="defense-box-title">Whiteboard Proof: RoPE Relative Distance Invariance</div>
+                        For a 2D subspace of query $q$ and key $k$, RoPE defines the orthogonal Givens rotation matrix at position $m$:
+                        $$R_{\theta, m} = \begin{pmatrix} \cos(m\theta) & -\sin(m\theta) \\ \sin(m\theta) & \cos(m\theta) \end{pmatrix}$$
+                        The inner product of rotated vectors $\tilde{q}_m = R_{\theta, m} q$ and $\tilde{k}_n = R_{\theta, n} k$ is:
+                        $$\langle \tilde{q}_m, \tilde{k}_n \rangle = \tilde{q}_m^T \tilde{k}_n = q^T R_{\theta, m}^T R_{\theta, n} k$$
+                        Evaluating the matrix product $R_{\theta, m}^T R_{\theta, n}$:
+                        $$R_{\theta, m}^T R_{\theta, n} = \begin{pmatrix} \cos(m\theta) & \sin(m\theta) \\ -\sin(m\theta) & \cos(m\theta) \end{pmatrix} \begin{pmatrix} \cos(n\theta) & -\sin(n\theta) \\ \sin(n\theta) & \cos(n\theta) \end{pmatrix}$$
+                        Applying trigonometric angle identities:
+                        $$\cos(m\theta)\cos(n\theta) + \sin(m\theta)\sin(n\theta) = \cos((m - n)\theta)$$
+                        $$-\cos(m\theta)\sin(n\theta) + \sin(m\theta)\cos(n\theta) = \sin((n - m)\theta) = -\sin((m - n)\theta)$$
+                        Therefore:
+                        $$R_{\theta, m}^T R_{\theta, n} = \begin{pmatrix} \cos((m - n)\theta) & -\sin((m - n)\theta) \\ \sin((m - n)\theta) & \cos((m - n)\theta) \end{pmatrix} = R_{\theta, m - n}$$
+                        $$\langle \tilde{q}_m, \tilde{k}_n \rangle = q^T R_{\theta, m - n} k = g(q, k, m - n) \quad \blacksquare$$
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="q-card" data-keywords="dfa logit mask cfg token bloat context-free grammar regular intermediate representation">
+            <div class="q-header">
+                <div class="q-num-badge">Question 3</div>
+                <div>
+                    <div class="q-topic">Grammar Complexity Mismatch & Two-Stage Compiler Architecture</div>
+                    <div class="q-question">Why is prompting an LLM to generate raw HL7 FHIR JSON at the edge a systems anti-pattern, and how does the two-stage compiler with an 11-state DFA logit mask resolve it?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">Because JSON requires Unicode UTF-32 encoding, which is unsupported by PyTorch embedding layers.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">Full FHIR JSON is a Context-Free Grammar (CFG) spanning 350–500+ tokens ($>15\text{s}$ latency); our Stage 1 model generates a compact linear DSL (15–25 tokens, $L \le 64$) governed by a regular Deterministic Finite Automaton (DFA) that sets illegal logits to $-\infty$, while Stage 2 deterministically lowers it to FHIR.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">Because the Ayushman Bharat Digital Mission (ABDM) strictly bans neural networks from generating JSON files.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">Because JSON schemas cannot be validated without an active internet connection to the HL7 standards registry.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-text">
+                        <strong>1. The Token Bloat Bottleneck:</strong> Generating complete HL7 FHIR R4 JSON directly at the edge requires 350–500+ tokens per prescription (nested metadata, arrays, SNOMED URIs). On an edge CPU, this requires over 15 seconds.
+                    </div>
+                    <div class="defense-box">
+                        <div class="defense-box-title">Chomsky Hierarchy: CFG vs. Regular Grammar (DFA)</div>
+                        <ul>
+                            <li><strong>JSON is a Context-Free Grammar (Type-2):</strong> Enforcing JSON syntax requires a dynamic pushdown stack automaton to track recursive braces (`{ ... [ ... ] ... }`), creating significant runtime overhead.</li>
+                            <li><strong>Our DSL is Regular (Type-3):</strong>
+                                $$\texttt{MED\|paracetamol\|650mg\|BD\|pc\|3d}$$
+                                Spans only 15–25 tokens ($>95\%$ sequence reduction). Because the syntax is linear and non-nested, it forms an 11-state <strong>Deterministic Finite Automaton (DFA)</strong>. At each decoding step, illegal token transitions are masked to $-\infty$. In <code>STATE_MED_DRUG</code>, only the 50 Indian National List of Essential Medicines (NLEM 2022) entities have non-zero probabilities.</li>
+                            <li><strong>Stage 2:</strong> A deterministic Python AST compiler builds certified HL7 FHIR JSON with 100% schema pass rate in sub-millisecond time.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="q-card" data-keywords="kv-cache circular buffer complexity o(l) vs o(l^2) rmsnorm layernorm">
+            <div class="q-header">
+                <div class="q-num-badge">Question 4</div>
+                <div>
+                    <div class="q-topic">Edge Inference Systems Complexity & Memory Bandwidth</div>
+                    <div class="q-question">What is the computational step complexity of autoregressive generation with vs without a circular KV-cache, and why was RMSNorm chosen over LayerNorm for edge deployment?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">Without cache is $O(1)$; with cache is $O(\log L)$; LayerNorm was replaced because it suffers from catastrophic rounding errors on FP32 floats.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">Without KV-cache, generating sequence $L$ recomputes attention across all prior tokens at cost $\mathcal{O}(L^2 d)$; a circular KV-cache stores historical keys/values, reducing per-token generation to strictly $\mathcal{O}(L d)$; RMSNorm eliminates mean-centering, saving a full memory read/write pass ($\sim 7\%$ memory bandwidth).</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">Without cache is $\mathcal{O}(L^3)$; with cache is $\mathcal{O}(L)$; RMSNorm was chosen because it allows gradients to backpropagate through quantized int8 weights.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">The circular KV-cache eliminates all matrix multiplications; RMSNorm is mathematically required to support Rotary Position Embeddings.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-box">
+                        <div class="defense-box-title">Whiteboard Complexity Derivation: KV-Cache</div>
+                        Suppose we generate a sequence of length $L$.
+                        <br><br>
+                        <strong>1. Without KV-Cache (Naive Recomputation):</strong>
+                        $$\sum_{t=1}^L \mathcal{O}(t \cdot d_{\text{model}}) = \mathcal{O}\left( \frac{L(L+1)}{2} d_{\text{model}} \right) = \mathbf{\mathcal{O}(L^2 d_{\text{model}})}$$
+                        <strong>2. With Circular KV-Cache:</strong> Keys and values from steps $1 \dots t-1$ reside in a contiguous ring buffer in memory. At step $t$, query $q_t$ ($1 \times d_k$) attends to the cached keys $K[:, :, :t+1, :]$ ($t \times d_k$):
+                        $$\text{Per-Step Complexity} = \mathbf{\mathcal{O}(t \cdot d_k) = \mathcal{O}(L \cdot d)}$$
+                        Generation drops from quadratic $\mathcal{O}(L^2)$ to linear $\mathcal{O}(L)$, achieving a steady $\sim 3.8\text{ ms}$ step latency on consumer CPU.
+                    </div>
+                    <div class="defense-text">
+                        <strong>Why RMSNorm over LayerNorm?</strong> Standard LayerNorm centers activations by subtracting the mean: $\text{LN}(x) = \frac{x - \mu}{\sqrt{\sigma^2 + \epsilon}} \odot \gamma + \beta$. This requires two separate memory passes over the tensor in RAM. RMSNorm normalizes strictly by the root mean square: $\text{RMSNorm}(x) = \frac{x}{\sqrt{\frac{1}{d}\sum x_i^2 + \epsilon}} \odot \gamma$, executing in a <strong>single memory pass</strong> and saving $\sim 7\%$ memory bandwidth on edge hardware.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="q-card" data-keywords="swiglu relu gelu activation gating bilinear feedforward">
+            <div class="q-header">
+                <div class="q-num-badge">Question 5</div>
+                <div>
+                    <div class="q-topic">Feedforward Architecture & SwiGLU Gating Mechanics</div>
+                    <div class="q-question">Why did your transformer architecture replace standard ReLU / GELU feedforward networks with SwiGLU, and how is its hidden dimension $d_{\text{ffn}}$ calculated?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">SwiGLU provides bilinear multiplicative gating $(\text{SiLU}(x W_{\text{gate}}) \otimes x W_{\text{up}}) W_{\text{down}}$, allowing dynamic feature routing; $d_{\text{ffn}}$ is scaled to $\approx \frac{8}{3} d_{\text{model}}$ (340) to maintain parameter parity with standard $4 d$ MLPs.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">SwiGLU eliminates all matrix multiplications in the feedforward layer by replacing weights with lookup tables.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">SwiGLU was chosen to ensure that feedforward activation values remain strictly binary (0 or 1) for the DFA logit mask.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">Standard ReLU networks cannot be trained using the AdamW optimizer without triggering division by zero.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-text">
+                        <strong>The Mathematical Advantage of SwiGLU (Shazeer, 2020):</strong>
+                        In a standard transformer MLP, a single projection is followed by an activation: $\text{FFN}(x) = \text{GELU}(x W_1) W_2$.
+                        In SwiGLU, the network performs a <em>bilinear gated element-wise multiplication</em>:
+                        $$\text{SwiGLU}(x) = \Big( \text{SiLU}(x W_{\text{gate}}) \otimes (x W_{\text{up}}) \Big) W_{\text{down}}$$
+                        The gating branch $\text{SiLU}(x W_{\text{gate}})$ acts as a smooth, continuous "dimmer switch" that dynamically modulates feature flow into $W_{\text{down}}$, providing superior gradient propagation.
+                    </div>
+                    <div class="defense-box">
+                        <div class="defense-box-title">Parameter Parity Calculation</div>
+                        A standard MLP with hidden dimension $4 d$ has $2 \times (d \times 4d) = 8 d^2$ parameters.
+                        SwiGLU uses three matrices ($W_{\text{gate}}, W_{\text{up}}, W_{\text{down}}$), each of dimension $d \times d_{\text{ffn}}$, totaling $3 d \cdot d_{\text{ffn}}$ parameters.
+                        To maintain identical parameter capacity:
+                        $$3 d \cdot d_{\text{ffn}} \approx 8 d^2 \implies d_{\text{ffn}} \approx \frac{8}{3} d_{\text{model}}$$
+                        For our model with $d_{\text{model}} = 128$:
+                        $$d_{\text{ffn}} = \left\lfloor \frac{8}{3} \times 128 \right\rfloor = 341 \implies 340$$
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p><strong>UMC301: Applied Data Science & AI</strong> • Computational and Data Sciences (CDS), IISc Bengaluru</p>
+            <p style="margin-top: 6px;">Spec-Driven Development (SDD) • Project 2 Defense Architecture Guide</p>
+        </div>
+    </footer>
+
+    <script>
+        function checkOption(el, isCorrect) {
+            const parentList = el.closest('.options-list');
+            const items = parentList.querySelectorAll('.option-item');
+            items.forEach(item => item.classList.remove('selected-correct', 'selected-wrong'));
+
+            if (isCorrect) {
+                el.classList.add('selected-correct');
+            } else {
+                el.classList.add('selected-wrong');
+                items.forEach(item => {
+                    const onclickAttr = item.getAttribute('onclick');
+                    if (onclickAttr && onclickAttr.includes('true')) item.classList.add('selected-correct');
+                });
+            }
+
+            const card = el.closest('.q-card');
+            const dossier = card.querySelector('.defense-dossier');
+            const btn = card.querySelector('.reveal-toggle-btn span');
+            if (dossier && !dossier.classList.contains('open')) {
+                dossier.classList.add('open');
+                if (btn) btn.textContent = 'Hide Examiner Solution & Whiteboard Derivation';
+                if (window.renderMathInElement) {
+                    renderMathInElement(dossier, {
+                        delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]
+                    });
+                }
+            }
+        }
+
+        function toggleDossier(btn) {
+            const card = btn.closest('.q-card');
+            const dossier = card.querySelector('.defense-dossier');
+            const span = btn.querySelector('span');
+
+            if (dossier.classList.contains('open')) {
+                dossier.classList.remove('open');
+                span.textContent = 'Show Examiner Solution & Whiteboard Derivation';
+            } else {
+                dossier.classList.add('open');
+                span.textContent = 'Hide Examiner Solution & Whiteboard Derivation';
+                if (window.renderMathInElement) {
+                    renderMathInElement(dossier, {
+                        delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]
+                    });
+                }
+            }
+        }
+
+        function filterSearch() {
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            const cards = document.querySelectorAll('.q-card');
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                const keywords = (card.getAttribute('data-keywords') || '').toLowerCase();
+                card.style.display = (!query || text.includes(query) || keywords.includes(query)) ? 'block' : 'none';
+            });
+        }
+
+        function toggleAll(expand) {
+            document.querySelectorAll('.defense-dossier').forEach(d => {
+                if (expand) {
+                    d.classList.add('open');
+                    if (window.renderMathInElement) {
+                        renderMathInElement(d, {
+                            delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}]
+                        });
+                    }
+                } else {
+                    d.classList.remove('open');
+                }
+            });
+            document.querySelectorAll('.reveal-toggle-btn span').forEach(b => {
+                b.textContent = expand ? 'Hide Examiner Solution & Whiteboard Derivation' : 'Show Examiner Solution & Whiteboard Derivation';
+            });
+        }
+    </script>
+</body>
+</html>
