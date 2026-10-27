@@ -406,10 +406,18 @@ async def index_page(request):
     return JSONResponse({"status": "error", "message": "Frontend index.html not found"})
 
 
+async def transcript_page(request):
+    transcript_file = BASE_DIR / "transcript.html"
+    if transcript_file.exists():
+        return FileResponse(transcript_file)
+    return JSONResponse({"status": "error", "message": "transcript.html not found"})
+
+
 routes = [
     Route("/api/presets", get_presets, methods=["GET"]),
     Route("/api/stats", get_stats, methods=["GET"]),
     Route("/api/compile", compile_shorthand, methods=["POST"]),
+    Route("/transcript", transcript_page, methods=["GET"]),
     Route("/", index_page, methods=["GET"]),
 ]
 
