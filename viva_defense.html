@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 2 Viva Voce Defense Guide — Clinical Shorthand-to-FHIR Compiler</title>
+    <title>Project 2 Viva Voce Defense Master Guide — Clinical Shorthand-to-FHIR Compiler</title>
     <!-- KaTeX for high-performance LaTeX math rendering -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
@@ -52,7 +52,7 @@
         }
 
         .container {
-            max-width: 1100px;
+            max-width: 1140px;
             margin: 0 auto;
             padding: 0 24px;
         }
@@ -121,6 +121,79 @@
             font-size: 0.7rem;
             color: var(--text-muted);
             text-transform: uppercase;
+        }
+
+        /* Theory Module Styling */
+        .theory-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 28px;
+            margin: 32px 0 40px 0;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .theory-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 14px;
+            margin-bottom: 20px;
+        }
+
+        .theory-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .theory-pill {
+            background: rgba(139, 92, 246, 0.15);
+            color: var(--accent);
+            border: 1px solid rgba(139, 92, 246, 0.3);
+            font-size: 0.75rem;
+            padding: 3px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .theory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+            margin-top: 16px;
+        }
+
+        .theory-card {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 18px;
+        }
+
+        .theory-card h3 {
+            font-size: 1.0rem;
+            color: var(--accent);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .theory-card p, .theory-card ul {
+            font-size: 0.88rem;
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+
+        .theory-card ul {
+            padding-left: 20px;
+            margin-top: 6px;
         }
 
         .controls-bar {
@@ -417,7 +490,7 @@
                 </div>
                 <div class="stats-strip">
                     <div class="stat-item">
-                        <div class="stat-value">5</div>
+                        <div class="stat-value">10</div>
                         <div class="stat-label">Viva MCQs</div>
                     </div>
                     <div class="stat-item">
@@ -430,6 +503,58 @@
     </header>
 
     <main class="container">
+
+        <!-- Theoretical Foundations Section -->
+        <section class="theory-section">
+            <div class="theory-header">
+                <div class="theory-title">
+                    <span>Core Theoretical Foundations & Mathematical Formulations</span>
+                </div>
+                <span class="theory-pill">Edge Transformer & Compiler Architecture</span>
+            </div>
+            
+            <div class="theory-grid">
+                <div class="theory-card">
+                    <h3>1. Outpatient Reality & ABDM Mandate</h3>
+                    <p>Indian OPD physicians examine 60–100 patients in 3 hours (2–3 minutes per consultation), recording prescriptions in dense Latin shorthand (e.g. <code>Tab PCM 650mg BD pc x 3d</code>). The <strong>Ayushman Bharat Digital Mission (ABDM)</strong> mandates structured HL7 FHIR R4 JSON for national health records.
+                    </p>
+                </div>
+
+                <div class="theory-card">
+                    <h3>2. The Token Bloat & Latency Bottleneck</h3>
+                    <p>Directly generating full HL7 FHIR JSON requires <strong>350–500+ tokens</strong> per prescription (nested objects, coding URIs). On edge hardware ($L \le 64$ context limits), generating 500 tokens creates massive latency ($> 15\text{ seconds}$).
+                    </p>
+                </div>
+
+                <div class="theory-card">
+                    <h3>3. Chomsky Grammar Mismatch</h3>
+                    <p>JSON is a <strong>Context-Free Grammar (CFG)</strong> requiring a dynamic pushdown stack automaton to track recursive braces (`{ ... [ ... ] ... }`). Our Intermediate Representation (IR / DSL) is <strong>Regular</strong> (Type-3), parseable by an 11-state Deterministic Finite Automaton (DFA) in only 15–25 tokens ($>95\%$ sequence reduction).
+                    </p>
+                </div>
+
+                <div class="theory-card">
+                    <h3>4. Attention Variance Normalization</h3>
+                    <p>For independent query/key components with unit variance, the unscaled dot product has variance $\text{Var}(q \cdot k) = d_k$. Dividing by $\sqrt{d_k}$ rescales variance back to $1.0$, preventing softmax saturation and vanishing gradients:
+                    $$\text{Attn}(Q, K, V) = \text{softmax}\left(\frac{Q K^T}{\sqrt{d_k}}\right) V$$
+                    </p>
+                </div>
+
+                <div class="theory-card">
+                    <h3>5. RoPE Relative Displacement Invariance</h3>
+                    <p>2D Givens rotation matrices rotate vectors at position $m$ by angle $m\theta$:
+                    $$\langle R_{\theta, m} q, \; R_{\theta, n} k \rangle = q^T R_{\theta, m - n} k = g(q, k, m - n)$$
+                    Guaranteeing shift invariance with zero learned parameters.
+                    </p>
+                </div>
+
+                <div class="theory-card">
+                    <h3>6. Circular KV-Cache Complexity</h3>
+                    <p>Stores historical keys and values in pre-allocated contiguous ring buffers. Per-token generation drops from quadratic $\mathcal{O}(L^2 d)$ naive recomputation to strictly linear $\mathbf{\mathcal{O}(L d)}$ vector dot products ($\sim 3.8\text{ ms}$ on CPU).
+                    </p>
+                </div>
+            </div>
+        </section>
+
         <div class="controls-bar">
             <input type="text" id="searchInput" class="search-input" placeholder="Search questions (e.g. RoPE, Variance, DFA, KV-Cache, RMSNorm, SwiGLU)..." oninput="filterSearch()">
             <div style="display: flex; gap: 10px;">
@@ -723,12 +848,287 @@
             </div>
         </div>
 
+        <!-- Question 6 -->
+        <div class="q-card" data-keywords="decoder-only causal encoder-decoder t5 memory dual kv cache">
+            <div class="q-header">
+                <div class="q-num-badge">Question 6</div>
+                <div>
+                    <div class="q-topic">Model Paradigm Selection: Decoder-Only vs. Encoder-Decoder</div>
+                    <div class="q-question">Why did your architecture adopt a Decoder-Only causal model rather than a standard Encoder-Decoder (like T5) for shorthand compilation?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">Encoder-Decoder models divide parameter capacity between two sub-networks and require maintaining dual KV-caches (encoder cross-attention and decoder self-attention); a Decoder-Only model unifies sequence modeling into a single causal KV-cache, maximizing parameter utilization at $L \le 64$.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">Encoder-Decoder models cannot perform backpropagation when trained using the CrossEntropyLoss loss function.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">Decoder-Only models eliminate the need for embedding layers by converting text directly into bytecode.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">PyTorch has deprecated Encoder-Decoder architectures in all versions after 2.0.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-text">
+                        <strong>The Systems Advantage of Decoder-Only at the Edge:</strong>
+                        In an Encoder-Decoder architecture (e.g. T5, BART):
+                        <ul>
+                            <li>Parameters are split: A 1M parameter budget must be divided into a 500k encoder and 500k decoder. During autoregressive token generation, the encoder sits completely idle in memory, wasting 50% of the hardware memory footprint!</li>
+                            <li>Dual KV-Cache complexity: Autoregressive decoding requires managing two distinct cache buffers:
+                                1. An immutable cross-attention key/value matrix from the encoder ($L_{\text{enc}} \times d$).
+                                2. A dynamic causal self-attention key/value ring buffer for the decoder ($L_{\text{dec}} \times d$).
+                            </li>
+                        </ul>
+                        <strong>Decoder-Only Resolution:</strong> Unifies prompt and completion into a single contiguous causal token sequence:
+                        $$[\text{Prompt Shorthand}] + [\text{SEP}] + [\text{Generated DSL}]$$
+                        100% of weights participate in autoregressive generation, and memory is unified into a single circular ring buffer ($128\times 64$ tensor).
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="q-card" data-keywords="dfa logit mask nlem 2022 chemical hallucination zero probability">
+            <div class="q-header">
+                <div class="q-num-badge">Question 7</div>
+                <div>
+                    <div class="q-topic">Clinical Safety & In-Engine Logit Masking Mechanics</div>
+                    <div class="q-question">How does `ClinicalDFAMaskEngine` mathematically guarantee that the model never generates hallucinated or non-existent pharmaceutical compounds?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">At decoding step $t$, if the state machine is in `STATE_MED_DRUG`, logits for all vocabulary IDs outside the 50 approved NLEM formulary entities are set to $-\infty$; taking $\text{softmax}(z)$ assigns exactly $0.0$ probability to unapproved tokens.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">The model uses an external SQL trigger that aborts the forward pass if an unapproved string is generated.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">The temperature parameter in softmax is dynamically set to 0.0001 whenever a drug name is decoded.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">The tokenizer merges all 50 drug names into a single monolithic token, preventing character-by-character prediction.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-box">
+                        <div class="defense-box-title">Whiteboard Proof: Mathematical Zero-Probability Masking</div>
+                        Let $z \in \mathbb{R}^{|V|}$ denote the raw logit vector output by the language model head at decoding step $t$.
+                        Let $\mathcal{V}_{\text{NLEM}} \subset \mathcal{V}$ denote the discrete subset of valid drug token IDs (50 entities from the Indian National List of Essential Medicines 2022).
+                        <br><br>
+                        The DFA engine computes the masked logit vector $\tilde{z}$:
+                        $$\tilde{z}_i = \begin{cases} z_i & \text{if } i \in \mathcal{V}_{\text{NLEM}} \\ -\infty & \text{if } i \notin \mathcal{V}_{\text{NLEM}} \end{cases}$$
+                        Passing through the softmax operator:
+                        $$P(x_t = i) = \frac{\exp(\tilde{z}_i)}{\sum_{j \in \mathcal{V}} \exp(\tilde{z}_j)}$$
+                        For any unapproved or hallucinated drug token $k \notin \mathcal{V}_{\text{NLEM}}$:
+                        $$\exp(\tilde{z}_k) = \exp(-\infty) = 0 \implies P(x_t = k) = \frac{0}{\sum_{j \in \mathcal{V}_{\text{NLEM}}} \exp(z_j)} = \mathbf{0.000}$$
+                        Mathematically eliminates hallucinated compounds from the output probability distribution prior to sampling.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="q-card" data-keywords="teacher forcing autoregressive training cascade error parallel matrix multiplication">
+            <div class="q-header">
+                <div class="q-num-badge">Question 8</div>
+                <div>
+                    <div class="q-topic">Training Protocol: Teacher Forcing vs. Free Generation</div>
+                    <div class="q-question">What is Teacher Forcing, why is it used during training instead of free autoregressive generation, and what artifact does it allow during GPU training?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">Teacher Forcing feeds the true ground-truth token $x_{t-1}^*$ as input at step $t$ rather than the model's own predicted token $\hat{x}_{t-1}$; this prevents cascading errors and enables parallel training across all 64 sequence tokens via a lower-triangular causal attention mask.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">Teacher Forcing uses a teacher neural network (like GPT-4) to distill knowledge into the smaller edge transformer.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">Teacher Forcing forces the learning rate to remain constant throughout training, eliminating the need for cosine warmup.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">Teacher Forcing forces all attention heads to attend strictly to the first token in the sequence.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-text">
+                        <strong>Teacher Forcing Mechanics:</strong>
+                        In free autoregressive generation, step $t$ takes the model's generated sample $\hat{x}_{t-1}$. In early training, the model outputs random tokens; feeding an erroneous token at step 2 derails the remainder of the 64-token sequence, preventing the model from ever learning late-sequence grammar tokens (like duration or conditions).
+                        <br><br>
+                        <strong>Teacher Forcing</strong> replaces $\hat{x}_{t-1}$ with the true target token $x_{t-1}^*$ at every step.
+                        Because all inputs $x_1^*, \dots, x_{T-1}^*$ are known ahead of time:
+                        <ul>
+                            <li>The model does <strong>not</strong> need to execute sequentially in a loop of $T$ iterations during training!</li>
+                            <li>The entire sequence $X \in \mathbb{R}^{B \times L \times d}$ is processed simultaneously in a single massive matrix multiplication using the causal lower-triangular mask ($M_{ij} = -\infty$ for $j > i$).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="q-card" data-keywords="context length l=64 l1 cpu cache 16 kb attention matrix bandwidth">
+            <div class="q-header">
+                <div class="q-num-badge">Question 9</div>
+                <div>
+                    <div class="q-topic">Hardware Architecture & L1 Cache Residency</div>
+                    <div class="q-question">Why was context length fixed at $L = 64$ for the edge transformer, and what CPU cache benefit does this provide?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">100% of outpatient encounters span $\le 54$ tokens in the DSL; at $L = 64$, the entire $64 \times 64$ float32 attention matrix occupies only $16\text{ KB}$, fitting entirely inside a modern CPU's L1 data cache (32–48 KB) and eliminating RAM bandwidth stalls.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">PyTorch tensors are restricted to powers of two that divide evenly into 1024.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">RoPE positional frequencies degrade into complex imaginary numbers when sequence length exceeds 64.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">The HL7 FHIR R4 schema limits prescription JSON bundles to at most 64 bytes.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-box">
+                        <div class="defense-box-title">Hardware Memory Hierarchy Calculation</div>
+                        On modern Intel / AMD / ARM edge processors, memory hierarchy access latencies vary by orders of magnitude:
+                        <ul>
+                            <li><strong>L1 Data Cache:</strong> $\approx 1\text{ ns}$ (32 KB – 48 KB per core).</li>
+                            <li><strong>L2 Cache:</strong> $\approx 3\text{–}4\text{ ns}$ (512 KB – 1 MB).</li>
+                            <li><strong>L3 Cache:</strong> $\approx 10\text{–}15\text{ ns}$.</li>
+                            <li><strong>Main System RAM (DDR4/DDR5):</strong> $\approx 60\text{–}80\text{ ns}$ (Major Bottleneck!).</li>
+                        </ul>
+                        At context length $L = 64$ with 4 attention heads:
+                        $$\text{Attention Matrix Size} = L \times L = 64 \times 64 = 4,096 \text{ float32 elements} = \mathbf{16,384 \text{ bytes (16 KB)}}$$
+                        The entire attention matrix for an active head fits comfortably inside the CPU's **L1 Data Cache (32 KB)**!
+                        The CPU never has to evict cache lines to main RAM during self-attention computation, yielding sub-4 millisecond per-step CPU inference times.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="q-card" data-keywords="snomed-ct rxnorm abdms lowering pass jsonschema fhir r4 bundle">
+            <div class="q-header">
+                <div class="q-num-badge">Question 10</div>
+                <div>
+                    <div class="q-topic">Stage 2 Lowering Pass & Medical Ontologies</div>
+                    <div class="q-question">How does the Stage 2 lowering pass resolve medical codes to achieve 100% compliance with ABDM and HL7 FHIR R4 schemas?</div>
+                </div>
+            </div>
+            <div class="q-body">
+                <div class="options-list">
+                    <div class="option-item" onclick="checkOption(this, true)">
+                        <div class="option-marker">A</div>
+                        <div class="option-text">Stage 2 uses deterministic AST parsing to map validated DSL entities to official RxNorm CUIs (e.g., Paracetamol = 161) and SNOMED-CT concept IDs (e.g., Acute Viral Fever = 386661006), compiling a certified FHIR R4 Bundle validated against official JSONSchemas.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">B</div>
+                        <div class="option-text">Stage 2 sends an authenticated HTTP request to the US National Library of Medicine API for every prescription.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">C</div>
+                        <div class="option-text">Stage 2 runs a second sequence-to-sequence neural network that translates pipe delimiters into curly braces.</div>
+                    </div>
+                    <div class="option-item" onclick="checkOption(this, false)">
+                        <div class="option-marker">D</div>
+                        <div class="option-text">Stage 2 encrypts the prescription using SHA-256 and embeds it into the patient's Aadhaar biometric record.</div>
+                    </div>
+                </div>
+
+                <button class="reveal-toggle-btn" onclick="toggleDossier(this)">
+                    <span>Show Examiner Solution & Whiteboard Derivation</span>
+                </button>
+
+                <div class="defense-dossier">
+                    <div class="dossier-heading">
+                        <span>Examiner Solution & First-Principles Defense</span>
+                        <span class="badge-verified">Verified</span>
+                    </div>
+                    <div class="defense-text">
+                        <strong>The Stage 2 Deterministic Lowering Pipeline:</strong>
+                        Once Stage 1 emits the verified DSL string:
+                        $$\texttt{MED\|paracetamol\|650mg\|BD\|pc\|3d}$$
+                        Stage 2 does <strong>not</strong> rely on neural networks. A deterministic Python AST visitor parses the tuple:
+                        <ul>
+                            <li><code>paracetamol</code> $\to$ Mapped via local ontology hash table to RxNorm Concept Unique Identifier (CUI) <code>161</code> and SNOMED-CT Substance code <code>387517004</code>.</li>
+                            <li><code>650mg</code> $\to$ Lowered into a structured FHIR <code>Dosage.doseAndRate.doseQuantity</code> object with <code>unit: "mg"</code> and <code>value: 650</code>.</li>
+                            <li><code>BD</code> $\to$ Lowered to <code>Dosage.timing.repeat.frequency = 2</code>, <code>period = 1</code>, <code>periodUnit = "d"</code>.</li>
+                            <li><code>pc</code> $\to$ Lowered to <code>Dosage.timing.repeat.when = ["PC"]</code> (Post cibum / after meals).</li>
+                        </ul>
+                        The compiled payload is wrapped in a compliant HL7 FHIR R4 <code>Bundle</code> of type <code>collection</code>, validated locally via <code>jsonschema</code> against official FHIR schemas with a 100% pass rate in sub-millisecond execution time.
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <footer>
         <div class="container">
             <p><strong>UMC301: Applied Data Science & AI</strong> • Computational and Data Sciences (CDS), IISc Bengaluru</p>
-            <p style="margin-top: 6px;">Spec-Driven Development (SDD) • Project 2 Defense Architecture Guide</p>
+            <p style="margin-top: 6px;">Spec-Driven Development (SDD) • Project 2 Master Viva Voce Defense Guide</p>
         </div>
     </footer>
 
