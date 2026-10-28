@@ -580,8 +580,8 @@
         </div>
         <div class="system-stats-card">
             <div>Engine Status: <b style="color: #34d399;">ONLINE</b></div>
-            <div>Architecture: <b>4L-4H-128D (851K Params)</b></div>
-            <div>Validation Exact Match: <b style="color: #38bdf8;">91.33%</b></div>
+            <div>Architecture: <b id="hdr-arch">4L-4H-128D (851K Params)</b></div>
+            <div>Validation Exact Match: <b id="hdr-val-em" style="color: #38bdf8;">91.33%</b></div>
         </div>
     </header>
 
@@ -605,6 +605,19 @@
             <div class="form-group">
                 <label class="form-label" for="shorthand-input">Outpatient Consultation Shorthand:</label>
                 <textarea id="shorthand-input" class="clinical-textarea" placeholder="Type Latin OPD shorthand, e.g., 'Tab PCM 650mg BD pc x 3d, c/o acute viral fever x 3d'"></textarea>
+            </div>
+
+            <!-- Formulary Scope Banner -->
+            <div style="margin-bottom: 12px; padding: 10px 12px; background: rgba(15, 23, 42, 0.7); border: 1px solid var(--border-subtle); border-radius: 6px; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--text-secondary);">
+                        Formulary Scope:
+                    </div>
+                    <div style="font-size: 12px; font-weight: 600; color: #ffffff; margin-top: 2px;">
+                        Core Outpatient Benchmark (50 Essential NLEM Drugs)
+                    </div>
+                </div>
+                <span class="status-badge badge-emerald">91.33% Precision</span>
             </div>
 
             <!-- Parameters Toggle Drawer -->
@@ -892,6 +905,24 @@
     const toggleKV = document.getElementById('toggle-kv');
     const dfaSlider = document.getElementById('dfa-slider');
     const dfaStepIndicator = document.getElementById('dfa-step-indicator');
+    const selectModelVariant = document.getElementById('select-model-variant');
+
+    // Load model statistics dynamically
+    async function updateModelStats() {
+        try {
+            const res = await fetch('/api/stats');
+            const data = await res.json();
+            if (data.architecture) {
+                const a = data.architecture;
+                const archEl = document.getElementById('hdr-arch');
+                const emEl = document.getElementById('hdr-val-em');
+                if (archEl) archEl.textContent = `4L-4H-128D (${(a.total_parameters / 1000).toFixed(0)}K Params)`;
+                if (emEl) emEl.textContent = `${a.validation_exact_match}%`;
+            }
+        } catch (e) {
+            console.error('Failed to load stats:', e);
+        }
+    }
 
     // Load presets on startup
     async function loadPresets() {
@@ -992,6 +1023,15 @@
             dfaSlider.max = data.dfa_trace.length;
             dfaSlider.value = Math.min(3, data.dfa_trace.length);
             updateDFAInspectionStep(parseInt(dfaSlider.value));
+        } else {
+            dfaSlider.min = 0;
+            dfaSlider.max = 0;
+            dfaSlider.value = 0;
+            dfaStepIndicator.textContent = 'Step 0/0';
+            document.getElementById('active-state-name').textContent = 'IDLE';
+            document.getElementById('active-emitted-token').textContent = 'N/A';
+            document.getElementById('active-state-desc').textContent = data.validation_warning || 'Incomplete input';
+            document.getElementById('active-sample-vocab').textContent = 'None';
         }
 
         // Prescription Tab Lists
@@ -1030,6 +1070,11 @@
                 `;
                 medList.appendChild(item);
             });
+        } else {
+            const warningMsg = data.validation_warning || 'No medication orders extracted.';
+            medList.innerHTML = `<div style="padding: 12px 14px; background: rgba(245, 158, 11, 0.08); border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 6px; font-size: 12.5px; color: #fbbf24;">
+                <b>Validation Notice:</b> ${warningMsg}
+            </div>`;
         }
 
         // FHIR JSON Viewer
@@ -1039,7 +1084,7 @@
         // Ontology Table
         const ontoBody = document.getElementById('ontology-table-body');
         ontoBody.innerHTML = '';
-        if (data.ontology_rows) {
+        if (data.ontology_rows && data.ontology_rows.length > 0) {
             data.ontology_rows.forEach(r => {
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
@@ -1054,12 +1099,14 @@
                 `;
                 ontoBody.appendChild(tr);
             });
+        } else {
+            ontoBody.innerHTML = `<tr><td colspan="8" style="text-align: center; color: var(--text-muted); padding: 18px;">${data.validation_warning || 'No clinical entities extracted.'}</td></tr>`;
         }
 
         // Trace Table
         const traceBody = document.getElementById('trace-table-body');
         traceBody.innerHTML = '';
-        if (data.dfa_trace) {
+        if (data.dfa_trace && data.dfa_trace.length > 0) {
             data.dfa_trace.forEach(s => {
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
@@ -1073,6 +1120,8 @@
                 `;
                 traceBody.appendChild(tr);
             });
+        } else {
+            traceBody.innerHTML = `<tr><td colspan="7" style="text-align: center; color: var(--text-muted); padding: 18px;">No generation steps executed for incomplete input.</td></tr>`;
         }
     }
 
@@ -1088,7 +1137,8 @@
         document.getElementById('active-emitted-token').textContent = s.token;
         document.getElementById('active-state-desc').textContent = s.description;
         document.getElementById('active-sample-vocab').textContent = s.sample_allowed.join(', ');
-        document.getElementById('active-allowed-count').innerHTML = `${s.allowed_count} <span style="font-size: 12px; font-weight: 500; color: var(--text-muted);">/ 469 permitted</span>`;
+        const totalVocab = s.allowed_count + s.masked_count;
+        document.getElementById('active-allowed-count').innerHTML = `${s.allowed_count} <span style="font-size: 12px; font-weight: 500; color: var(--text-muted);">/ ${totalVocab} permitted</span>`;
         document.getElementById('active-masked-count').textContent = `${s.masked_count} tokens (${s.pct_masked}%) masked to -inf`;
     }
 
@@ -1129,6 +1179,7 @@
     });
 
     // Initialize
+    updateModelStats();
     loadPresets();
 </script>
 

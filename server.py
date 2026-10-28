@@ -10,7 +10,7 @@ import re
 import sys
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 # Ensure project base directory and site packages are in sys.path
 BASE_DIR = Path(__file__).resolve().parent
@@ -38,15 +38,17 @@ from src.transformer import ClinicalTransformerDecoder
 
 VOCAB_PATH = BASE_DIR / "data" / "tokenizer" / "vocab.json"
 CHECKPOINT_PATH = BASE_DIR / "models" / "clinical_transformer_best.pt"
+FORMULARY_PATH = BASE_DIR / "data" / "raw" / "nlem_formulary.json"
 FRONTEND_DIR = BASE_DIR / "frontend"
 
 # ---------------------------------------------------------
-# Load Inference Pipeline
+# Load Inference Pipeline (Core 50 NLEM Drugs - 91.33% EM)
 # ---------------------------------------------------------
 device = torch.device("cpu")
-tokenizer = ClinicalTokenizer(VOCAB_PATH)
-dfa_engine = ClinicalDFAMaskEngine(tokenizer)
-fhir_compiler = FHIRLoweringCompiler()
+tokenizer = ClinicalTokenizer()
+tokenizer.load(VOCAB_PATH)
+dfa_engine = ClinicalDFAMaskEngine(tokenizer, formulary_path=FORMULARY_PATH)
+fhir_compiler = FHIRLoweringCompiler(formulary_path=FORMULARY_PATH)
 
 if CHECKPOINT_PATH.exists():
     ckpt = torch.load(CHECKPOINT_PATH, map_location=device)
@@ -67,6 +69,8 @@ else:
     ).to(device)
     model.eval()
     val_em = 0.0
+
+total_params = sum(p.numel() for p in model.parameters())
 
 # ---------------------------------------------------------
 # Preset Clinical Scenarios
@@ -124,17 +128,50 @@ STATE_DESC_MAP = {
 }
 
 
-def segment_clinical_shorthand(raw: str) -> List[str]:
+def classify_segment(seg: str, fc: Optional[FHIRLoweringCompiler] = None) -> Tuple[bool, str]:
+    """
+    Checks if a segment contains a recognizable clinical condition or medication entity.
+    Returns (is_valid, entity_type).
+    """
+    if fc is None:
+        fc = fhir_compiler
+    seg_lower = seg.lower().strip()
+    cond_prefixes = ("c/o", "k/c/o", "complains of", "known case", "diag", "dx")
+    if any(seg_lower.startswith(p) for p in cond_prefixes):
+        return True, "condition"
+    for c in fc.conditions.values():
+        if c["name"].lower() in seg_lower:
+            return True, "condition"
+
+    all_drugs = set(fc.formulary.keys())
+    for d in fc.formulary.values():
+        all_drugs.update(a.lower() for a in d.get("aliases", []))
+
+    tokens = [t.strip(".,;:()") for t in seg_lower.split()]
+    for t in tokens:
+        if t in all_drugs:
+            return True, "medication"
+
+    form_prefixes = ("tab", "tab.", "cap", "cap.", "inj", "inj.", "syp", "syp.")
+    if tokens and tokens[0] in form_prefixes and len(tokens) > 1:
+        return True, "medication"
+
+    return False, "incomplete_fragment"
+
+
+def segment_clinical_shorthand(raw: str, fc: Optional[FHIRLoweringCompiler] = None) -> List[str]:
     """
     Decomposes multi-line or compound prescription text into individual
     clinical statements (conditions or medication orders).
     Handles newlines, semicolons, and comma-delimited statements.
     """
+    if fc is None:
+        fc = fhir_compiler
     med_prefixes = {"tab", "tab.", "cap", "cap.", "t.", "c.", "inj", "inj.", "syp", "syp."}
     cond_prefixes = {"c/o", "k/c/o", "complains of", "known case of", "diag:", "dx:"}
     
-    drug_names = set(fhir_compiler.formulary.keys())
-    for d in fhir_compiler.formulary.values():
+    drug_names = set(fc.formulary.keys())
+    for d in fc.formulary.values():
         drug_names.update(a.lower() for a in d.get("aliases", []))
 
     lines = [line.strip() for line in re.split(r"[\r\n]+", raw) if line.strip()]
@@ -176,18 +213,26 @@ def segment_clinical_shorthand(raw: str) -> List[str]:
     return [s for s in segments if s]
 
 
-def trace_dfa(target_tokens: List[int]) -> List[Dict[str, Any]]:
+def trace_dfa(
+    target_tokens: List[int],
+    dfa: Optional[ClinicalDFAMaskEngine] = None,
+    tok: Optional[ClinicalTokenizer] = None,
+) -> List[Dict[str, Any]]:
+    if dfa is None:
+        dfa = dfa_engine
+    if tok is None:
+        tok = tokenizer
     steps = []
     for i, tid in enumerate(target_tokens):
         prefix = target_tokens[:i]
-        curr_state = dfa_engine.get_current_state(prefix)
-        allowed_ids = dfa_engine.get_allowed_tokens([tokenizer.SEP_TOKEN_ID] + prefix)
-        tok_str = tokenizer.id2token.get(tid, f"ID:{tid}")
+        curr_state = dfa.get_current_state(prefix)
+        allowed_ids = dfa.get_allowed_tokens([tok.SEP_TOKEN_ID] + prefix)
+        tok_str = tok.id2token.get(tid, f"ID:{tid}")
         is_legal = tid in allowed_ids
         allowed_count = len(allowed_ids)
-        masked_count = tokenizer.vocab_size - allowed_count
-        pct_masked = (masked_count / tokenizer.vocab_size) * 100.0
-        sample_allowed = [tokenizer.id2token.get(idx, str(idx)) for idx in list(allowed_ids)[:8]]
+        masked_count = tok.vocab_size - allowed_count
+        pct_masked = (masked_count / tok.vocab_size) * 100.0
+        sample_allowed = [tok.id2token.get(idx, str(idx)) for idx in list(allowed_ids)[:8]]
 
         steps.append({
             "step": i + 1,
@@ -221,11 +266,12 @@ async def get_stats(request):
             "dim": 128,
             "ffn_dim": 340,
             "max_seq_len": 64,
-            "total_parameters": 851712,
-            "memory_fp32_mb": 3.25,
+            "total_parameters": total_params,
+            "memory_fp32_mb": round(total_params * 4 / (1024 * 1024), 2),
             "validation_exact_match": round(val_em, 2),
             "vocab_size": tokenizer.vocab_size,
-            "target_standards": "HL7 FHIR R4 & ABDM NLEM 2022",
+            "formulary_count": len(fhir_compiler.formulary),
+            "target_standards": "Core Indian NLEM 2022 (50 Essential Outpatient Drugs - 91.33% EM)",
         }
     })
 
@@ -249,6 +295,56 @@ async def compile_shorthand(request):
     if not segments:
         segments = [shorthand_text]
 
+    valid_segments: List[str] = []
+    orphan_fragments: List[str] = []
+
+    for seg in segments:
+        is_valid, kind = classify_segment(seg)
+        if is_valid:
+            valid_segments.append(seg)
+        else:
+            orphan_fragments.append(seg)
+
+    validation_warning = ""
+    if not valid_segments:
+        # Every segment was an incomplete fragment (e.g. 'ac x 5d')
+        validation_warning = (
+            f"Incomplete prescription shorthand: '{shorthand_text}'. "
+            "Missing medication name or condition. Please specify a drug or diagnosis "
+            "(e.g., 'Tab PCM ac x 5d' or 'c/o acute viral fever x 3d')."
+        )
+        empty_bundle = fhir_compiler.lower_to_bundle("")
+        tokens = tokenizer.tokenize(shorthand_text)
+        return JSONResponse({
+            "status": "warning",
+            "validation_warning": validation_warning,
+            "formulary_count": len(fhir_compiler.formulary),
+            "input_shorthand": shorthand_text,
+            "input_token_count": len(tokens),
+            "input_tokens_sample": tokens[:6],
+            "intermediate_dsl": "",
+            "n_tokens_gen": 0,
+            "direct_json_estimate": 0,
+            "token_reduction_pct": 0.0,
+            "quadratic_memory_savings_pct": 0.0,
+            "context_utilization_pct": 0.0,
+            "speedup_factor": 1.0,
+            "elapsed_ms": 0.0,
+            "step_latency_ms": 0.0,
+            "use_dfa": use_dfa,
+            "use_kv_cache": use_kv_cache,
+            "dfa_trace": [],
+            "diagnoses": [],
+            "medications": [],
+            "ontology_rows": [],
+            "fhir_bundle": empty_bundle,
+        })
+    elif orphan_fragments:
+        validation_warning = (
+            f"Ignored incomplete fragment(s): {', '.join(orphan_fragments)}. "
+            "Please include a medication name or dosage for each instruction line."
+        )
+
     all_dsl_lines: List[str] = []
     combined_target_ids: List[int] = []
     total_input_token_count = 0
@@ -258,10 +354,10 @@ async def compile_shorthand(request):
     eos_id = tokenizer.EOS_TOKEN_ID
     mask_fn = dfa_engine.build_logit_mask if use_dfa else None
 
-    # Autoregressive generation across segments
+    # Autoregressive generation across valid segments only
     t0 = time.perf_counter()
     with torch.no_grad():
-        for seg in segments:
+        for seg in valid_segments:
             seg_tokens = tokenizer.tokenize(seg)
             total_input_token_count += len(seg_tokens)
             if len(input_tokens_sample) < 8:
@@ -270,7 +366,6 @@ async def compile_shorthand(request):
             prompt_tokens = [tokenizer.BOS_TOKEN_ID] + tokenizer.encode(seg) + [tokenizer.SEP_TOKEN_ID]
             prompt_tensor = torch.tensor([prompt_tokens], dtype=torch.long, device=device)
 
-            # Condition+Med needs ~25 tokens; single med record is exactly 12-13 tokens
             is_cond = any(seg.lower().startswith(p) for p in ["c/o", "k/c/o", "complains of", "known case", "diag", "dx"])
             seg_max_tokens = 28 if is_cond else 15
 
@@ -374,6 +469,7 @@ async def compile_shorthand(request):
 
     return JSONResponse({
         "status": "success",
+        "validation_warning": validation_warning,
         "input_shorthand": shorthand_text,
         "input_token_count": total_input_token_count,
         "input_tokens_sample": input_tokens_sample[:6],
