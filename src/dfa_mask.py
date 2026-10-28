@@ -81,11 +81,12 @@ class ClinicalDFAMaskEngine:
             if f in tokenizer.token2id
         }
 
-        # Valid Condition names
+        # Valid Condition name sequences (token sequences in Trie)
+        self.valid_cond_sequences: List[List[int]] = [
+            tokenizer.encode(c["name"]) for c in conditions.values()
+        ]
         self.valid_cond_ids = {
-            tokenizer.token2id[c["name"]]
-            for c in conditions.values()
-            if c["name"] in tokenizer.token2id
+            seq[0] for seq in self.valid_cond_sequences
         }
 
         # Valid Severities
@@ -166,7 +167,7 @@ class ClinicalDFAMaskEngine:
             if pipe_count == 0:
                 return DFAState.STATE_RECORD_TYPE
             elif pipe_count == 1:
-                return DFAState.STATE_COND_NAME if last_tok == self.pipe_id else DFAState.STATE_RECORD_TYPE
+                return DFAState.STATE_COND_NAME
             elif pipe_count == 2:
                 return DFAState.STATE_COND_SEV if last_tok == self.pipe_id else DFAState.STATE_RECORD_TYPE
             elif pipe_count == 3:
@@ -192,11 +193,20 @@ class ClinicalDFAMaskEngine:
         state = self.get_current_state(target_tokens)
         last_tok = target_tokens[-1]
 
+        # Extract current active line
+        lines: List[List[int]] = [[]]
+        for t in target_tokens:
+            if t == self.newline_id:
+                lines.append([])
+            else:
+                lines[-1].append(t)
+        current_line = lines[-1]
+
         if state == DFAState.START or state == DFAState.STATE_RECORD_TYPE:
             if last_tok in [self.med_type_id, self.cond_type_id]:
                 # Immediately after MED or COND, must emit pipe '|'
                 return {self.pipe_id}
-            elif last_tok in self.valid_drug_ids or last_tok in self.valid_cond_ids:
+            elif last_tok in self.valid_drug_ids:
                 return {self.pipe_id}
             elif last_tok in self.valid_dose_ids or last_tok in self.valid_sev_ids:
                 return {self.pipe_id}
@@ -226,7 +236,16 @@ class ClinicalDFAMaskEngine:
             return self.valid_dur_ids
 
         elif state == DFAState.STATE_COND_NAME:
-            return self.valid_cond_ids
+            # Multi-token condition name prefix-tree (Trie) validation
+            cond_tokens = current_line[2:]
+            cur_len = len(cond_tokens)
+            allowed = set()
+            for seq in self.valid_cond_sequences:
+                if cur_len < len(seq) and seq[:cur_len] == cond_tokens:
+                    allowed.add(seq[cur_len])
+                elif cur_len == len(seq) and seq == cond_tokens:
+                    allowed.add(self.pipe_id)
+            return allowed if allowed else {self.pipe_id}
 
         elif state == DFAState.STATE_COND_SEV:
             return self.valid_sev_ids
